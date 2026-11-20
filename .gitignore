@@ -3,3 +3,13 @@ dashboard/dist/
 __pycache__/
 *.pyc
 .pytest_cache/
+
+# local only, not part of the submission
+Innothon - Problem Statement.pdf
+dashboard/README.md
+docs/Innothon_Team_Briefing.pdf
+docs/briefing_build.py
+docs/midpoint_slide.pptx
+docs/midpoint_slide_build.js
+# reference PDFs: download from the URLs in data/raw/ref/SOURCES.md (code reads only the .txt/.csv extracts)
+data/raw/**/*.pdf

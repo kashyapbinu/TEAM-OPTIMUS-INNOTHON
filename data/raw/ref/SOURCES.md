@@ -1,5 +1,8 @@
 # Reference data sources
 
+Source PDFs ("local copy" below) are not committed to the repository: download them from the listed URLs.
+The pipeline reads only the `.csv` tables and `.txt` extracts kept here.
+
 All tables below are capacity-type potentials (MW / GWp). They are used ONLY after conversion to a generation
 ceiling (TWh/yr = potential x CUF x 8760) in `src/ingest.py: resource_potential`; they never enter the demand forecast.
 Sums are asserted in code.
