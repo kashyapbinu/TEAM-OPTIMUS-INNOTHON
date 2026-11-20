@@ -5,7 +5,7 @@ import { ASSUMPTIONS, UNCERTAINTIES } from '../content'
 import { fmt } from '../theme'
 import type { SensRow } from '../types'
 
-export default function Method({ d, p }: Ctx) {
+export default function Method({ d, p, scenario }: Ctx) {
   const bt = d.backtest.national
   const m = d.model
   const col = { A_driver: p.accent, B_crosscountry: p.region.West, C_ets: p.region.South }
@@ -50,6 +50,50 @@ export default function Method({ d, p }: Ctx) {
         <Legend items={wkeys.map((k) => ({ label: `${wname[k]} · ${fmt.pct(m.weights[k])}`, color: wcol[k] }))} />
         <p style={{ fontSize: 13, color: 'var(--ink-2)', marginTop: 6 }}>Provided data: <b>{fmt.pct(m.weights.P_provided)}</b> of the trend, plus the 2025 anchor ({fmt.num(m.anchor_2025_twh)} TWh) and the state base-year generation and population/income drivers behind the regional split. Model P has only seven years of data (2019–25), so it cannot be backtested over 2015–25 like A, B and C; its weight is set by design, not by error.</p>
       </Card>
+
+      {(() => {
+        const nat = d.forecast.national
+        const r = nat.find((x) => x.scenario === scenario && x.year === 2047)!
+        const b = nat.find((x) => x.scenario === 'base' && x.year === 2047)!
+        const r25 = nat.find((x) => x.scenario === scenario && x.year === 2025)!
+        const k = (r.A_driver + r.B_crosscountry) / (b.A_driver + b.B_crosscountry)
+        const sc = d.scenarios[scenario]
+        const w = m.weights
+        const val = { P_provided: r.P_provided * k, A_driver: r.A_driver, C_ets: r.C_ets * k, B_crosscountry: r.B_crosscountry }
+        const how = {
+          P_provided: `${fmt.num(r25.kwh_per_capita)} kWh/person (2025) grown ${(m.P.slope * 100).toFixed(2)}%/yr × ${fmt.num(b.population / 1e9, 3)} bn people (UN)`,
+          A_driver: `Income ${fmt.num(r25.gdp_pc_usd2015)} → ${fmt.num(r.gdp_pc_usd2015)} US$/person (elasticity ${m.A.lg.toFixed(2)}), urban ${r25.urban_pct.toFixed(1)}% → ${r.urban_pct.toFixed(1)}%`,
+          C_ets: 'Damped trend of 1990–2025 generation',
+          B_crosscountry: `${m.B_countries}-country curve, same income and urbanisation path as A`,
+        }
+        const loads = r.green_hydrogen + r.e_mobility + r.data_centres
+        const cagrV = (r.total / r25.total) ** (1 / 22) - 1
+        return (
+          <Card title={`How the 2047 number is built (${sc.label})`}
+            desc="Three steps: each model's 2047 trend, the weighted blend, then explicit new loads. All models start from the same 2025 grid anchor. Follows the demand-scenario switch."
+            foot={`${scenario === 'base' ? '' : `In this scenario P and C (no drivers) are scaled by A+B relative to Base (×${k.toFixed(2)}). `}EV and data-centre loads are end-use and are divided by ${(1 - d.calculator.loss).toFixed(2)} (${fmt.pct(d.calculator.loss)} grid and plant losses); the hydrogen figure is already generation. Captive generation (~${fmt.num(m.captive.twh_2047_trend)} TWh in 2047) is outside the grid basis and not included.`}>
+            <h4 style={{ fontSize: 13, margin: '0 0 6px' }}>Step 1–2 · Model trends and weighted blend (TWh, 2047)</h4>
+            <DataTable columns={['Model', 'How it gets to 2047', '2047 trend', 'Weight', 'Contribution']} numeric={[false, false, true, true, true]}
+              rows={[
+                ...wkeys.map((key) => [wname[key], how[key], fmt.num(val[key]), fmt.pct(w[key], 1), fmt.num(w[key] * val[key])]),
+                ['Trend (weighted blend)', '', '', '100%', fmt.num(r.trend)],
+              ]} />
+            <h4 style={{ fontSize: 13, margin: '14px 0 6px' }}>Step 3 · New loads not in the history (NITI Aayog 2026 path)</h4>
+            <DataTable columns={['Load', '2047 end-use', 'Generation needed (TWh)']} numeric={[false, true, true]}
+              rows={[
+                ['Green hydrogen', `${sc.h2_mt_2047} Mt × ${d.calculator.h2_kwh_per_kg} kWh/kg`, fmt.num(r.green_hydrogen)],
+                ['Electric vehicles', `${fmt.num(sc.ev_twh_2047)} TWh`, fmt.num(r.e_mobility)],
+                ['Data centres', `${fmt.num(sc.dc_twh_2047)} TWh`, fmt.num(r.data_centres)],
+                ['New loads', '', fmt.num(loads)],
+              ]} />
+            <div className="callout" style={{ marginTop: 12 }}>
+              Trend <b>{fmt.num(r.trend)}</b> + new loads <b>{fmt.num(loads)}</b> = <b>{fmt.num(r.total)} TWh</b> in 2047
+              ({(r.total / r25.total).toFixed(1)}× 2025, {fmt.pct(cagrV, 1)}/yr; {fmt.num(r.kwh_per_capita)} kWh/person).
+              Model P (provided data) contributes {fmt.num(w.P_provided * val.P_provided)} TWh, {fmt.pct((w.P_provided * val.P_provided) / r.trend)} of the trend.
+            </div>
+          </Card>
+        )
+      })()}
 
       <div className="grid g2">
         <Card title="Out-of-sample backtest, 2015–2025"
@@ -125,7 +169,7 @@ export default function Method({ d, p }: Ctx) {
 
       <div>
         <h3 className="section-title">Uncertainties and limitations</h3>
-        <div className="grid g3">
+        <div className="grid g2">
           {UNCERTAINTIES.map((u) => <Card key={u.title} title={u.title}><p style={{ fontSize: 13.5, color: 'var(--ink-2)' }}>{u.body}</p></Card>)}
         </div>
       </div>

@@ -123,10 +123,6 @@ export const ASSUMPTIONS: { area: string; item: string; value: string; basis: st
 ]
 
 export const UNCERTAINTIES: { title: string; body: string }[] = [
-  { title: 'Economic growth dominates', body: 'A ±1.2 pp sustained shift in GDP growth moves the 2047 requirement by roughly ±15–20%. The Monte Carlo P10–P90 band (≈5,500–8,700 TWh) is driven mostly by this.' },
   { title: 'Structural breaks', body: 'Green hydrogen, EVs and data centres have little history. They are added as explicit, adjustable loads (≈17% of 2047 base) rather than extrapolated, and are scaled 0.3–1.7× in the Monte Carlo.' },
   { title: 'Regional split', body: 'With only 7 years of state generation data, the shift-share model does not beat a constant-share baseline over 2019–24 (MAE 0.68 pp both). Regional numbers are a BAU production path. The optimiser decides where production should actually happen.' },
-  { title: 'Captive generation', body: 'About 12% of national generation (253 TWh in 2025, mostly coal) is captive and not reported by NPP or by state. The requirement is stated on the grid basis; captive output is a separate, literature-based add-on: about 377 TWh in 2047 at its 2019-25 trend, more if industry keeps self-generating at the current share.' },
-  { title: 'Resource ceilings', body: 'Potentials come from official state-wise assessments (NISE 2025 solar, NIWE 150 m wind, CEA 2017–23 hydro). Land competition, transmission rights-of-way and clearances are represented only by a developable-share assumption. This is the plan\'s most sensitive input: at −20% the 2047 requirement is about 8% short unless coal or nuclear limits are relaxed (see the sensitivity table).' },
-  { title: 'Hourly balancing not modelled', body: 'The optimiser is annual-energy. Storage needs are captured by VRE-share limits and a firming cost, not a chronological dispatch model.' },
 ]
