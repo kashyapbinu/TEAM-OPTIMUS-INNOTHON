@@ -5,7 +5,10 @@ Models (national, per-capita generation E_pc in kWh/person):
   B  Cross-country development curve (41 economies, 1985-2022, country fixed effects):
          ln E_pc = a_i + b1 ln GDPpc + b2 (ln GDPpc)^2     -> elasticity falls as income rises
   C  Damped-trend exponential smoothing on ln(total generation), 1990-2025 (no drivers)
-National baseline = inverse-backtest-error weighted ensemble of A, B, C.
+  P  Provided-data trend: ln(generation per capita) on year, 2019-2025, built ONLY from the two provided datasets
+     (NPP state generation + challenge-dataset population; solar/wind/bio from Ember because NPP does not publish them)
+National baseline = 50% Model P (provided data, panel guidance: main prediction from provided data, other sources
+down-weighted) + 50% A/B/C (supporting literature), split among A/B/C by inverse backtest error.
 Then explicit structural loads not visible in history (green hydrogen, e-mobility, data centres)
 are added as generation requirements.
 
@@ -18,6 +21,7 @@ Only generation (TWh) is used as the energy metric. Run: python -m src.forecast
 from __future__ import annotations
 
 import json
+import os
 from dataclasses import dataclass, field, asdict
 from pathlib import Path
 
@@ -37,6 +41,12 @@ BASE_YEAR = 2025
 HORIZON = 2047
 YEARS = np.arange(BASE_YEAR, HORIZON + 1)
 LOSS = 0.12  # generation needed per unit of new end-use load: 1/(1-LOSS) (T&D + auxiliary)
+P_WEIGHT = 0.5  # weight of the provided-data model P; A/B/C share the remaining 1 - P_WEIGHT
+P_WINDOW = (2019, 2025)  # NPP archive starts Jul 2019 (2019 itself = Ember, which equals NPP where both publish)
+# National basis: "owid" = total generation incl. captive (OWID 2,082 TWh in 2025, literature);
+# "grid" = NPP + Ember-RE grid generation (state sum, ~1,830 TWh in 2025): OWID history rescaled to that level.
+NATIONAL_BASIS = os.environ.get("NATIONAL_BASIS", "owid")
+assert NATIONAL_BASIS in ("owid", "grid"), NATIONAL_BASIS
 
 PEERS = ["China", "South Korea", "Japan", "Germany", "United Kingdom", "France", "Italy", "Spain",
          "Brazil", "Mexico", "Turkey", "Indonesia", "Thailand", "Malaysia", "Vietnam", "Philippines",
@@ -110,8 +120,55 @@ def load_national() -> pd.DataFrame:
     gen = pd.read_csv(PROC / "national_generation.csv").groupby("year")["twh"].sum()
     d = pd.read_csv(PROC / "national_drivers.csv").set_index("year")
     df = d.join(gen.rename("twh"))
+    if NATIONAL_BASIS == "grid":
+        # level shift only: A (log-linear, growth form), C (ETS on logs) and the backtest MAPEs are unchanged
+        df["twh"] = df["twh"] * grid_2025_total() / df.loc[BASE_YEAR, "twh"]
     df["epc"] = df["twh"] * 1e9 / df["population"]
     return df
+
+
+def grid_2025_total() -> float:
+    sg = pd.read_csv(PROC / "state_generation.csv")
+    return float(sg.loc[sg.year == BASE_YEAR, "gwh"].sum() / 1e3)
+
+
+def national_2025_by_source() -> pd.Series:
+    """2025 national generation by source (TWh) on the chosen basis; used to scale state/regional base mixes."""
+    if NATIONAL_BASIS == "grid":
+        sg = pd.read_csv(PROC / "state_generation.csv")
+        sg = sg[sg.year == BASE_YEAR].replace({"other_fossil": "gas"})
+        return sg.groupby("source")["gwh"].sum() / 1e3
+    nat = pd.read_csv(PROC / "national_generation.csv")
+    return nat[nat.year == BASE_YEAR].replace({"other_fossil": "gas"}).groupby("source")["twh"].sum()
+
+
+@dataclass
+class FitP:
+    slope: float  # d ln(generation per capita) / d year
+    se: float
+    years: list
+    epc: list  # provided-data generation per capita, kWh
+
+
+def fit_P() -> FitP:
+    """Model P, provided datasets only: grid generation (NPP state x fuel; Ember for the RE that NPP does not
+    publish) divided by challenge-dataset population (2025 extrapolated at its own 2019-24 growth)."""
+    sg = pd.read_csv(PROC / "state_generation.csv")
+    gen = sg.groupby("year")["gwh"].sum() / 1e3
+    pop = pd.read_csv(PROC / "state_drivers.csv").groupby("year")["population"].sum()
+    a, b = P_WINDOW
+    pp = pop.loc[a:b - 1]
+    g = np.polyfit(pp.index, np.log(pp.values), 1)[0]
+    pop.loc[b] = pop.loc[b - 1] * np.exp(g)
+    yrs = np.arange(a, b + 1)
+    epc = gen.loc[yrs] * 1e9 / pop.loc[yrs]
+    m = sm.OLS(np.log(epc.values), sm.add_constant(yrs.astype(float))).fit()
+    return FitP(float(m.params[1]), float(m.bse[1]), yrs.tolist(), epc.round(1).tolist())
+
+
+def predict_P(slope: float, epc0: float, pop: pd.Series) -> pd.Series:
+    """Recent per-capita growth continued from the 2025 anchor; times scenario population."""
+    return pd.Series(epc0 * np.exp(slope * (YEARS - BASE_YEAR)) * pop.loc[YEARS].values / 1e9, index=YEARS)
 
 
 def load_peers() -> pd.DataFrame:
@@ -239,51 +296,57 @@ def structural_loads(sc: Scenario, scale: float = 1.0) -> pd.DataFrame:
     return pd.DataFrame({"green_hydrogen": h2, "e_mobility": ev, "data_centres": dc})
 
 
-def ensemble(w, A, B, C, A0, B0):
-    """Weighted ensemble. The ETS model has no drivers, so it is read as the base-case path and
-    scaled by the driver models' relative scenario response: C_sc = C * (A_sc + B_sc) / (A_base + B_base)."""
-    Cs = C * (A + B) / (A0 + B0)
-    return w["A_driver"] * A + w["B_crosscountry"] * B + w["C_ets"] * Cs
+def ensemble(w, A, B, C, A0, B0, P):
+    """Weighted ensemble. ETS (C) and the provided-data trend (P) have no drivers, so each is read as the
+    base-case path and scaled by the driver models' relative scenario response: X_sc = X * (A_sc + B_sc) / (A0 + B0)."""
+    k = (A + B) / (A0 + B0)
+    return w["A_driver"] * A + w["B_crosscountry"] * B + w["C_ets"] * C * k + w["P_provided"] * P * k
 
 
 def run_national(df, peers):
     bt = backtest(df, peers)
     errs = {k: mape(bt["actual"], bt[k]) for k in ["A_driver", "B_crosscountry", "C_ets"]}
     inv = {k: 1 / v for k, v in errs.items()}
-    w = {k: v / sum(inv.values()) for k, v in inv.items()}
+    w = {k: (1 - P_WEIGHT) * v / sum(inv.values()) for k, v in inv.items()}
+    w["P_provided"] = P_WEIGHT
     mB = fit_B(peers, 2022)
     mA = fit_A(df, BASE_YEAR, mB.params["urban"], mB.bse["urban"])
     C = fit_predict_C(df, BASE_YEAR, YEARS)
     C[BASE_YEAR] = df.loc[BASE_YEAR, "twh"]
-    A0, B0, *_ = national_paths(df, peers, mA, mB, SCENARIOS["base"])
+    A0, B0, pop0, *_ = national_paths(df, peers, mA, mB, SCENARIOS["base"])
+    fP = fit_P()
+    P = predict_P(fP.slope, df.loc[BASE_YEAR, "epc"], pop0)
 
     rows = []
     for sc in SCENARIOS.values():
         A, B, pop, gdppc, urban = national_paths(df, peers, mA, mB, sc)
-        trend = ensemble(w, A, B, C, A0, B0)
+        trend = ensemble(w, A, B, C, A0, B0, P)
         loads = structural_loads(sc)
         total = trend + loads.sum(axis=1)
         for y in YEARS:
             rows.append(dict(scenario=sc.key, year=int(y), A_driver=A[y], B_crosscountry=B[y], C_ets=C[y],
-                             trend=trend[y], **{k: loads.loc[y, k] for k in loads}, total=total[y],
+                             P_provided=P[y], trend=trend[y], **{k: loads.loc[y, k] for k in loads}, total=total[y],
                              population=pop[y], gdp_pc_usd2015=gdppc[y], urban_pct=urban[y],
                              kwh_per_capita=total[y] * 1e9 / pop[y]))
     nf = pd.DataFrame(rows)
     meta = dict(weights=w, backtest_mape=errs,
                 A_params=mA.params.to_dict(), A_bse=mA.bse.to_dict(), A_r2=mA.rsquared,
                 B_params={k: mB.params[k] for k in ["lg", "lg2", "urban"]},
-                B_bse={k: mB.bse[k] for k in ["lg", "lg2", "urban"]}, B_r2=mB.rsquared, B_countries=len(PEERS))
-    return nf, bt, meta, (mA, mB, C, w)
+                B_bse={k: mB.bse[k] for k in ["lg", "lg2", "urban"]}, B_r2=mB.rsquared, B_countries=len(PEERS),
+                P=asdict(fP), P_weight=P_WEIGHT, national_basis=NATIONAL_BASIS,
+                anchor_2025_twh=float(df.loc[BASE_YEAR, "twh"]))
+    return nf, bt, meta, (mA, mB, C, w, fP)
 
 
 def monte_carlo(df, peers, models, n=3000, seed=7) -> pd.DataFrame:
     """Joint uncertainty: GDP growth, urbanisation, population, model coefficients, structural loads."""
-    mA, mB, C, w = models
+    mA, mB, C, w, fP = models
     rng = np.random.default_rng(seed)
     base = SCENARIOS["base"]
     kB = ["lg", "lg2", "urban"]
     covB = mB.cov_params().loc[kB, kB].values
-    A0, B0, *_ = national_paths(df, peers, mA, mB, base)
+    A0, B0, pop0, *_ = national_paths(df, peers, mA, mB, base)
+    epc0 = df.loc[BASE_YEAR, "epc"]
     out = np.empty((n, len(YEARS)))
     for i in range(n):
         dg = rng.normal(0, 0.012)  # +-1.2pp sustained growth shock (sd)
@@ -293,7 +356,8 @@ def monte_carlo(df, peers, models, n=3000, seed=7) -> pd.DataFrame:
         pb = mB.params.copy(); pb[kB] = rng.multivariate_normal(mB.params[kB], covB)
         pa = mA.params.copy(); pa["lg"] = rng.normal(mA.params["lg"], mA.bse["lg"]); pa["u"] = pb["urban"]
         A, B, *_ = national_paths(df, peers, mA, mB, sc, pA=pa, pB=pb)
-        trend = ensemble(w, A, B, C, A0, B0)
+        P = predict_P(rng.normal(fP.slope, fP.se), epc0, pop0)
+        trend = ensemble(w, A, B, C, A0, B0, P)
         loads = structural_loads(sc, scale=rng.uniform(0.3, 1.7)).sum(axis=1)
         out[i] = (trend + loads).values
     q = np.percentile(out, [5, 10, 25, 50, 75, 90, 95], axis=0)
@@ -383,8 +447,7 @@ def state_base_2025() -> pd.Series:
     sg = pd.read_csv(PROC / "state_generation.csv")
     sg = sg[sg.year == BASE_YEAR].replace({"other_fossil": "gas"})
     grid = sg.groupby(["state", "source"])["gwh"].sum().unstack(fill_value=0) / 1e3
-    nat = pd.read_csv(PROC / "national_generation.csv")
-    nat = nat[nat.year == BASE_YEAR].replace({"other_fossil": "gas"}).groupby("source")["twh"].sum()
+    nat = national_2025_by_source()
     scaled = grid.copy()
     for s in nat.index:
         scaled[s] = grid[s] * (nat[s] / grid[s].sum())
@@ -464,7 +527,8 @@ def main():
     print("A", {k: round(v, 4) for k, v in meta["A_params"].items()}, "B", {k: round(v, 4) for k, v in meta["B_params"].items()}, "B se", {k: round(v, 4) for k, v in meta["B_bse"].items()})
     p = nf[nf.year.isin([2025, 2030, 2035, 2040, 2047])].pivot(index="year", columns="scenario", values="total")
     print(p.round(0))
-    print(nf[nf.year == 2047][["scenario", "A_driver", "B_crosscountry", "C_ets", "trend", "green_hydrogen",
+    print("basis", NATIONAL_BASIS, "anchor 2025", round(meta["anchor_2025_twh"]), "P slope", round(meta["P"]["slope"], 4), "se", round(meta["P"]["se"], 4))
+    print(nf[nf.year == 2047][["scenario", "A_driver", "B_crosscountry", "C_ets", "P_provided", "trend", "green_hydrogen",
                                "e_mobility", "data_centres", "total", "kwh_per_capita", "gdp_pc_usd2015", "urban_pct"]].round(0).to_string())
     print(fan[fan.year.isin([2030, 2040, 2047])].round(0).to_string())
     print(reg[reg.year == 2047].pivot(index="region", columns="scenario", values="twh").round(0))

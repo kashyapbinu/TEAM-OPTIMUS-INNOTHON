@@ -29,6 +29,7 @@ import numpy as np
 import pandas as pd
 import pulp
 
+from .forecast import national_2025_by_source
 from .regions import REGIONS
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -134,8 +135,7 @@ def base_mix_2025() -> pd.DataFrame:
     sg = sg[sg.year == 2025].copy()
     sg["source"] = sg["source"].replace({"other_fossil": "gas"})
     grid = sg.groupby(["region", "source"])["gwh"].sum().unstack(fill_value=0) / 1e3
-    nat = pd.read_csv(PROC / "national_generation.csv")
-    nat = nat[nat.year == 2025].replace({"other_fossil": "gas"}).groupby("source")["twh"].sum()
+    nat = national_2025_by_source()
     out = grid.copy()
     for s in nat.index:
         gap = nat[s] - grid[s].sum()
