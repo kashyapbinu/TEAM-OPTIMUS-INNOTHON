@@ -1,0 +1,144 @@
+state,source,component,twh_potential,region
+Andhra Pradesh,wind,onshore_150m,330.8090484,South
+Arunachal Pradesh,wind,onshore_150m,0.6519192,North-East
+Assam,wind,onshore_150m,1.1054682,North-East
+Bihar,wind,onshore_150m,9.691407,East
+Chhattisgarh,wind,onshore_150m,6.646562400000001,West
+Goa,wind,onshore_150m,0.035477999999999996,West
+Gujarat,wind,onshore_150m,528.454884,West
+Haryana,wind,onshore_150m,1.4285370000000002,North
+Himachal Pradesh,wind,onshore_150m,0.5757510000000001,North
+Jammu and Kashmir,wind,onshore_150m,0.0,North
+Jharkhand,wind,onshore_150m,0.038544,East
+Karnataka,wind,onshore_150m,466.4274264,South
+Kerala,wind,onshore_150m,8.1669918,South
+Madhya Pradesh,wind,onshore_150m,136.3193094,West
+Maharashtra,wind,onshore_150m,455.70838380000004,West
+Manipur,wind,onshore_150m,0.0,North-East
+Meghalaya,wind,onshore_150m,0.13249500000000003,North-East
+Mizoram,wind,onshore_150m,0.0,North-East
+Nagaland,wind,onshore_150m,0.0,North-East
+Odisha,wind,onshore_150m,29.567365199999998,East
+Punjab,wind,onshore_150m,1.031052,North
+Rajasthan,wind,onshore_150m,703.2418938,North
+Sikkim,wind,onshore_150m,0.0,East
+Tamil Nadu,wind,onshore_150m,264.7135344,South
+Telangana,wind,onshore_150m,138.4131246,South
+Tripura,wind,onshore_150m,0.0,North-East
+Uttar Pradesh,wind,onshore_150m,1.22859,North
+Uttarakhand,wind,onshore_150m,0.1288596,North
+West Bengal,wind,onshore_150m,3.0859290000000006,East
+Andaman and Nicobar,wind,onshore_150m,3.5097378,East
+Chandigarh,wind,onshore_150m,0.0,North
+Dadra and Nagar Haveli and Daman and Diu,wind,onshore_150m,0.04095300000000001,West
+Dadra and Nagar Haveli and Daman and Diu,wind,onshore_150m,0.0,West
+Delhi,wind,onshore_150m,0.0,North
+Ladakh,wind,onshore_150m,0.0036791999999999997,North
+Lakshadweep,wind,onshore_150m,0.0837894,South
+Puducherry,wind,onshore_150m,1.1769498,South
+Andaman and Nicobar,solar,ground,0.9303119999999999,East
+Andaman and Nicobar,solar,floating,0.0,East
+Andhra Pradesh,solar,ground,550.610676,South
+Andhra Pradesh,solar,floating,2.685816,South
+Arunachal Pradesh,solar,ground,0.741096,North-East
+Arunachal Pradesh,solar,floating,0.0,North-East
+Assam,solar,ground,30.227256,North-East
+Assam,solar,floating,0.015767999999999997,North-East
+Bihar,solar,ground,52.018632,East
+Bihar,solar,floating,0.362664,East
+Chandigarh,solar,ground,0.031535999999999995,North
+Chandigarh,solar,floating,0.015767999999999997,North
+Chhattisgarh,solar,ground,199.43366400000002,West
+Chhattisgarh,solar,floating,4.304664,West
+Dadra and Nagar Haveli and Daman and Diu,solar,ground,0.7884,West
+Dadra and Nagar Haveli and Daman and Diu,solar,floating,0.0,West
+Delhi,solar,ground,0.86724,North
+Delhi,solar,floating,0.0,North
+Goa,solar,ground,10.6434,West
+Goa,solar,floating,0.268056,West
+Gujarat,solar,ground,447.427512,West
+Gujarat,solar,floating,11.626271999999998,West
+Haryana,solar,ground,10.201896,North
+Haryana,solar,floating,0.0,North
+Himachal Pradesh,solar,ground,33.901199999999996,North
+Himachal Pradesh,solar,floating,3.137832,North
+Jammu and Kashmir,solar,ground,13.544711999999999,North
+Jammu and Kashmir,solar,floating,1.387584,North
+Jharkhand,solar,ground,81.725544,East
+Jharkhand,solar,floating,4.430808,East
+Karnataka,solar,ground,410.745888,South
+Karnataka,solar,floating,25.184124,South
+Kerala,solar,ground,19.552319999999998,South
+Kerala,solar,floating,3.500496,South
+Ladakh,solar,ground,15.746976,North
+Ladakh,solar,floating,0.717444,North
+Madhya Pradesh,solar,ground,586.777212,West
+Madhya Pradesh,solar,floating,27.391644,West
+Maharashtra,solar,ground,895.296528,West
+Maharashtra,solar,floating,29.948688,West
+Manipur,solar,ground,3.610872,North-East
+Manipur,solar,floating,0.9618479999999999,North-East
+Meghalaya,solar,ground,23.131656,North-East
+Meghalaya,solar,floating,0.0,North-East
+Mizoram,solar,ground,0.9618479999999999,North-East
+Mizoram,solar,floating,0.0,North-East
+Nagaland,solar,ground,0.29959199999999997,North-East
+Nagaland,solar,floating,0.0,North-East
+Odisha,solar,ground,219.91629599999996,East
+Odisha,solar,floating,20.198808,East
+Puducherry,solar,ground,0.31536,South
+Puducherry,solar,floating,0.06307199999999999,South
+Punjab,solar,ground,14.522328000000002,North
+Punjab,solar,floating,0.04730399999999999,North
+Rajasthan,solar,ground,1524.623688,North
+Rajasthan,solar,floating,6.181055999999999,North
+Sikkim,solar,ground,0.3942,East
+Sikkim,solar,floating,0.0,East
+Tamil Nadu,solar,ground,376.694892,South
+Tamil Nadu,solar,floating,6.144263999999999,South
+Telangana,solar,ground,258.37181999999996,South
+Telangana,solar,floating,19.720512,South
+Tripura,solar,ground,14.364647999999999,North-East
+Tripura,solar,floating,0.0,North-East
+Uttar Pradesh,solar,ground,154.274112,North
+Uttar Pradesh,solar,floating,8.893151999999999,North
+Uttarakhand,solar,ground,7.000992,North
+Uttarakhand,solar,floating,1.2141359999999999,North
+West Bengal,solar,ground,35.85643199999999,East
+West Bengal,solar,floating,1.2141359999999999,East
+Andaman and Nicobar,solar,rooftop,0.2583768574612791,East
+Andhra Pradesh,solar,rooftop,34.16004140641165,South
+Arunachal Pradesh,solar,rooftop,1.0051131258776445,North-East
+Assam,solar,rooftop,22.98842291702063,North-East
+Bihar,solar,rooftop,81.80323112218679,East
+Chandigarh,solar,rooftop,0.7929203808481532,North
+Chhattisgarh,solar,rooftop,19.44719737466426,West
+Dadra and Nagar Haveli and Daman and Diu,solar,rooftop,0.43238606755966885,West
+Delhi,solar,rooftop,13.810875978921539,North
+Goa,solar,rooftop,1.0114139299848306,West
+Gujarat,solar,rooftop,46.091008984968695,West
+Haryana,solar,rooftop,19.472355420593757,North
+Himachal Pradesh,solar,rooftop,4.796398387387844,North
+Jammu and Kashmir,solar,rooftop,8.555783994506458,North
+Jharkhand,solar,rooftop,25.445845120236353,East
+Karnataka,solar,rooftop,43.506947603006196,South
+Kerala,solar,rooftop,22.96836913750559,South
+Ladakh,solar,rooftop,0.1913063462204843,North
+Lakshadweep,solar,rooftop,0.044504474647876206,South
+Madhya Pradesh,solar,rooftop,55.802932219500015,West
+Maharashtra,solar,rooftop,81.28954611798939,West
+Manipur,solar,rooftop,2.074518288294998,North-East
+Meghalaya,solar,rooftop,2.1552882666720694,North-East
+Mizoram,solar,rooftop,0.7971692910003605,North-East
+Nagaland,solar,rooftop,1.4368450690475678,North-East
+Odisha,solar,rooftop,29.74276895027381,East
+Puducherry,solar,rooftop,1.0664149394390907,South
+Punjab,solar,rooftop,19.752228309964348,North
+Rajasthan,solar,rooftop,52.19365555806409,North
+Sikkim,solar,rooftop,0.4427653982368142,East
+Tamil Nadu,solar,rooftop,49.31888164834526,South
+Telangana,solar,rooftop,24.387531077353014,South
+Tripura,solar,rooftop,2.6690793094173215,North-East
+Uttar Pradesh,solar,rooftop,151.77474898912854,North
+Uttarakhand,solar,rooftop,7.494107784371525,North
+West Bengal,solar,rooftop,63.638220152892124,East

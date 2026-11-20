@@ -1,0 +1,105 @@
+GOVERNMENT OF INDIA 
+MINISTRY OF NEW AND RENEWABLE ENERGY 
+LOK SABHA  
+UNSTARRED QUESTION NO. 471 
+ANSWERED ON 22.07.2026 
+ 
+DRAFT FLOATING SOLAR PV POTENTIAL ASSESSMENT REPORT 
+471. SHRI VIJAY BAGHEL 
+SHRI ANURAG SINGH THAKUR 
+SHRI PRADEEP PUROHIT 
+SHRI BHARTRUHARI MAHATAB 
+SHRI VISHWESHWAR HEGDE KAGERI 
+SHRI LUMBARAM CHOUDHARY 
+SHRI AVIMANYU SETHI 
+SHRI RODMAL NAGAR 
+DR. HEMANT VISHNU SAVARA 
+SHRI SURESH KUMAR KASHYAP 
+SHRI GODAM NAGESH 
+ 
+Will the Minister of NEW AND RENEWABLE ENERGY be pleased to state: 
+(a) the status and timeline for finalisation and notification of the draft Floating Solar PV 
+(FSPV) Potential Assessment Report and the draft Floating Solar Policy prepared by the 
+National Institute of Solar Energy (NISE) and Indian Institute of Technology (IIT) Roorkee; 
+(b) the total floating solar potential identified across water bodies in the country under this 
+assessment, State/UT-wise including Himachal Pradesh particularly for Shimla Lok Sabha 
+Constituency and Madhya Pradesh; 
+(c) whether the draft policy proposes a single-window clearance mechanism for floating solar 
+projects involving multiple State departments and if so, the details thereof; and 
+(d) whether any targets fixed for FSPV capacity addition by the year 2030 and if so, the 
+details thereof including Himachal Pradesh particularly in Shimla Lok Sabha Constituency? 
+ANSWER 
+THE MINISTER OF STATE FOR NEW & RENEWABLE ENERGY AND POWER 
+(SHRI SHRIPAD YESSO NAIK) 
+ 
+(a) to (d) As per the Solar PV Potential of India – Floating Solar report published by National 
+Institute of Solar Energy in June 2026, India’s floating solar potential is estimated to be 102.18 
+GWp. The State/UT-wise floating solar potential identified including the States of Himachal 
+Pradesh and Madhya Pradesh is given at Annexure. 
+  
+Currently, there is no Floating Solar Policy available; however, considering the challenges 
+involved in the implementation of floating solar projects, it requires coordination with state 
+departments like water resources, irrigation, forest, etc., when compared to ground-mounted 
+solar projects. There is no target fixed for FSPV capacity addition in the country as of now. 
+ 
+***** 
+
+Annexure referred to in reply of part (a) to (d) of the Lok Sabha Unstarred Question 
+No. 471 to be answered on 22.07.2026 
+ 
+State/UT-wise floating solar potential 
+State/UTs 
+Potential (GW) 
+Andhra Pradesh 
+1.46 
+Assam 
+0.01 
+Bihar 
+0.23 
+Chandigarh 
+0.01 
+Chhattisgarh 
+2.73 
+Goa 
+0.17 
+Gujarat 
+6.32 
+Himachal Pradesh 
+1.99 
+Jammu & Kashmir 
+0.88 
+Jharkhand 
+2.81 
+Karnataka 
+13.69 
+Kerala 
+2.22 
+Ladakh 
+0.39 
+Madhya Pradesh 
+14.89 
+Maharashtra 
+16.28 
+Manipur 
+0.61 
+Odisha 
+12.81 
+Puducherry 
+0.04 
+Punjab 
+0.03 
+Rajasthan 
+3.36 
+Tamil Nadu 
+3.34 
+Telangana 
+10.72 
+Uttar Pradesh 
+5.64 
+Uttarakhand 
+0.77 
+West Bengal 
+0.77 
+ Total 
+102.18 
+ 

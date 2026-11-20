@@ -1,0 +1,16 @@
+region,source,twh_potential
+East,solar,618.3790396012871
+East,wind,45.892983
+North,solar,2075.1433371500066
+North,wind,707.6383625999999
+North-East,solar,107.44102026733059
+North-East,wind,1.8898824
+South,solar,1849.0419302867085
+South,wind,1209.7908648
+West,solar,2417.980524694667
+West,wind,1127.2055706
+East,hydro,35.44296
+North,hydro,185.159682
+North-East,hydro,220.47606
+South,hydro,44.04528
+West,hydro,20.561472

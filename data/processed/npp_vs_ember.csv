@@ -1,0 +1,847 @@
+fy,state,source,npp_gwh,ember_gwh,region,diff_gwh
+2020,Andaman and Nicobar,gas,96.19,96.19,East,0.0
+2020,Andhra Pradesh,coal,56916.07,56916.07,South,0.0
+2020,Andhra Pradesh,gas,3013.62,3013.62,South,0.0
+2020,Andhra Pradesh,hydro,3013.43,3308.28,South,294.85000000000036
+2020,Arunachal Pradesh,hydro,1786.46,1787.1,North-East,0.6399999999998727
+2020,Assam,coal,3929.96,3929.96,North-East,0.0
+2020,Assam,gas,2808.7299999999996,2808.74,North-East,0.010000000000218279
+2020,Assam,hydro,1291.68,1343.6399999999999,North-East,51.95999999999981
+2020,Bihar,coal,35360.76,35360.76,East,0.0
+2020,Chhattisgarh,coal,117992.26999999999,117992.27,West,1.4551915228366852e-11
+2020,Chhattisgarh,hydro,236.79,338.41,West,101.62000000000003
+2020,Delhi,coal,0.0,0.0,North,0.0
+2020,Delhi,gas,6015.11,6015.110000000001,North,9.094947017729282e-13
+2020,Goa,gas,0.0,0.0,West,0.0
+2020,Gujarat,coal,84590.62,84590.6,West,-0.01999999998952262
+2020,Gujarat,gas,13515.42,13515.42,West,0.0
+2020,Gujarat,hydro,5414.68,5609.74,West,195.0599999999995
+2020,Gujarat,nuclear,3428.6,3428.6,West,0.0
+2020,Haryana,coal,16761.85,16761.85,North,0.0
+2020,Haryana,gas,555.16,555.16,North,0.0
+2020,Himachal Pradesh,hydro,40834.880000000005,42986.8,North,2151.9199999999983
+2020,Jammu and Kashmir,gas,0.0,0.0,North,0.0
+2020,Jammu and Kashmir,hydro,18094.12,18803.73,North,709.6100000000006
+2020,Jharkhand,coal,26072.08,26081.41,East,9.329999999998108
+2020,Jharkhand,hydro,150.96,146.1,East,-4.860000000000014
+2020,Karnataka,coal,23836.42,23836.42,South,0.0
+2020,Karnataka,gas,0.0,0.0,South,0.0
+2020,Karnataka,hydro,14014.269999999999,15941.5,South,1927.2300000000014
+2020,Karnataka,nuclear,7278.22,7278.219999999999,South,-9.094947017729282e-13
+2020,Kerala,gas,12.04,12.04,South,0.0
+2020,Kerala,hydro,5454.04,5987.97,South,533.9300000000003
+2020,Ladakh,hydro,270.28,0.0,North,-270.28
+2020,Madhya Pradesh,coal,114818.28,114818.27,West,-0.00999999999476131
+2020,Madhya Pradesh,hydro,6281.74,6531.62,West,249.8800000000001
+2020,Maharashtra,coal,107002.16,107002.16,West,0.0
+2020,Maharashtra,gas,7999.040000000001,7999.04,West,-9.094947017729282e-13
+2020,Maharashtra,hydro,5880.58,6555.09,West,674.5100000000002
+2020,Maharashtra,nuclear,10536.43,10536.43,West,0.0
+2020,Manipur,gas,0.0,0.0,North-East,0.0
+2020,Manipur,hydro,366.59,368.44,North-East,1.8500000000000227
+2020,Meghalaya,hydro,1018.29,1083.68,North-East,65.3900000000001
+2020,Mizoram,hydro,177.02,227.22,North-East,50.19999999999999
+2020,Nagaland,hydro,180.85,258.28,North-East,77.42999999999998
+2020,Odisha,coal,41525.2,41525.2,East,0.0
+2020,Odisha,hydro,6728.7699999999995,7028.8,East,300.03000000000065
+2020,Puducherry,gas,255.79,255.79,South,0.0
+2020,Punjab,coal,20901.67,20901.670000000002,North,3.637978807091713e-12
+2020,Punjab,hydro,5123.48,5822.86,North,699.3800000000001
+2020,Rajasthan,coal,45851.11,45851.11,North,0.0
+2020,Rajasthan,gas,1033.51,1033.51,North,0.0
+2020,Rajasthan,hydro,606.18,616.5,North,10.32000000000005
+2020,Rajasthan,nuclear,8451.58,8451.58,North,0.0
+2020,Sikkim,hydro,11027.36,11093.66,East,66.29999999999927
+2020,Tamil Nadu,coal,62876.46,62876.47,South,0.010000000002037268
+2020,Tamil Nadu,gas,2869.99,2869.99,South,0.0
+2020,Tamil Nadu,hydro,4765.24,5012.29,South,247.05000000000018
+2020,Tamil Nadu,nuclear,12986.33,12986.33,South,0.0
+2020,Telangana,coal,47347.78,47347.78,South,0.0
+2020,Telangana,hydro,4507.04,4553.79,South,46.75
+2020,Tripura,gas,6092.94,6092.94,North-East,0.0
+2020,Uttar Pradesh,coal,117018.91,117018.91,North,0.0
+2020,Uttar Pradesh,gas,2296.54,2296.54,North,0.0
+2020,Uttar Pradesh,hydro,1073.48,1109.54,North,36.059999999999945
+2020,Uttar Pradesh,nuclear,3791.29,3791.27,North,-0.01999999999998181
+2020,Uttarakhand,gas,1986.79,1986.79,North,0.0
+2020,Uttarakhand,hydro,14554.53,15294.49,North,739.9599999999991
+2020,West Bengal,coal,71395.39,71395.39,East,0.0
+2020,West Bengal,gas,0.0,0.0,East,0.0
+2020,West Bengal,hydro,2916.38,3029.58,East,113.19999999999982
+2021,Andaman and Nicobar,gas,118.48,118.48,East,0.0
+2021,Andhra Pradesh,coal,46145.71,46145.7,South,-0.010000000002037268
+2021,Andhra Pradesh,gas,3323.24,3323.2400000000002,South,4.547473508864641e-13
+2021,Andhra Pradesh,hydro,3280.12,3631.35,South,351.23
+2021,Arunachal Pradesh,hydro,3451.34,3451.89,North-East,0.5499999999997272
+2021,Assam,coal,2976.74,2976.73,North-East,-0.009999999999763531
+2021,Assam,gas,2721.3999999999996,2721.4,North-East,4.547473508864641e-13
+2021,Assam,hydro,270.87,309.03000000000003,North-East,38.160000000000025
+2021,Bihar,coal,33866.14,33866.14,East,0.0
+2021,Chhattisgarh,coal,134614.5,134614.49,West,-0.010000000009313226
+2021,Chhattisgarh,hydro,419.19,564.7,West,145.51000000000005
+2021,Delhi,coal,0.0,0.0,North,0.0
+2021,Delhi,gas,5304.01,5304.01,North,0.0
+2021,Goa,gas,0.0,0.0,West,0.0
+2021,Gujarat,coal,77058.79,77058.79,West,0.0
+2021,Gujarat,gas,18877.21,18877.22,West,0.010000000002037268
+2021,Gujarat,hydro,4233.36,4445.28,West,211.92000000000007
+2021,Gujarat,nuclear,3712.96,3712.95,West,-0.010000000000218279
+2021,Haryana,coal,13994.58,13994.58,North,0.0
+2021,Haryana,gas,901.8,901.8,North,0.0
+2021,Himachal Pradesh,hydro,37473.47,39597.270000000004,North,2123.800000000003
+2021,Jammu and Kashmir,gas,0.0,0.0,North,0.0
+2021,Jammu and Kashmir,hydro,17002.68,17808.760000000002,North,806.0800000000017
+2021,Jharkhand,coal,27219.97,27219.96,East,-0.010000000002037268
+2021,Jharkhand,hydro,223.09,230.45,East,7.359999999999985
+2021,Karnataka,coal,19861.239999999998,19861.239999999998,South,0.0
+2021,Karnataka,gas,0.0,0.0,South,0.0
+2021,Karnataka,hydro,12587.35,14787.03,South,2199.6800000000003
+2021,Karnataka,nuclear,7093.92,7093.91,South,-0.010000000000218279
+2021,Kerala,gas,109.24,109.24,South,0.0
+2021,Kerala,hydro,6628.39,7268.98,South,640.5899999999992
+2021,Ladakh,hydro,376.21,0.0,North,-376.21
+2021,Madhya Pradesh,coal,123089.78,123089.76,West,-0.020000000004074536
+2021,Madhya Pradesh,hydro,6477.33,6759.06,West,281.7300000000005
+2021,Maharashtra,coal,98173.83,98173.84,West,0.00999999999476131
+2021,Maharashtra,gas,5963.43,5963.42,West,-0.010000000000218279
+2021,Maharashtra,hydro,5548.46,6351.17,West,802.71
+2021,Maharashtra,nuclear,7886.62,7886.62,West,0.0
+2021,Manipur,gas,0.0,0.0,North-East,0.0
+2021,Manipur,hydro,621.62,621.62,North-East,0.0
+2021,Meghalaya,hydro,1151.99,1208.79,North-East,56.799999999999955
+2021,Mizoram,hydro,158.85,189.92000000000002,North-East,31.07000000000002
+2021,Nagaland,hydro,203.86,273.62,North-East,69.75999999999999
+2021,Odisha,coal,55206.47,55206.47,East,0.0
+2021,Odisha,hydro,6859.969999999999,7218.77,East,358.8000000000011
+2021,Puducherry,gas,232.15,232.15,South,0.0
+2021,Punjab,coal,17994.79,17994.8,North,0.00999999999839929
+2021,Punjab,hydro,4747.03,5437.37,North,690.3400000000001
+2021,Rajasthan,coal,45216.58,45216.56,North,-0.020000000004074536
+2021,Rajasthan,gas,1018.69,1018.6999999999999,North,0.009999999999877218
+2021,Rajasthan,hydro,469.63,480.27,North,10.639999999999986
+2021,Rajasthan,nuclear,7386.05,7386.05,North,0.0
+2021,Sikkim,hydro,10879.5,10935.48,East,55.97999999999956
+2021,Tamil Nadu,coal,48935.32,48935.3,South,-0.01999999999679858
+2021,Tamil Nadu,gas,2264.73,2264.73,South,0.0
+2021,Tamil Nadu,hydro,5212.71,5457.48,South,244.76999999999953
+2021,Tamil Nadu,nuclear,13664.72,13664.72,South,0.0
+2021,Telangana,coal,44760.759999999995,44760.76,South,7.275957614183426e-12
+2021,Telangana,hydro,3645.38,3712.63,South,67.25
+2021,Tripura,gas,7043.209999999999,7043.21,North-East,9.094947017729282e-13
+2021,Uttar Pradesh,coal,119592.95999999999,119592.98,North,0.020000000004074536
+2021,Uttar Pradesh,gas,2470.75,2470.75,North,0.0
+2021,Uttar Pradesh,hydro,1572.35,1737.25,North,164.9000000000001
+2021,Uttar Pradesh,nuclear,3284.81,3284.82,North,0.010000000000218279
+2021,Uttarakhand,gas,721.97,721.97,North,0.0
+2021,Uttarakhand,hydro,13592.490000000002,14414.39,North,821.8999999999978
+2021,West Bengal,coal,72735.07,72735.06,East,-0.010000000009313226
+2021,West Bengal,gas,0.0,0.0,East,0.0
+2021,West Bengal,hydro,3212.28,3321.32,East,109.03999999999996
+2022,Andaman and Nicobar,gas,117.24,117.24,East,0.0
+2022,Andhra Pradesh,coal,53326.74,53326.729999999996,South,-0.010000000002037268
+2022,Andhra Pradesh,gas,2094.34,2094.33,South,-0.010000000000218279
+2022,Andhra Pradesh,hydro,3113.83,3497.91,South,384.0799999999999
+2022,Arunachal Pradesh,hydro,4161.28,4161.68,North-East,0.4000000000005457
+2022,Assam,coal,4201.45,4201.45,North-East,0.0
+2022,Assam,gas,3399.1000000000004,3399.11,North-East,0.009999999999763531
+2022,Assam,hydro,676.24,716.71,North-East,40.47000000000003
+2022,Bihar,coal,43940.4,43940.4,East,0.0
+2022,Chhattisgarh,coal,140870.87,140870.86000000002,West,-0.009999999980209395
+2022,Chhattisgarh,hydro,404.13,589.79,West,185.65999999999997
+2022,Delhi,gas,4948.57,4948.57,North,0.0
+2022,Goa,gas,0.0,0.0,West,0.0
+2022,Gujarat,coal,49568.42,49568.43,West,0.010000000002037268
+2022,Gujarat,gas,7353.85,7353.85,West,0.0
+2022,Gujarat,hydro,2621.51,2813.59,West,192.07999999999993
+2022,Gujarat,nuclear,3503.47,3503.4700000000003,West,4.547473508864641e-13
+2022,Haryana,coal,22847.43,22847.43,North,0.0
+2022,Haryana,gas,120.3,120.3,North,0.0
+2022,Himachal Pradesh,hydro,36459.64,38459.1,North,1999.4599999999991
+2022,Jammu and Kashmir,gas,0.0,0.0,North,0.0
+2022,Jammu and Kashmir,hydro,17074.02,17591.2,North,517.1800000000003
+2022,Jharkhand,coal,28338.72,28338.72,East,0.0
+2022,Jharkhand,hydro,547.96,558.46,East,10.5
+2022,Karnataka,coal,30505.260000000002,30505.25,South,-0.010000000002037268
+2022,Karnataka,gas,0.0,0.0,South,0.0
+2022,Karnataka,hydro,13936.46,16397.36,South,2460.9000000000015
+2022,Karnataka,nuclear,7492.05,7492.03,South,-0.020000000000436557
+2022,Kerala,gas,0.0,0.0,South,0.0
+2022,Kerala,hydro,9317.44,10249.779999999999,South,932.3399999999983
+2022,Ladakh,hydro,405.98,302.90000000000003,North,-103.07999999999998
+2022,Madhya Pradesh,coal,129634.45,129634.4,West,-0.05000000000291038
+2022,Madhya Pradesh,hydro,4686.719999999999,4908.13,West,221.41000000000076
+2022,Maharashtra,coal,116485.92,116485.91,West,-0.00999999999476131
+2022,Maharashtra,gas,6124.1900000000005,6124.16,West,-0.030000000000654836
+2022,Maharashtra,hydro,6007.38,6794.53,West,787.1499999999996
+2022,Maharashtra,nuclear,8602.18,8602.19,West,0.010000000000218279
+2022,Manipur,gas,0.0,0.0,North-East,0.0
+2022,Manipur,hydro,455.48,455.46,North-East,-0.020000000000038654
+2022,Meghalaya,hydro,841.82,886.02,North-East,44.19999999999993
+2022,Mizoram,hydro,137.44,163.86,North-East,26.420000000000016
+2022,Nagaland,hydro,100.55,164.02,North-East,63.47000000000001
+2022,Odisha,coal,60161.28999999999,60161.3,East,0.010000000009313226
+2022,Odisha,hydro,5230.63,5607.92,East,377.28999999999996
+2022,Puducherry,gas,251.13,251.13,South,0.0
+2022,Punjab,coal,24175.82,24175.82,North,0.0
+2022,Punjab,hydro,3709.73,4693.09,North,983.3600000000001
+2022,Rajasthan,coal,49608.4,49608.37,North,-0.029999999998835847
+2022,Rajasthan,gas,1499.01,1499.01,North,0.0
+2022,Rajasthan,hydro,481.84,489.69,North,7.850000000000023
+2022,Rajasthan,nuclear,8308.85,8308.84,North,-0.010000000000218279
+2022,Sikkim,hydro,11493.9,11506.27,East,12.3700000000008
+2022,Tamil Nadu,coal,59450.54,59450.53,South,-0.010000000002037268
+2022,Tamil Nadu,gas,1732.22,1732.23,South,0.009999999999990905
+2022,Tamil Nadu,hydro,5212.07,5505.22,South,293.15000000000055
+2022,Tamil Nadu,nuclear,15625.26,15625.26,South,0.0
+2022,Telangana,coal,51550.06,51550.06,South,0.0
+2022,Telangana,hydro,5626.63,5717.62,South,90.98999999999978
+2022,Tripura,gas,6332.25,6332.27,North-East,0.020000000000436557
+2022,Uttar Pradesh,coal,130698.93,130698.93,North,0.0
+2022,Uttar Pradesh,gas,1148.49,1148.49,North,0.0
+2022,Uttar Pradesh,hydro,1402.68,1565.22,North,162.53999999999996
+2022,Uttar Pradesh,nuclear,3580.25,3580.24,North,-0.010000000000218279
+2022,Uttarakhand,gas,1012.3199999999999,1012.3199999999999,North,0.0
+2022,Uttarakhand,hydro,14332.130000000001,14658.8,North,326.66999999999825
+2022,West Bengal,coal,83216.76999999999,83216.73999999999,East,-0.029999999998835847
+2022,West Bengal,gas,0.0,0.0,East,0.0
+2022,West Bengal,hydro,3189.84,3342.71,East,152.8699999999999
+2023,Andaman and Nicobar,gas,214.57,214.57,East,0.0
+2023,Andhra Pradesh,coal,60931.93,60931.93,South,0.0
+2023,Andhra Pradesh,gas,610.0,610.0,South,0.0
+2023,Andhra Pradesh,hydro,3747.58,4158.4800000000005,South,410.90000000000055
+2023,Arunachal Pradesh,hydro,4820.94,4823.47,North-East,2.530000000000655
+2023,Assam,coal,5026.24,5026.24,North-East,0.0
+2023,Assam,gas,3366.84,3366.84,North-East,0.0
+2023,Assam,hydro,481.6,544.26,North-East,62.65999999999997
+2023,Bihar,coal,55200.21,55200.21,East,0.0
+2023,Chhattisgarh,coal,142599.2,142599.2,West,0.0
+2023,Chhattisgarh,hydro,237.37,393.3,West,155.93
+2023,Delhi,gas,3784.3,3784.3,North,0.0
+2023,Goa,gas,0.0,0.0,West,0.0
+2023,Gujarat,coal,53322.93,53322.93,West,0.0
+2023,Gujarat,gas,2158.69,2158.69,West,0.0
+2023,Gujarat,hydro,6133.139999999999,6346.23,West,213.09000000000015
+2023,Gujarat,nuclear,3639.91,3639.91,West,0.0
+2023,Haryana,coal,32136.68,32136.68,North,0.0
+2023,Haryana,gas,2.59,2.5900000000000003,North,4.440892098500626e-16
+2023,Himachal Pradesh,hydro,38666.979999999996,41521.18,North,2854.2000000000044
+2023,Jammu and Kashmir,gas,0.0,0.0,North,0.0
+2023,Jammu and Kashmir,hydro,16777.42,17170.61,North,393.1900000000023
+2023,Jharkhand,coal,30472.780000000002,30472.78,East,-3.637978807091713e-12
+2023,Jharkhand,hydro,305.47,305.47,East,0.0
+2023,Karnataka,coal,35014.3,35014.3,South,0.0
+2023,Karnataka,gas,0.0,0.0,South,0.0
+2023,Karnataka,hydro,13157.34,15400.29,South,2242.9500000000007
+2023,Karnataka,nuclear,7443.24,7443.24,South,0.0
+2023,Kerala,gas,0.12,0.12,South,0.0
+2023,Kerala,hydro,7989.0,8813.32,South,824.3199999999997
+2023,Ladakh,hydro,402.78,402.78000000000003,North,5.684341886080802e-14
+2023,Lakshadweep,gas,15.02,0.0,South,-15.02
+2023,Madhya Pradesh,coal,135838.47,135838.47,West,0.0
+2023,Madhya Pradesh,hydro,7309.07,7667.03,West,357.96000000000004
+2023,Maharashtra,coal,124477.47,124477.47,West,0.0
+2023,Maharashtra,gas,2429.56,2429.56,West,0.0
+2023,Maharashtra,hydro,5894.29,6661.0199999999995,West,766.7299999999996
+2023,Maharashtra,nuclear,8985.48,8985.48,West,0.0
+2023,Manipur,gas,0.0,0.0,North-East,0.0
+2023,Manipur,hydro,477.98,477.98,North-East,0.0
+2023,Meghalaya,hydro,980.25,1051.88,North-East,71.63000000000011
+2023,Mizoram,hydro,204.13,263.15,North-East,59.01999999999998
+2023,Nagaland,hydro,177.37,289.32,North-East,111.94999999999999
+2023,Odisha,coal,64874.240000000005,64874.24,East,-7.275957614183426e-12
+2023,Odisha,hydro,5462.8099999999995,5887.75,East,424.9400000000005
+2023,Puducherry,gas,233.07,233.07,South,0.0
+2023,Punjab,coal,31506.160000000003,31506.16,North,-3.637978807091713e-12
+2023,Punjab,hydro,4399.650000000001,5082.13,North,682.4799999999996
+2023,Rajasthan,coal,55968.39,55968.39,North,0.0
+2023,Rajasthan,gas,1450.33,1450.33,North,0.0
+2023,Rajasthan,hydro,967.43,974.5899999999999,North,7.159999999999968
+2023,Rajasthan,nuclear,6587.27,6587.27,North,0.0
+2023,Sikkim,hydro,11696.79,11709.15,East,12.359999999998763
+2023,Tamil Nadu,coal,65221.28,65221.28,South,0.0
+2023,Tamil Nadu,gas,1861.95,1861.95,South,0.0
+2023,Tamil Nadu,hydro,5965.77,6262.4800000000005,South,296.71000000000004
+2023,Tamil Nadu,nuclear,16012.57,16012.57,South,0.0
+2023,Telangana,coal,50738.2,50738.2,South,0.0
+2023,Telangana,hydro,6010.07,6101.77,South,91.70000000000073
+2023,Tripura,gas,7079.48,7079.48,North-East,0.0
+2023,Uttar Pradesh,coal,151154.99,151154.98,North,-0.009999999980209395
+2023,Uttar Pradesh,gas,908.23,908.23,North,0.0
+2023,Uttar Pradesh,hydro,974.04,1208.73,North,234.69000000000005
+2023,Uttar Pradesh,nuclear,3192.62,3192.62,North,0.0
+2023,Uttarakhand,gas,0.0,0.0,North,0.0
+2023,Uttarakhand,hydro,15435.77,15789.17,North,353.39999999999964
+2023,West Bengal,coal,87612.45,87612.45,East,0.0
+2023,West Bengal,gas,0.0,0.0,East,0.0
+2023,West Bengal,hydro,3423.73,3628.16,East,204.42999999999984
+2024,Andaman and Nicobar,gas,335.78999999999996,335.79,East,5.684341886080802e-14
+2024,Andhra Pradesh,coal,71241.24,71241.24,South,0.0
+2024,Andhra Pradesh,gas,2.41,2.41,South,0.0
+2024,Andhra Pradesh,hydro,1373.19,1500.29,South,127.09999999999991
+2024,Arunachal Pradesh,hydro,4278.18,4278.83,North-East,0.6499999999996362
+2024,Assam,coal,5058.11,5058.11,North-East,0.0
+2024,Assam,gas,3375.27,3375.27,North-East,0.0
+2024,Assam,hydro,614.7,678.9,North-East,64.19999999999993
+2024,Bihar,coal,58361.799999999996,58361.799999999996,East,0.0
+2024,Chhattisgarh,coal,162388.63,162388.63,West,0.0
+2024,Chhattisgarh,hydro,321.76,467.31,West,145.55
+2024,Delhi,gas,3755.1400000000003,3755.14,North,-4.547473508864641e-13
+2024,Goa,gas,0.0,0.0,West,0.0
+2024,Gujarat,coal,76597.43,76597.43,West,0.0
+2024,Gujarat,gas,8185.06,8185.0599999999995,West,-9.094947017729282e-13
+2024,Gujarat,hydro,4556.33,4774.0,West,217.67000000000007
+2024,Gujarat,nuclear,7576.86,7576.86,West,0.0
+2024,Haryana,coal,28060.15,28060.15,North,0.0
+2024,Haryana,gas,137.28,137.28,North,0.0
+2024,Himachal Pradesh,hydro,36365.85,38892.83,North,2526.980000000003
+2024,Jammu and Kashmir,gas,0.0,0.0,North,0.0
+2024,Jammu and Kashmir,hydro,15874.239999999998,16282.93,North,408.6900000000023
+2024,Jharkhand,coal,35764.81,35764.81,East,0.0
+2024,Jharkhand,hydro,196.8,199.54,East,2.7399999999999807
+2024,Karnataka,coal,44466.58,44466.58,South,0.0
+2024,Karnataka,gas,0.0,0.0,South,0.0
+2024,Karnataka,hydro,8973.17,10294.55,South,1321.3799999999992
+2024,Karnataka,nuclear,7502.65,7502.65,South,0.0
+2024,Kerala,gas,0.0,0.0,South,0.0
+2024,Kerala,hydro,5155.72,5872.0199999999995,South,716.2999999999993
+2024,Ladakh,hydro,388.48,388.48,North,0.0
+2024,Lakshadweep,gas,64.79,0.0,South,-64.79
+2024,Madhya Pradesh,coal,148680.03,148680.03,West,0.0
+2024,Madhya Pradesh,hydro,6444.78,6914.37,West,469.59000000000015
+2024,Maharashtra,coal,132924.8,132924.8,West,0.0
+2024,Maharashtra,gas,3970.83,3970.83,West,0.0
+2024,Maharashtra,hydro,5264.49,6152.97,West,888.4800000000005
+2024,Maharashtra,nuclear,8112.38,8112.38,West,0.0
+2024,Manipur,gas,0.0,0.0,North-East,0.0
+2024,Manipur,hydro,298.18,298.18,North-East,0.0
+2024,Meghalaya,hydro,808.58,875.13,North-East,66.54999999999995
+2024,Mizoram,hydro,118.63,214.51,North-East,95.88
+2024,Nagaland,hydro,165.47,246.60999999999999,North-East,81.13999999999999
+2024,Odisha,coal,66019.81,65756.81999999999,East,-262.99000000000524
+2024,Odisha,hydro,6162.200000000001,6570.18,East,407.97999999999956
+2024,Puducherry,gas,224.1,224.1,South,0.0
+2024,Punjab,coal,32462.85,32462.85,North,0.0
+2024,Punjab,hydro,4676.42,5313.39,North,636.9700000000003
+2024,Rajasthan,coal,60478.08,60478.08,North,0.0
+2024,Rajasthan,gas,1144.62,1144.6100000000001,North,-0.009999999999763531
+2024,Rajasthan,hydro,1013.97,1021.4300000000001,North,7.460000000000036
+2024,Rajasthan,nuclear,7059.67,7059.67,North,0.0
+2024,Sikkim,hydro,8609.85,8622.22,East,12.369999999998981
+2024,Tamil Nadu,coal,73415.2,73415.19,South,-0.00999999999476131
+2024,Tamil Nadu,gas,1918.62,1918.6200000000001,South,2.2737367544323206e-13
+2024,Tamil Nadu,hydro,3563.28,3769.27,South,205.98999999999978
+2024,Tamil Nadu,nuclear,14811.22,14811.22,South,0.0
+2024,Telangana,coal,56913.729999999996,56913.73,South,7.275957614183426e-12
+2024,Telangana,hydro,1243.29,1302.17,South,58.88000000000011
+2024,Tripura,gas,6353.3099999999995,6353.3099999999995,North-East,0.0
+2024,Uttar Pradesh,coal,152505.2,152505.2,North,0.0
+2024,Uttar Pradesh,gas,1619.52,1619.52,North,0.0
+2024,Uttar Pradesh,hydro,850.64,1025.8899999999999,North,175.2499999999999
+2024,Uttar Pradesh,nuclear,2874.63,2874.63,North,0.0
+2024,Uttarakhand,gas,609.78,609.78,North,0.0
+2024,Uttarakhand,hydro,13919.23,14272.630000000001,North,353.40000000000146
+2024,West Bengal,coal,89513.96,89513.95,East,-0.010000000009313226
+2024,West Bengal,gas,0.0,0.0,East,0.0
+2024,West Bengal,hydro,2816.49,3020.95,East,204.46000000000004
+2025,Andaman and Nicobar,gas,374.18,374.18,East,0.0
+2025,Andhra Pradesh,coal,72832.94,72832.94,South,0.0
+2025,Andhra Pradesh,gas,34.04,34.04,South,0.0
+2025,Andhra Pradesh,hydro,3303.08,3597.43,South,294.3499999999999
+2025,Arunachal Pradesh,hydro,4205.16,4205.75,North-East,0.5900000000001455
+2025,Assam,coal,4787.2,4787.2,North-East,0.0
+2025,Assam,gas,3407.99,3407.99,North-East,0.0
+2025,Assam,hydro,998.75,1195.35,North-East,196.5999999999999
+2025,Bihar,coal,60757.75,60757.75,East,0.0
+2025,Chhattisgarh,coal,166431.38,166431.38,West,0.0
+2025,Chhattisgarh,hydro,419.42,558.76,West,139.33999999999997
+2025,Delhi,gas,3878.0099999999998,3878.01,North,4.547473508864641e-13
+2025,Goa,gas,0.0,0.0,West,0.0
+2025,Gujarat,coal,85015.59,85015.58,West,-0.00999999999476131
+2025,Gujarat,gas,8411.7,8411.7,West,0.0
+2025,Gujarat,hydro,6028.52,6234.52,West,206.0
+2025,Gujarat,nuclear,12301.55,12301.55,West,0.0
+2025,Haryana,coal,30228.56,30228.559999999998,North,-3.637978807091713e-12
+2025,Haryana,gas,215.37,215.37,North,0.0
+2025,Himachal Pradesh,hydro,39386.29,42427.19,North,3040.9000000000015
+2025,Jammu and Kashmir,gas,0.0,0.0,North,0.0
+2025,Jammu and Kashmir,hydro,15200.65,15595.81,North,395.15999999999985
+2025,Jharkhand,coal,38812.21000000001,38812.21,East,-7.275957614183426e-12
+2025,Jharkhand,hydro,269.12,275.38,East,6.259999999999991
+2025,Karnataka,coal,44367.92999999999,44367.93,South,7.275957614183426e-12
+2025,Karnataka,gas,314.38,222.38,South,-92.0
+2025,Karnataka,hydro,14056.0,16215.49,South,2159.49
+2025,Karnataka,nuclear,7358.02,7358.02,South,0.0
+2025,Kerala,gas,1.53,1.5299999999999998,South,-2.220446049250313e-16
+2025,Kerala,hydro,6733.99,7548.28,South,814.29
+2025,Ladakh,hydro,413.06,413.06,North,0.0
+2025,Lakshadweep,gas,66.94,0.0,South,-66.94
+2025,Madhya Pradesh,coal,146116.76,146116.76,West,0.0
+2025,Madhya Pradesh,hydro,7606.73,8088.92,West,482.1900000000005
+2025,Maharashtra,coal,131157.23,131157.22,West,-0.010000000009313226
+2025,Maharashtra,gas,5390.97,5390.97,West,0.0
+2025,Maharashtra,hydro,5635.24,6490.72,West,855.4800000000005
+2025,Maharashtra,nuclear,8467.44,8467.44,West,0.0
+2025,Manipur,gas,0.0,0.0,North-East,0.0
+2025,Manipur,hydro,706.37,706.37,North-East,0.0
+2025,Meghalaya,hydro,905.58,1022.22,North-East,116.63999999999999
+2025,Mizoram,hydro,240.3,292.4,North-East,52.099999999999966
+2025,Nagaland,hydro,215.02,313.65,North-East,98.62999999999997
+2025,Odisha,coal,68638.78,68579.19,East,-59.58999999999651
+2025,Odisha,hydro,6285.36,6742.55,East,457.1900000000005
+2025,Puducherry,gas,204.95,204.95,South,0.0
+2025,Punjab,coal,33575.21,33575.21,North,0.0
+2025,Punjab,hydro,4126.11,4860.12,North,734.0100000000002
+2025,Rajasthan,coal,65065.259999999995,65065.25,North,-0.00999999999476131
+2025,Rajasthan,gas,921.9,921.9,North,0.0
+2025,Rajasthan,hydro,905.8,909.95,North,4.150000000000091
+2025,Rajasthan,nuclear,7430.95,7430.950000000001,North,9.094947017729282e-13
+2025,Sikkim,hydro,2012.67,2025.03,East,12.3599999999999
+2025,Tamil Nadu,coal,72605.59,72605.59,South,0.0
+2025,Tamil Nadu,gas,1615.77,1615.77,South,0.0
+2025,Tamil Nadu,hydro,4602.72,4859.33,South,256.6099999999997
+2025,Tamil Nadu,nuclear,17493.39,17493.39,South,0.0
+2025,Telangana,coal,56969.2,57154.06,South,184.86000000000058
+2025,Telangana,hydro,5270.78,5345.28,South,74.5
+2025,Tripura,gas,5099.65,5099.65,North-East,0.0
+2025,Uttar Pradesh,coal,161337.3,161337.3,North,0.0
+2025,Uttar Pradesh,gas,1247.56,1247.56,North,0.0
+2025,Uttar Pradesh,hydro,1273.74,1452.73,North,178.99
+2025,Uttar Pradesh,nuclear,3629.48,3629.48,North,0.0
+2025,Uttarakhand,gas,837.76,837.76,North,0.0
+2025,Uttarakhand,hydro,15183.82,15446.96,North,263.1399999999994
+2025,West Bengal,coal,93168.17,93168.16,East,-0.00999999999476131
+2025,West Bengal,gas,0.0,0.0,East,0.0
+2025,West Bengal,hydro,2649.7,2832.9900000000002,East,183.29000000000042
+2020,Andaman and Nicobar,coal,0.0,0.0,East,0.0
+2020,Andaman and Nicobar,hydro,0.0,6.14,East,6.14
+2020,Andaman and Nicobar,nuclear,0.0,0.0,East,0.0
+2020,Andhra Pradesh,nuclear,0.0,0.0,South,0.0
+2020,Arunachal Pradesh,coal,0.0,0.0,North-East,0.0
+2020,Arunachal Pradesh,gas,0.0,0.0,North-East,0.0
+2020,Arunachal Pradesh,nuclear,0.0,0.0,North-East,0.0
+2020,Assam,nuclear,0.0,0.0,North-East,0.0
+2020,Bihar,gas,0.0,0.0,East,0.0
+2020,Bihar,hydro,0.0,15.690000000000001,East,15.690000000000001
+2020,Bihar,nuclear,0.0,0.0,East,0.0
+2020,Chandigarh,coal,0.0,0.0,North,0.0
+2020,Chandigarh,gas,0.0,0.0,North,0.0
+2020,Chandigarh,hydro,0.0,0.0,North,0.0
+2020,Chandigarh,nuclear,0.0,0.0,North,0.0
+2020,Chhattisgarh,gas,0.0,0.0,West,0.0
+2020,Chhattisgarh,nuclear,0.0,0.0,West,0.0
+2020,Dadra and Nagar Haveli and Daman and Diu,coal,0.0,0.0,West,0.0
+2020,Dadra and Nagar Haveli and Daman and Diu,gas,0.0,0.0,West,0.0
+2020,Dadra and Nagar Haveli and Daman and Diu,hydro,0.0,0.0,West,0.0
+2020,Dadra and Nagar Haveli and Daman and Diu,nuclear,0.0,0.0,West,0.0
+2020,Delhi,hydro,0.0,0.0,North,0.0
+2020,Delhi,nuclear,0.0,0.0,North,0.0
+2020,Goa,coal,0.0,0.0,West,0.0
+2020,Goa,hydro,0.0,0.0,West,0.0
+2020,Goa,nuclear,0.0,0.0,West,0.0
+2020,Haryana,hydro,0.0,330.95,North,330.95
+2020,Haryana,nuclear,0.0,0.0,North,0.0
+2020,Himachal Pradesh,coal,0.0,0.0,North,0.0
+2020,Himachal Pradesh,gas,0.0,0.0,North,0.0
+2020,Himachal Pradesh,nuclear,0.0,0.0,North,0.0
+2020,Jammu and Kashmir,coal,0.0,0.0,North,0.0
+2020,Jammu and Kashmir,nuclear,0.0,0.0,North,0.0
+2020,Jharkhand,gas,0.0,0.0,East,0.0
+2020,Jharkhand,nuclear,0.0,0.0,East,0.0
+2020,Kerala,coal,0.0,0.0,South,0.0
+2020,Kerala,nuclear,0.0,0.0,South,0.0
+2020,Lakshadweep,coal,0.0,0.0,South,0.0
+2020,Lakshadweep,gas,0.0,0.0,South,0.0
+2020,Lakshadweep,hydro,0.0,0.0,South,0.0
+2020,Lakshadweep,nuclear,0.0,0.0,South,0.0
+2020,Madhya Pradesh,gas,0.0,0.0,West,0.0
+2020,Madhya Pradesh,nuclear,0.0,0.0,West,0.0
+2020,Manipur,coal,0.0,0.0,North-East,0.0
+2020,Manipur,nuclear,0.0,0.0,North-East,0.0
+2020,Meghalaya,coal,0.0,0.0,North-East,0.0
+2020,Meghalaya,gas,0.0,0.0,North-East,0.0
+2020,Meghalaya,nuclear,0.0,0.0,North-East,0.0
+2020,Mizoram,coal,0.0,0.0,North-East,0.0
+2020,Mizoram,gas,0.0,0.0,North-East,0.0
+2020,Mizoram,nuclear,0.0,0.0,North-East,0.0
+2020,Nagaland,coal,0.0,0.0,North-East,0.0
+2020,Nagaland,gas,0.0,0.0,North-East,0.0
+2020,Nagaland,nuclear,0.0,0.0,North-East,0.0
+2020,Odisha,gas,0.0,0.0,East,0.0
+2020,Odisha,nuclear,0.0,0.0,East,0.0
+2020,Puducherry,coal,0.0,0.0,South,0.0
+2020,Puducherry,hydro,0.0,0.0,South,0.0
+2020,Puducherry,nuclear,0.0,0.0,South,0.0
+2020,Punjab,gas,0.0,0.0,North,0.0
+2020,Punjab,nuclear,0.0,0.0,North,0.0
+2020,Sikkim,coal,0.0,0.0,East,0.0
+2020,Sikkim,gas,0.0,0.0,East,0.0
+2020,Sikkim,nuclear,0.0,0.0,East,0.0
+2020,Telangana,gas,0.0,0.0,South,0.0
+2020,Telangana,nuclear,0.0,0.0,South,0.0
+2020,Tripura,coal,0.0,0.0,North-East,0.0
+2020,Tripura,hydro,0.0,24.67,North-East,24.67
+2020,Tripura,nuclear,0.0,0.0,North-East,0.0
+2020,Uttarakhand,coal,0.0,0.0,North,0.0
+2020,Uttarakhand,nuclear,0.0,0.0,North,0.0
+2020,West Bengal,nuclear,0.0,0.0,East,0.0
+2021,Andaman and Nicobar,coal,0.0,0.0,East,0.0
+2021,Andaman and Nicobar,hydro,0.0,14.69,East,14.69
+2021,Andaman and Nicobar,nuclear,0.0,0.0,East,0.0
+2021,Andhra Pradesh,nuclear,0.0,0.0,South,0.0
+2021,Arunachal Pradesh,coal,0.0,0.0,North-East,0.0
+2021,Arunachal Pradesh,gas,0.0,0.0,North-East,0.0
+2021,Arunachal Pradesh,nuclear,0.0,0.0,North-East,0.0
+2021,Assam,nuclear,0.0,0.0,North-East,0.0
+2021,Bihar,gas,0.0,0.0,East,0.0
+2021,Bihar,hydro,0.0,39.74,East,39.74
+2021,Bihar,nuclear,0.0,0.0,East,0.0
+2021,Chandigarh,coal,0.0,0.0,North,0.0
+2021,Chandigarh,gas,0.0,0.0,North,0.0
+2021,Chandigarh,hydro,0.0,0.0,North,0.0
+2021,Chandigarh,nuclear,0.0,0.0,North,0.0
+2021,Chhattisgarh,gas,0.0,0.0,West,0.0
+2021,Chhattisgarh,nuclear,0.0,0.0,West,0.0
+2021,Dadra and Nagar Haveli and Daman and Diu,coal,0.0,0.0,West,0.0
+2021,Dadra and Nagar Haveli and Daman and Diu,gas,0.0,0.0,West,0.0
+2021,Dadra and Nagar Haveli and Daman and Diu,hydro,0.0,0.0,West,0.0
+2021,Dadra and Nagar Haveli and Daman and Diu,nuclear,0.0,0.0,West,0.0
+2021,Delhi,hydro,0.0,0.0,North,0.0
+2021,Delhi,nuclear,0.0,0.0,North,0.0
+2021,Goa,coal,0.0,0.0,West,0.0
+2021,Goa,hydro,0.0,0.0,West,0.0
+2021,Goa,nuclear,0.0,0.0,West,0.0
+2021,Haryana,hydro,0.0,276.58,North,276.58
+2021,Haryana,nuclear,0.0,0.0,North,0.0
+2021,Himachal Pradesh,coal,0.0,0.0,North,0.0
+2021,Himachal Pradesh,gas,0.0,0.0,North,0.0
+2021,Himachal Pradesh,nuclear,0.0,0.0,North,0.0
+2021,Jammu and Kashmir,coal,0.0,0.0,North,0.0
+2021,Jammu and Kashmir,nuclear,0.0,0.0,North,0.0
+2021,Jharkhand,gas,0.0,0.0,East,0.0
+2021,Jharkhand,nuclear,0.0,0.0,East,0.0
+2021,Kerala,coal,0.0,0.0,South,0.0
+2021,Kerala,nuclear,0.0,0.0,South,0.0
+2021,Lakshadweep,coal,0.0,0.0,South,0.0
+2021,Lakshadweep,gas,0.0,0.0,South,0.0
+2021,Lakshadweep,hydro,0.0,0.0,South,0.0
+2021,Lakshadweep,nuclear,0.0,0.0,South,0.0
+2021,Madhya Pradesh,gas,0.0,0.0,West,0.0
+2021,Madhya Pradesh,nuclear,0.0,0.0,West,0.0
+2021,Manipur,coal,0.0,0.0,North-East,0.0
+2021,Manipur,nuclear,0.0,0.0,North-East,0.0
+2021,Meghalaya,coal,0.0,0.0,North-East,0.0
+2021,Meghalaya,gas,0.0,0.0,North-East,0.0
+2021,Meghalaya,nuclear,0.0,0.0,North-East,0.0
+2021,Mizoram,coal,0.0,0.0,North-East,0.0
+2021,Mizoram,gas,0.0,0.0,North-East,0.0
+2021,Mizoram,nuclear,0.0,0.0,North-East,0.0
+2021,Nagaland,coal,0.0,0.0,North-East,0.0
+2021,Nagaland,gas,0.0,0.0,North-East,0.0
+2021,Nagaland,nuclear,0.0,0.0,North-East,0.0
+2021,Odisha,gas,0.0,0.0,East,0.0
+2021,Odisha,nuclear,0.0,0.0,East,0.0
+2021,Puducherry,coal,0.0,0.0,South,0.0
+2021,Puducherry,hydro,0.0,0.0,South,0.0
+2021,Puducherry,nuclear,0.0,0.0,South,0.0
+2021,Punjab,gas,0.0,0.0,North,0.0
+2021,Punjab,nuclear,0.0,0.0,North,0.0
+2021,Sikkim,coal,0.0,0.0,East,0.0
+2021,Sikkim,gas,0.0,0.0,East,0.0
+2021,Sikkim,nuclear,0.0,0.0,East,0.0
+2021,Telangana,gas,0.0,0.0,South,0.0
+2021,Telangana,nuclear,0.0,0.0,South,0.0
+2021,Tripura,coal,0.0,0.0,North-East,0.0
+2021,Tripura,hydro,0.0,9.57,North-East,9.57
+2021,Tripura,nuclear,0.0,0.0,North-East,0.0
+2021,Uttarakhand,coal,0.0,0.0,North,0.0
+2021,Uttarakhand,nuclear,0.0,0.0,North,0.0
+2021,West Bengal,nuclear,0.0,0.0,East,0.0
+2022,Andaman and Nicobar,coal,0.0,0.0,East,0.0
+2022,Andaman and Nicobar,hydro,0.0,13.27,East,13.27
+2022,Andaman and Nicobar,nuclear,0.0,0.0,East,0.0
+2022,Andhra Pradesh,nuclear,0.0,0.0,South,0.0
+2022,Arunachal Pradesh,coal,0.0,0.0,North-East,0.0
+2022,Arunachal Pradesh,gas,0.0,0.0,North-East,0.0
+2022,Arunachal Pradesh,nuclear,0.0,0.0,North-East,0.0
+2022,Assam,nuclear,0.0,0.0,North-East,0.0
+2022,Bihar,gas,0.0,0.0,East,0.0
+2022,Bihar,hydro,0.0,8.77,East,8.77
+2022,Bihar,nuclear,0.0,0.0,East,0.0
+2022,Chandigarh,coal,0.0,0.0,North,0.0
+2022,Chandigarh,gas,0.0,0.0,North,0.0
+2022,Chandigarh,hydro,0.0,0.0,North,0.0
+2022,Chandigarh,nuclear,0.0,0.0,North,0.0
+2022,Chhattisgarh,gas,0.0,0.0,West,0.0
+2022,Chhattisgarh,nuclear,0.0,0.0,West,0.0
+2022,Dadra and Nagar Haveli and Daman and Diu,coal,0.0,0.0,West,0.0
+2022,Dadra and Nagar Haveli and Daman and Diu,gas,0.0,0.0,West,0.0
+2022,Dadra and Nagar Haveli and Daman and Diu,hydro,0.0,0.0,West,0.0
+2022,Dadra and Nagar Haveli and Daman and Diu,nuclear,0.0,0.0,West,0.0
+2022,Delhi,coal,0.0,0.0,North,0.0
+2022,Delhi,hydro,0.0,0.0,North,0.0
+2022,Delhi,nuclear,0.0,0.0,North,0.0
+2022,Goa,coal,0.0,0.0,West,0.0
+2022,Goa,hydro,0.0,0.0,West,0.0
+2022,Goa,nuclear,0.0,0.0,West,0.0
+2022,Haryana,hydro,0.0,270.13,North,270.13
+2022,Haryana,nuclear,0.0,0.0,North,0.0
+2022,Himachal Pradesh,coal,0.0,0.0,North,0.0
+2022,Himachal Pradesh,gas,0.0,0.0,North,0.0
+2022,Himachal Pradesh,nuclear,0.0,0.0,North,0.0
+2022,Jammu and Kashmir,coal,0.0,0.0,North,0.0
+2022,Jammu and Kashmir,nuclear,0.0,0.0,North,0.0
+2022,Jharkhand,gas,0.0,0.0,East,0.0
+2022,Jharkhand,nuclear,0.0,0.0,East,0.0
+2022,Kerala,coal,0.0,0.0,South,0.0
+2022,Kerala,nuclear,0.0,0.0,South,0.0
+2022,Ladakh,coal,0.0,0.0,North,0.0
+2022,Ladakh,gas,0.0,0.0,North,0.0
+2022,Ladakh,nuclear,0.0,0.0,North,0.0
+2022,Lakshadweep,coal,0.0,0.0,South,0.0
+2022,Lakshadweep,gas,0.0,0.0,South,0.0
+2022,Lakshadweep,hydro,0.0,0.0,South,0.0
+2022,Lakshadweep,nuclear,0.0,0.0,South,0.0
+2022,Madhya Pradesh,gas,0.0,0.0,West,0.0
+2022,Madhya Pradesh,nuclear,0.0,0.0,West,0.0
+2022,Manipur,coal,0.0,0.0,North-East,0.0
+2022,Manipur,nuclear,0.0,0.0,North-East,0.0
+2022,Meghalaya,coal,0.0,0.0,North-East,0.0
+2022,Meghalaya,gas,0.0,0.0,North-East,0.0
+2022,Meghalaya,nuclear,0.0,0.0,North-East,0.0
+2022,Mizoram,coal,0.0,0.0,North-East,0.0
+2022,Mizoram,gas,0.0,0.0,North-East,0.0
+2022,Mizoram,nuclear,0.0,0.0,North-East,0.0
+2022,Nagaland,coal,0.0,0.0,North-East,0.0
+2022,Nagaland,gas,0.0,0.0,North-East,0.0
+2022,Nagaland,nuclear,0.0,0.0,North-East,0.0
+2022,Odisha,gas,0.0,0.0,East,0.0
+2022,Odisha,nuclear,0.0,0.0,East,0.0
+2022,Puducherry,coal,0.0,0.0,South,0.0
+2022,Puducherry,hydro,0.0,0.0,South,0.0
+2022,Puducherry,nuclear,0.0,0.0,South,0.0
+2022,Punjab,gas,0.0,0.0,North,0.0
+2022,Punjab,nuclear,0.0,0.0,North,0.0
+2022,Sikkim,coal,0.0,0.0,East,0.0
+2022,Sikkim,gas,0.0,0.0,East,0.0
+2022,Sikkim,nuclear,0.0,0.0,East,0.0
+2022,Telangana,gas,0.0,0.0,South,0.0
+2022,Telangana,nuclear,0.0,0.0,South,0.0
+2022,Tripura,coal,0.0,0.0,North-East,0.0
+2022,Tripura,hydro,0.0,1.44,North-East,1.44
+2022,Tripura,nuclear,0.0,0.0,North-East,0.0
+2022,Uttarakhand,coal,0.0,0.0,North,0.0
+2022,Uttarakhand,nuclear,0.0,0.0,North,0.0
+2022,West Bengal,nuclear,0.0,0.0,East,0.0
+2023,Andaman and Nicobar,coal,0.0,0.0,East,0.0
+2023,Andaman and Nicobar,hydro,0.0,13.94,East,13.94
+2023,Andaman and Nicobar,nuclear,0.0,0.0,East,0.0
+2023,Andhra Pradesh,nuclear,0.0,0.0,South,0.0
+2023,Arunachal Pradesh,coal,0.0,0.0,North-East,0.0
+2023,Arunachal Pradesh,gas,0.0,0.0,North-East,0.0
+2023,Arunachal Pradesh,nuclear,0.0,0.0,North-East,0.0
+2023,Assam,nuclear,0.0,0.0,North-East,0.0
+2023,Bihar,gas,0.0,0.0,East,0.0
+2023,Bihar,hydro,0.0,12.620000000000001,East,12.620000000000001
+2023,Bihar,nuclear,0.0,0.0,East,0.0
+2023,Chandigarh,coal,0.0,0.0,North,0.0
+2023,Chandigarh,gas,0.0,0.0,North,0.0
+2023,Chandigarh,hydro,0.0,0.0,North,0.0
+2023,Chandigarh,nuclear,0.0,0.0,North,0.0
+2023,Chhattisgarh,gas,0.0,0.0,West,0.0
+2023,Chhattisgarh,nuclear,0.0,0.0,West,0.0
+2023,Dadra and Nagar Haveli and Daman and Diu,coal,0.0,0.0,West,0.0
+2023,Dadra and Nagar Haveli and Daman and Diu,gas,0.0,0.0,West,0.0
+2023,Dadra and Nagar Haveli and Daman and Diu,hydro,0.0,0.0,West,0.0
+2023,Dadra and Nagar Haveli and Daman and Diu,nuclear,0.0,0.0,West,0.0
+2023,Delhi,coal,0.0,0.0,North,0.0
+2023,Delhi,hydro,0.0,0.0,North,0.0
+2023,Delhi,nuclear,0.0,0.0,North,0.0
+2023,Goa,coal,0.0,0.0,West,0.0
+2023,Goa,hydro,0.0,0.0,West,0.0
+2023,Goa,nuclear,0.0,0.0,West,0.0
+2023,Haryana,hydro,0.0,241.9,North,241.9
+2023,Haryana,nuclear,0.0,0.0,North,0.0
+2023,Himachal Pradesh,coal,0.0,0.0,North,0.0
+2023,Himachal Pradesh,gas,0.0,0.0,North,0.0
+2023,Himachal Pradesh,nuclear,0.0,0.0,North,0.0
+2023,Jammu and Kashmir,coal,0.0,0.0,North,0.0
+2023,Jammu and Kashmir,nuclear,0.0,0.0,North,0.0
+2023,Jharkhand,gas,0.0,0.0,East,0.0
+2023,Jharkhand,nuclear,0.0,0.0,East,0.0
+2023,Kerala,coal,0.0,0.0,South,0.0
+2023,Kerala,nuclear,0.0,0.0,South,0.0
+2023,Ladakh,coal,0.0,0.0,North,0.0
+2023,Ladakh,gas,0.0,0.0,North,0.0
+2023,Ladakh,nuclear,0.0,0.0,North,0.0
+2023,Lakshadweep,coal,0.0,15.02,South,15.02
+2023,Lakshadweep,hydro,0.0,0.0,South,0.0
+2023,Lakshadweep,nuclear,0.0,0.0,South,0.0
+2023,Madhya Pradesh,gas,0.0,0.0,West,0.0
+2023,Madhya Pradesh,nuclear,0.0,0.0,West,0.0
+2023,Manipur,coal,0.0,0.0,North-East,0.0
+2023,Manipur,nuclear,0.0,0.0,North-East,0.0
+2023,Meghalaya,coal,0.0,0.0,North-East,0.0
+2023,Meghalaya,gas,0.0,0.0,North-East,0.0
+2023,Meghalaya,nuclear,0.0,0.0,North-East,0.0
+2023,Mizoram,coal,0.0,0.0,North-East,0.0
+2023,Mizoram,gas,0.0,0.0,North-East,0.0
+2023,Mizoram,nuclear,0.0,0.0,North-East,0.0
+2023,Nagaland,coal,0.0,0.0,North-East,0.0
+2023,Nagaland,gas,0.0,0.0,North-East,0.0
+2023,Nagaland,nuclear,0.0,0.0,North-East,0.0
+2023,Odisha,gas,0.0,0.0,East,0.0
+2023,Odisha,nuclear,0.0,0.0,East,0.0
+2023,Puducherry,coal,0.0,0.0,South,0.0
+2023,Puducherry,hydro,0.0,0.0,South,0.0
+2023,Puducherry,nuclear,0.0,0.0,South,0.0
+2023,Punjab,gas,0.0,0.0,North,0.0
+2023,Punjab,nuclear,0.0,0.0,North,0.0
+2023,Sikkim,coal,0.0,0.0,East,0.0
+2023,Sikkim,gas,0.0,0.0,East,0.0
+2023,Sikkim,nuclear,0.0,0.0,East,0.0
+2023,Telangana,gas,0.0,0.0,South,0.0
+2023,Telangana,nuclear,0.0,0.0,South,0.0
+2023,Tripura,coal,0.0,0.0,North-East,0.0
+2023,Tripura,hydro,0.0,0.0,North-East,0.0
+2023,Tripura,nuclear,0.0,0.0,North-East,0.0
+2023,Uttarakhand,coal,0.0,0.0,North,0.0
+2023,Uttarakhand,nuclear,0.0,0.0,North,0.0
+2023,West Bengal,nuclear,0.0,0.0,East,0.0
+2024,Andaman and Nicobar,coal,0.0,0.0,East,0.0
+2024,Andaman and Nicobar,hydro,0.0,11.99,East,11.99
+2024,Andaman and Nicobar,nuclear,0.0,0.0,East,0.0
+2024,Andhra Pradesh,nuclear,0.0,0.0,South,0.0
+2024,Arunachal Pradesh,coal,0.0,0.0,North-East,0.0
+2024,Arunachal Pradesh,gas,0.0,0.0,North-East,0.0
+2024,Arunachal Pradesh,nuclear,0.0,0.0,North-East,0.0
+2024,Assam,nuclear,0.0,0.0,North-East,0.0
+2024,Bihar,gas,0.0,0.0,East,0.0
+2024,Bihar,hydro,0.0,5.9,East,5.9
+2024,Bihar,nuclear,0.0,0.0,East,0.0
+2024,Chandigarh,hydro,0.0,0.0,North,0.0
+2024,Chhattisgarh,gas,0.0,0.0,West,0.0
+2024,Chhattisgarh,nuclear,0.0,0.0,West,0.0
+2024,Dadra and Nagar Haveli and Daman and Diu,hydro,0.0,0.0,West,0.0
+2024,Delhi,coal,0.0,0.0,North,0.0
+2024,Delhi,hydro,0.0,0.0,North,0.0
+2024,Delhi,nuclear,0.0,0.0,North,0.0
+2024,Goa,coal,0.0,0.0,West,0.0
+2024,Goa,hydro,0.0,0.0,West,0.0
+2024,Goa,nuclear,0.0,0.0,West,0.0
+2024,Haryana,hydro,0.0,222.05,North,222.05
+2024,Haryana,nuclear,0.0,0.0,North,0.0
+2024,Himachal Pradesh,coal,0.0,0.0,North,0.0
+2024,Himachal Pradesh,gas,0.0,0.0,North,0.0
+2024,Himachal Pradesh,nuclear,0.0,0.0,North,0.0
+2024,Jammu and Kashmir,coal,0.0,0.0,North,0.0
+2024,Jammu and Kashmir,nuclear,0.0,0.0,North,0.0
+2024,Jharkhand,gas,0.0,0.0,East,0.0
+2024,Jharkhand,nuclear,0.0,0.0,East,0.0
+2024,Kerala,coal,0.0,0.0,South,0.0
+2024,Kerala,nuclear,0.0,0.0,South,0.0
+2024,Ladakh,coal,0.0,0.0,North,0.0
+2024,Ladakh,gas,0.0,0.0,North,0.0
+2024,Ladakh,nuclear,0.0,0.0,North,0.0
+2024,Lakshadweep,coal,0.0,64.79,South,64.79
+2024,Lakshadweep,hydro,0.0,0.0,South,0.0
+2024,Lakshadweep,nuclear,0.0,0.0,South,0.0
+2024,Madhya Pradesh,gas,0.0,0.0,West,0.0
+2024,Madhya Pradesh,nuclear,0.0,0.0,West,0.0
+2024,Manipur,coal,0.0,0.0,North-East,0.0
+2024,Manipur,nuclear,0.0,0.0,North-East,0.0
+2024,Meghalaya,coal,0.0,0.0,North-East,0.0
+2024,Meghalaya,gas,0.0,0.0,North-East,0.0
+2024,Meghalaya,nuclear,0.0,0.0,North-East,0.0
+2024,Mizoram,coal,0.0,0.0,North-East,0.0
+2024,Mizoram,gas,0.0,0.0,North-East,0.0
+2024,Mizoram,nuclear,0.0,0.0,North-East,0.0
+2024,Nagaland,coal,0.0,0.0,North-East,0.0
+2024,Nagaland,gas,0.0,0.0,North-East,0.0
+2024,Nagaland,nuclear,0.0,0.0,North-East,0.0
+2024,Odisha,gas,0.0,0.0,East,0.0
+2024,Odisha,nuclear,0.0,0.0,East,0.0
+2024,Puducherry,coal,0.0,0.0,South,0.0
+2024,Puducherry,hydro,0.0,0.0,South,0.0
+2024,Puducherry,nuclear,0.0,0.0,South,0.0
+2024,Punjab,gas,0.0,0.0,North,0.0
+2024,Punjab,nuclear,0.0,0.0,North,0.0
+2024,Sikkim,coal,0.0,0.0,East,0.0
+2024,Sikkim,gas,0.0,0.0,East,0.0
+2024,Sikkim,nuclear,0.0,0.0,East,0.0
+2024,Telangana,gas,0.0,0.0,South,0.0
+2024,Telangana,nuclear,0.0,0.0,South,0.0
+2024,Tripura,coal,0.0,0.0,North-East,0.0
+2024,Tripura,hydro,0.0,0.0,North-East,0.0
+2024,Tripura,nuclear,0.0,0.0,North-East,0.0
+2024,Uttarakhand,coal,0.0,0.0,North,0.0
+2024,Uttarakhand,nuclear,0.0,0.0,North,0.0
+2024,West Bengal,nuclear,0.0,0.0,East,0.0
+2025,Andaman and Nicobar,coal,0.0,0.0,East,0.0
+2025,Andaman and Nicobar,hydro,0.0,14.4,East,14.4
+2025,Andaman and Nicobar,nuclear,0.0,0.0,East,0.0
+2025,Andhra Pradesh,nuclear,0.0,0.0,South,0.0
+2025,Arunachal Pradesh,coal,0.0,0.0,North-East,0.0
+2025,Arunachal Pradesh,gas,0.0,0.0,North-East,0.0
+2025,Arunachal Pradesh,nuclear,0.0,0.0,North-East,0.0
+2025,Assam,nuclear,0.0,0.0,North-East,0.0
+2025,Bihar,gas,0.0,0.0,East,0.0
+2025,Bihar,hydro,0.0,14.53,East,14.53
+2025,Bihar,nuclear,0.0,0.0,East,0.0
+2025,Chandigarh,hydro,0.0,0.0,North,0.0
+2025,Chhattisgarh,gas,0.0,0.0,West,0.0
+2025,Chhattisgarh,nuclear,0.0,0.0,West,0.0
+2025,Dadra and Nagar Haveli and Daman and Diu,hydro,0.0,0.0,West,0.0
+2025,Delhi,coal,0.0,0.0,North,0.0
+2025,Delhi,hydro,0.0,0.0,North,0.0
+2025,Delhi,nuclear,0.0,0.0,North,0.0
+2025,Goa,coal,0.0,0.0,West,0.0
+2025,Goa,hydro,0.0,0.0,West,0.0
+2025,Goa,nuclear,0.0,0.0,West,0.0
+2025,Haryana,hydro,0.0,314.64000000000004,North,314.64000000000004
+2025,Haryana,nuclear,0.0,0.0,North,0.0
+2025,Himachal Pradesh,coal,0.0,0.0,North,0.0
+2025,Himachal Pradesh,gas,0.0,0.0,North,0.0
+2025,Himachal Pradesh,nuclear,0.0,0.0,North,0.0
+2025,Jammu and Kashmir,coal,0.0,0.0,North,0.0
+2025,Jammu and Kashmir,nuclear,0.0,0.0,North,0.0
+2025,Jharkhand,gas,0.0,0.0,East,0.0
+2025,Jharkhand,nuclear,0.0,0.0,East,0.0
+2025,Kerala,coal,0.0,0.0,South,0.0
+2025,Kerala,nuclear,0.0,0.0,South,0.0
+2025,Ladakh,coal,0.0,0.0,North,0.0
+2025,Ladakh,gas,0.0,0.0,North,0.0
+2025,Ladakh,nuclear,0.0,0.0,North,0.0
+2025,Lakshadweep,coal,0.0,66.94,South,66.94
+2025,Lakshadweep,hydro,0.0,0.0,South,0.0
+2025,Lakshadweep,nuclear,0.0,0.0,South,0.0
+2025,Madhya Pradesh,gas,0.0,0.0,West,0.0
+2025,Madhya Pradesh,nuclear,0.0,0.0,West,0.0
+2025,Manipur,coal,0.0,0.0,North-East,0.0
+2025,Manipur,nuclear,0.0,0.0,North-East,0.0
+2025,Meghalaya,coal,0.0,0.0,North-East,0.0
+2025,Meghalaya,gas,0.0,0.0,North-East,0.0
+2025,Meghalaya,nuclear,0.0,0.0,North-East,0.0
+2025,Mizoram,coal,0.0,0.0,North-East,0.0
+2025,Mizoram,gas,0.0,0.0,North-East,0.0
+2025,Mizoram,nuclear,0.0,0.0,North-East,0.0
+2025,Nagaland,coal,0.0,0.0,North-East,0.0
+2025,Nagaland,gas,0.0,0.0,North-East,0.0
+2025,Nagaland,nuclear,0.0,0.0,North-East,0.0
+2025,Odisha,gas,0.0,0.0,East,0.0
+2025,Odisha,nuclear,0.0,0.0,East,0.0
+2025,Puducherry,coal,0.0,0.0,South,0.0
+2025,Puducherry,hydro,0.0,0.0,South,0.0
+2025,Puducherry,nuclear,0.0,0.0,South,0.0
+2025,Punjab,gas,0.0,0.0,North,0.0
+2025,Punjab,nuclear,0.0,0.0,North,0.0
+2025,Sikkim,coal,0.0,0.0,East,0.0
+2025,Sikkim,gas,0.0,0.0,East,0.0
+2025,Sikkim,nuclear,0.0,0.0,East,0.0
+2025,Telangana,gas,0.0,0.0,South,0.0
+2025,Telangana,nuclear,0.0,0.0,South,0.0
+2025,Tripura,coal,0.0,0.0,North-East,0.0
+2025,Tripura,hydro,0.0,0.0,North-East,0.0
+2025,Tripura,nuclear,0.0,0.0,North-East,0.0
+2025,Uttarakhand,coal,0.0,0.0,North,0.0
+2025,Uttarakhand,nuclear,0.0,0.0,North,0.0
+2025,West Bengal,nuclear,0.0,0.0,East,0.0

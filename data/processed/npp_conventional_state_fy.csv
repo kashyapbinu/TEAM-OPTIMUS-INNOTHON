@@ -1,0 +1,552 @@
+fy,state,region,source,gwh
+2019,Andaman and Nicobar,East,gas,120.73
+2019,Andhra Pradesh,South,coal,56120.17
+2019,Andhra Pradesh,South,gas,4750.71
+2019,Andhra Pradesh,South,hydro,2272.94
+2019,Arunachal Pradesh,North-East,hydro,1399.02
+2019,Assam,North-East,coal,2824.21
+2019,Assam,North-East,gas,2706.41
+2019,Assam,North-East,hydro,1694.3600000000001
+2019,Bihar,East,coal,32170.520000000004
+2019,Chhattisgarh,West,coal,115471.25
+2019,Chhattisgarh,West,hydro,243.08
+2019,Delhi,North,coal,1400.33
+2019,Delhi,North,gas,5735.71
+2019,Goa,West,gas,0.0
+2019,Gujarat,West,coal,81751.88
+2019,Gujarat,West,gas,12796.73
+2019,Gujarat,West,hydro,1042.81
+2019,Gujarat,West,nuclear,999.93
+2019,Haryana,North,coal,24838.34
+2019,Haryana,North,gas,597.09
+2019,Himachal Pradesh,North,hydro,35908.55
+2019,Jammu and Kashmir,North,gas,0.0
+2019,Jammu and Kashmir,North,hydro,16387.07
+2019,Jharkhand,East,coal,26800.65
+2019,Jharkhand,East,hydro,180.98000000000002
+2019,Karnataka,South,coal,30352.74
+2019,Karnataka,South,gas,0.0
+2019,Karnataka,South,hydro,12187.69
+2019,Karnataka,South,nuclear,7216.53
+2019,Kerala,South,gas,4.880000000000001
+2019,Kerala,South,hydro,7320.21
+2019,Ladakh,North,hydro,154.51
+2019,Madhya Pradesh,West,coal,118281.1
+2019,Madhya Pradesh,West,hydro,3396.67
+2019,Maharashtra,West,coal,112729.36
+2019,Maharashtra,West,gas,8451.14
+2019,Maharashtra,West,hydro,5076.860000000001
+2019,Maharashtra,West,nuclear,10766.42
+2019,Manipur,North-East,gas,0.0
+2019,Manipur,North-East,hydro,602.61
+2019,Meghalaya,North-East,hydro,929.53
+2019,Mizoram,North-East,hydro,168.44
+2019,Nagaland,North-East,hydro,231.47
+2019,Odisha,East,coal,40046.92
+2019,Odisha,East,hydro,6777.450000000001
+2019,Puducherry,South,gas,229.88
+2019,Punjab,North,coal,26364.260000000002
+2019,Punjab,North,hydro,4335.4
+2019,Rajasthan,North,coal,46675.92
+2019,Rajasthan,North,gas,1569.6599999999999
+2019,Rajasthan,North,hydro,698.4
+2019,Rajasthan,North,nuclear,8034.28
+2019,Sikkim,East,hydro,9022.07
+2019,Tamil Nadu,South,coal,67959.33
+2019,Tamil Nadu,South,gas,2904.05
+2019,Tamil Nadu,South,hydro,5281.59
+2019,Tamil Nadu,South,nuclear,7633.54
+2019,Telangana,South,coal,48218.42
+2019,Telangana,South,hydro,1744.61
+2019,Tripura,North-East,gas,6630.85
+2019,Uttar Pradesh,North,coal,116227.68
+2019,Uttar Pradesh,North,gas,2206.47
+2019,Uttar Pradesh,North,hydro,1176.36
+2019,Uttar Pradesh,North,nuclear,3161.89
+2019,Uttarakhand,North,gas,1254.24
+2019,Uttarakhand,North,hydro,13741.12
+2019,West Bengal,East,coal,74032.25
+2019,West Bengal,East,gas,0.0
+2019,West Bengal,East,hydro,2919.81
+2020,Andaman and Nicobar,East,gas,96.19
+2020,Andhra Pradesh,South,coal,56916.07
+2020,Andhra Pradesh,South,gas,3013.62
+2020,Andhra Pradesh,South,hydro,3013.43
+2020,Arunachal Pradesh,North-East,hydro,1786.46
+2020,Assam,North-East,coal,3929.96
+2020,Assam,North-East,gas,2808.7299999999996
+2020,Assam,North-East,hydro,1291.68
+2020,Bihar,East,coal,35360.76
+2020,Chhattisgarh,West,coal,117992.26999999999
+2020,Chhattisgarh,West,hydro,236.79
+2020,Delhi,North,coal,0.0
+2020,Delhi,North,gas,6015.11
+2020,Goa,West,gas,0.0
+2020,Gujarat,West,coal,84590.62
+2020,Gujarat,West,gas,13515.42
+2020,Gujarat,West,hydro,5414.68
+2020,Gujarat,West,nuclear,3428.6
+2020,Haryana,North,coal,16761.85
+2020,Haryana,North,gas,555.16
+2020,Himachal Pradesh,North,hydro,40834.880000000005
+2020,Jammu and Kashmir,North,gas,0.0
+2020,Jammu and Kashmir,North,hydro,18094.12
+2020,Jharkhand,East,coal,26072.08
+2020,Jharkhand,East,hydro,150.96
+2020,Karnataka,South,coal,23836.42
+2020,Karnataka,South,gas,0.0
+2020,Karnataka,South,hydro,14014.269999999999
+2020,Karnataka,South,nuclear,7278.22
+2020,Kerala,South,gas,12.04
+2020,Kerala,South,hydro,5454.04
+2020,Ladakh,North,hydro,270.28
+2020,Madhya Pradesh,West,coal,114818.28
+2020,Madhya Pradesh,West,hydro,6281.74
+2020,Maharashtra,West,coal,107002.16
+2020,Maharashtra,West,gas,7999.040000000001
+2020,Maharashtra,West,hydro,5880.58
+2020,Maharashtra,West,nuclear,10536.43
+2020,Manipur,North-East,gas,0.0
+2020,Manipur,North-East,hydro,366.59
+2020,Meghalaya,North-East,hydro,1018.29
+2020,Mizoram,North-East,hydro,177.02
+2020,Nagaland,North-East,hydro,180.85
+2020,Odisha,East,coal,41525.2
+2020,Odisha,East,hydro,6728.7699999999995
+2020,Puducherry,South,gas,255.79
+2020,Punjab,North,coal,20901.67
+2020,Punjab,North,hydro,5123.48
+2020,Rajasthan,North,coal,45851.11
+2020,Rajasthan,North,gas,1033.51
+2020,Rajasthan,North,hydro,606.18
+2020,Rajasthan,North,nuclear,8451.58
+2020,Sikkim,East,hydro,11027.36
+2020,Tamil Nadu,South,coal,62876.46
+2020,Tamil Nadu,South,gas,2869.99
+2020,Tamil Nadu,South,hydro,4765.24
+2020,Tamil Nadu,South,nuclear,12986.33
+2020,Telangana,South,coal,47347.78
+2020,Telangana,South,hydro,4507.04
+2020,Tripura,North-East,gas,6092.94
+2020,Uttar Pradesh,North,coal,117018.91
+2020,Uttar Pradesh,North,gas,2296.54
+2020,Uttar Pradesh,North,hydro,1073.48
+2020,Uttar Pradesh,North,nuclear,3791.29
+2020,Uttarakhand,North,gas,1986.79
+2020,Uttarakhand,North,hydro,14554.53
+2020,West Bengal,East,coal,71395.39
+2020,West Bengal,East,gas,0.0
+2020,West Bengal,East,hydro,2916.38
+2021,Andaman and Nicobar,East,gas,118.48
+2021,Andhra Pradesh,South,coal,46145.71
+2021,Andhra Pradesh,South,gas,3323.24
+2021,Andhra Pradesh,South,hydro,3280.12
+2021,Arunachal Pradesh,North-East,hydro,3451.34
+2021,Assam,North-East,coal,2976.74
+2021,Assam,North-East,gas,2721.3999999999996
+2021,Assam,North-East,hydro,270.87
+2021,Bihar,East,coal,33866.14
+2021,Chhattisgarh,West,coal,134614.5
+2021,Chhattisgarh,West,hydro,419.19
+2021,Delhi,North,coal,0.0
+2021,Delhi,North,gas,5304.01
+2021,Goa,West,gas,0.0
+2021,Gujarat,West,coal,77058.79
+2021,Gujarat,West,gas,18877.21
+2021,Gujarat,West,hydro,4233.36
+2021,Gujarat,West,nuclear,3712.96
+2021,Haryana,North,coal,13994.58
+2021,Haryana,North,gas,901.8
+2021,Himachal Pradesh,North,hydro,37473.47
+2021,Jammu and Kashmir,North,gas,0.0
+2021,Jammu and Kashmir,North,hydro,17002.68
+2021,Jharkhand,East,coal,27219.97
+2021,Jharkhand,East,hydro,223.09
+2021,Karnataka,South,coal,19861.239999999998
+2021,Karnataka,South,gas,0.0
+2021,Karnataka,South,hydro,12587.35
+2021,Karnataka,South,nuclear,7093.92
+2021,Kerala,South,gas,109.24
+2021,Kerala,South,hydro,6628.39
+2021,Ladakh,North,hydro,376.21
+2021,Madhya Pradesh,West,coal,123089.78
+2021,Madhya Pradesh,West,hydro,6477.33
+2021,Maharashtra,West,coal,98173.83
+2021,Maharashtra,West,gas,5963.43
+2021,Maharashtra,West,hydro,5548.46
+2021,Maharashtra,West,nuclear,7886.62
+2021,Manipur,North-East,gas,0.0
+2021,Manipur,North-East,hydro,621.62
+2021,Meghalaya,North-East,hydro,1151.99
+2021,Mizoram,North-East,hydro,158.85
+2021,Nagaland,North-East,hydro,203.86
+2021,Odisha,East,coal,55206.47
+2021,Odisha,East,hydro,6859.969999999999
+2021,Puducherry,South,gas,232.15
+2021,Punjab,North,coal,17994.79
+2021,Punjab,North,hydro,4747.03
+2021,Rajasthan,North,coal,45216.58
+2021,Rajasthan,North,gas,1018.69
+2021,Rajasthan,North,hydro,469.63
+2021,Rajasthan,North,nuclear,7386.05
+2021,Sikkim,East,hydro,10879.5
+2021,Tamil Nadu,South,coal,48935.32
+2021,Tamil Nadu,South,gas,2264.73
+2021,Tamil Nadu,South,hydro,5212.71
+2021,Tamil Nadu,South,nuclear,13664.72
+2021,Telangana,South,coal,44760.759999999995
+2021,Telangana,South,hydro,3645.38
+2021,Tripura,North-East,gas,7043.209999999999
+2021,Uttar Pradesh,North,coal,119592.95999999999
+2021,Uttar Pradesh,North,gas,2470.75
+2021,Uttar Pradesh,North,hydro,1572.35
+2021,Uttar Pradesh,North,nuclear,3284.81
+2021,Uttarakhand,North,gas,721.97
+2021,Uttarakhand,North,hydro,13592.490000000002
+2021,West Bengal,East,coal,72735.07
+2021,West Bengal,East,gas,0.0
+2021,West Bengal,East,hydro,3212.28
+2022,Andaman and Nicobar,East,gas,117.24
+2022,Andhra Pradesh,South,coal,53326.74
+2022,Andhra Pradesh,South,gas,2094.34
+2022,Andhra Pradesh,South,hydro,3113.83
+2022,Arunachal Pradesh,North-East,hydro,4161.28
+2022,Assam,North-East,coal,4201.45
+2022,Assam,North-East,gas,3399.1000000000004
+2022,Assam,North-East,hydro,676.24
+2022,Bihar,East,coal,43940.4
+2022,Chhattisgarh,West,coal,140870.87
+2022,Chhattisgarh,West,hydro,404.13
+2022,Delhi,North,gas,4948.57
+2022,Goa,West,gas,0.0
+2022,Gujarat,West,coal,49568.42
+2022,Gujarat,West,gas,7353.85
+2022,Gujarat,West,hydro,2621.51
+2022,Gujarat,West,nuclear,3503.47
+2022,Haryana,North,coal,22847.43
+2022,Haryana,North,gas,120.3
+2022,Himachal Pradesh,North,hydro,36459.64
+2022,Jammu and Kashmir,North,gas,0.0
+2022,Jammu and Kashmir,North,hydro,17074.02
+2022,Jharkhand,East,coal,28338.72
+2022,Jharkhand,East,hydro,547.96
+2022,Karnataka,South,coal,30505.260000000002
+2022,Karnataka,South,gas,0.0
+2022,Karnataka,South,hydro,13936.46
+2022,Karnataka,South,nuclear,7492.05
+2022,Kerala,South,gas,0.0
+2022,Kerala,South,hydro,9317.44
+2022,Ladakh,North,hydro,405.98
+2022,Madhya Pradesh,West,coal,129634.45
+2022,Madhya Pradesh,West,hydro,4686.719999999999
+2022,Maharashtra,West,coal,116485.92
+2022,Maharashtra,West,gas,6124.1900000000005
+2022,Maharashtra,West,hydro,6007.38
+2022,Maharashtra,West,nuclear,8602.18
+2022,Manipur,North-East,gas,0.0
+2022,Manipur,North-East,hydro,455.48
+2022,Meghalaya,North-East,hydro,841.82
+2022,Mizoram,North-East,hydro,137.44
+2022,Nagaland,North-East,hydro,100.55
+2022,Odisha,East,coal,60161.28999999999
+2022,Odisha,East,hydro,5230.63
+2022,Puducherry,South,gas,251.13
+2022,Punjab,North,coal,24175.82
+2022,Punjab,North,hydro,3709.73
+2022,Rajasthan,North,coal,49608.4
+2022,Rajasthan,North,gas,1499.01
+2022,Rajasthan,North,hydro,481.84
+2022,Rajasthan,North,nuclear,8308.85
+2022,Sikkim,East,hydro,11493.9
+2022,Tamil Nadu,South,coal,59450.54
+2022,Tamil Nadu,South,gas,1732.22
+2022,Tamil Nadu,South,hydro,5212.07
+2022,Tamil Nadu,South,nuclear,15625.26
+2022,Telangana,South,coal,51550.06
+2022,Telangana,South,hydro,5626.63
+2022,Tripura,North-East,gas,6332.25
+2022,Uttar Pradesh,North,coal,130698.93
+2022,Uttar Pradesh,North,gas,1148.49
+2022,Uttar Pradesh,North,hydro,1402.68
+2022,Uttar Pradesh,North,nuclear,3580.25
+2022,Uttarakhand,North,gas,1012.3199999999999
+2022,Uttarakhand,North,hydro,14332.130000000001
+2022,West Bengal,East,coal,83216.76999999999
+2022,West Bengal,East,gas,0.0
+2022,West Bengal,East,hydro,3189.84
+2023,Andaman and Nicobar,East,gas,214.57
+2023,Andhra Pradesh,South,coal,60931.93
+2023,Andhra Pradesh,South,gas,610.0
+2023,Andhra Pradesh,South,hydro,3747.58
+2023,Arunachal Pradesh,North-East,hydro,4820.94
+2023,Assam,North-East,coal,5026.24
+2023,Assam,North-East,gas,3366.84
+2023,Assam,North-East,hydro,481.6
+2023,Bihar,East,coal,55200.21
+2023,Chhattisgarh,West,coal,142599.2
+2023,Chhattisgarh,West,hydro,237.37
+2023,Delhi,North,gas,3784.3
+2023,Goa,West,gas,0.0
+2023,Gujarat,West,coal,53322.93
+2023,Gujarat,West,gas,2158.69
+2023,Gujarat,West,hydro,6133.139999999999
+2023,Gujarat,West,nuclear,3639.91
+2023,Haryana,North,coal,32136.68
+2023,Haryana,North,gas,2.59
+2023,Himachal Pradesh,North,hydro,38666.979999999996
+2023,Jammu and Kashmir,North,gas,0.0
+2023,Jammu and Kashmir,North,hydro,16777.42
+2023,Jharkhand,East,coal,30472.780000000002
+2023,Jharkhand,East,hydro,305.47
+2023,Karnataka,South,coal,35014.3
+2023,Karnataka,South,gas,0.0
+2023,Karnataka,South,hydro,13157.34
+2023,Karnataka,South,nuclear,7443.24
+2023,Kerala,South,gas,0.12
+2023,Kerala,South,hydro,7989.0
+2023,Ladakh,North,hydro,402.78
+2023,Lakshadweep,South,gas,15.02
+2023,Madhya Pradesh,West,coal,135838.47
+2023,Madhya Pradesh,West,hydro,7309.07
+2023,Maharashtra,West,coal,124477.47
+2023,Maharashtra,West,gas,2429.56
+2023,Maharashtra,West,hydro,5894.29
+2023,Maharashtra,West,nuclear,8985.48
+2023,Manipur,North-East,gas,0.0
+2023,Manipur,North-East,hydro,477.98
+2023,Meghalaya,North-East,hydro,980.25
+2023,Mizoram,North-East,hydro,204.13
+2023,Nagaland,North-East,hydro,177.37
+2023,Odisha,East,coal,64874.240000000005
+2023,Odisha,East,hydro,5462.8099999999995
+2023,Puducherry,South,gas,233.07
+2023,Punjab,North,coal,31506.160000000003
+2023,Punjab,North,hydro,4399.650000000001
+2023,Rajasthan,North,coal,55968.39
+2023,Rajasthan,North,gas,1450.33
+2023,Rajasthan,North,hydro,967.43
+2023,Rajasthan,North,nuclear,6587.27
+2023,Sikkim,East,hydro,11696.79
+2023,Tamil Nadu,South,coal,65221.28
+2023,Tamil Nadu,South,gas,1861.95
+2023,Tamil Nadu,South,hydro,5965.77
+2023,Tamil Nadu,South,nuclear,16012.57
+2023,Telangana,South,coal,50738.2
+2023,Telangana,South,hydro,6010.07
+2023,Tripura,North-East,gas,7079.48
+2023,Uttar Pradesh,North,coal,151154.99
+2023,Uttar Pradesh,North,gas,908.23
+2023,Uttar Pradesh,North,hydro,974.04
+2023,Uttar Pradesh,North,nuclear,3192.62
+2023,Uttarakhand,North,gas,0.0
+2023,Uttarakhand,North,hydro,15435.77
+2023,West Bengal,East,coal,87612.45
+2023,West Bengal,East,gas,0.0
+2023,West Bengal,East,hydro,3423.73
+2024,Andaman and Nicobar,East,gas,335.78999999999996
+2024,Andhra Pradesh,South,coal,71241.24
+2024,Andhra Pradesh,South,gas,2.41
+2024,Andhra Pradesh,South,hydro,1373.19
+2024,Arunachal Pradesh,North-East,hydro,4278.18
+2024,Assam,North-East,coal,5058.11
+2024,Assam,North-East,gas,3375.27
+2024,Assam,North-East,hydro,614.7
+2024,Bihar,East,coal,58361.799999999996
+2024,Chhattisgarh,West,coal,162388.63
+2024,Chhattisgarh,West,hydro,321.76
+2024,Delhi,North,gas,3755.1400000000003
+2024,Goa,West,gas,0.0
+2024,Gujarat,West,coal,76597.43
+2024,Gujarat,West,gas,8185.06
+2024,Gujarat,West,hydro,4556.33
+2024,Gujarat,West,nuclear,7576.86
+2024,Haryana,North,coal,28060.15
+2024,Haryana,North,gas,137.28
+2024,Himachal Pradesh,North,hydro,36365.85
+2024,Jammu and Kashmir,North,gas,0.0
+2024,Jammu and Kashmir,North,hydro,15874.239999999998
+2024,Jharkhand,East,coal,35764.81
+2024,Jharkhand,East,hydro,196.8
+2024,Karnataka,South,coal,44466.58
+2024,Karnataka,South,gas,0.0
+2024,Karnataka,South,hydro,8973.17
+2024,Karnataka,South,nuclear,7502.65
+2024,Kerala,South,gas,0.0
+2024,Kerala,South,hydro,5155.72
+2024,Ladakh,North,hydro,388.48
+2024,Lakshadweep,South,gas,64.79
+2024,Madhya Pradesh,West,coal,148680.03
+2024,Madhya Pradesh,West,hydro,6444.78
+2024,Maharashtra,West,coal,132924.8
+2024,Maharashtra,West,gas,3970.83
+2024,Maharashtra,West,hydro,5264.49
+2024,Maharashtra,West,nuclear,8112.38
+2024,Manipur,North-East,gas,0.0
+2024,Manipur,North-East,hydro,298.18
+2024,Meghalaya,North-East,hydro,808.58
+2024,Mizoram,North-East,hydro,118.63
+2024,Nagaland,North-East,hydro,165.47
+2024,Odisha,East,coal,66019.81
+2024,Odisha,East,hydro,6162.200000000001
+2024,Puducherry,South,gas,224.1
+2024,Punjab,North,coal,32462.85
+2024,Punjab,North,hydro,4676.42
+2024,Rajasthan,North,coal,60478.08
+2024,Rajasthan,North,gas,1144.62
+2024,Rajasthan,North,hydro,1013.97
+2024,Rajasthan,North,nuclear,7059.67
+2024,Sikkim,East,hydro,8609.85
+2024,Tamil Nadu,South,coal,73415.2
+2024,Tamil Nadu,South,gas,1918.62
+2024,Tamil Nadu,South,hydro,3563.28
+2024,Tamil Nadu,South,nuclear,14811.22
+2024,Telangana,South,coal,56913.729999999996
+2024,Telangana,South,hydro,1243.29
+2024,Tripura,North-East,gas,6353.3099999999995
+2024,Uttar Pradesh,North,coal,152505.2
+2024,Uttar Pradesh,North,gas,1619.52
+2024,Uttar Pradesh,North,hydro,850.64
+2024,Uttar Pradesh,North,nuclear,2874.63
+2024,Uttarakhand,North,gas,609.78
+2024,Uttarakhand,North,hydro,13919.23
+2024,West Bengal,East,coal,89513.96
+2024,West Bengal,East,gas,0.0
+2024,West Bengal,East,hydro,2816.49
+2025,Andaman and Nicobar,East,gas,374.18
+2025,Andhra Pradesh,South,coal,72832.94
+2025,Andhra Pradesh,South,gas,34.04
+2025,Andhra Pradesh,South,hydro,3303.08
+2025,Arunachal Pradesh,North-East,hydro,4205.16
+2025,Assam,North-East,coal,4787.2
+2025,Assam,North-East,gas,3407.99
+2025,Assam,North-East,hydro,998.75
+2025,Bihar,East,coal,60757.75
+2025,Chhattisgarh,West,coal,166431.38
+2025,Chhattisgarh,West,hydro,419.42
+2025,Delhi,North,gas,3878.0099999999998
+2025,Goa,West,gas,0.0
+2025,Gujarat,West,coal,85015.59
+2025,Gujarat,West,gas,8411.7
+2025,Gujarat,West,hydro,6028.52
+2025,Gujarat,West,nuclear,12301.55
+2025,Haryana,North,coal,30228.56
+2025,Haryana,North,gas,215.37
+2025,Himachal Pradesh,North,hydro,39386.29
+2025,Jammu and Kashmir,North,gas,0.0
+2025,Jammu and Kashmir,North,hydro,15200.65
+2025,Jharkhand,East,coal,38812.21000000001
+2025,Jharkhand,East,hydro,269.12
+2025,Karnataka,South,coal,44367.92999999999
+2025,Karnataka,South,gas,314.38
+2025,Karnataka,South,hydro,14056.0
+2025,Karnataka,South,nuclear,7358.02
+2025,Kerala,South,gas,1.53
+2025,Kerala,South,hydro,6733.99
+2025,Ladakh,North,hydro,413.06
+2025,Lakshadweep,South,gas,66.94
+2025,Madhya Pradesh,West,coal,146116.76
+2025,Madhya Pradesh,West,hydro,7606.73
+2025,Maharashtra,West,coal,131157.23
+2025,Maharashtra,West,gas,5390.97
+2025,Maharashtra,West,hydro,5635.24
+2025,Maharashtra,West,nuclear,8467.44
+2025,Manipur,North-East,gas,0.0
+2025,Manipur,North-East,hydro,706.37
+2025,Meghalaya,North-East,hydro,905.58
+2025,Mizoram,North-East,hydro,240.3
+2025,Nagaland,North-East,hydro,215.02
+2025,Odisha,East,coal,68638.78
+2025,Odisha,East,hydro,6285.36
+2025,Puducherry,South,gas,204.95
+2025,Punjab,North,coal,33575.21
+2025,Punjab,North,hydro,4126.11
+2025,Rajasthan,North,coal,65065.259999999995
+2025,Rajasthan,North,gas,921.9
+2025,Rajasthan,North,hydro,905.8
+2025,Rajasthan,North,nuclear,7430.95
+2025,Sikkim,East,hydro,2012.67
+2025,Tamil Nadu,South,coal,72605.59
+2025,Tamil Nadu,South,gas,1615.77
+2025,Tamil Nadu,South,hydro,4602.72
+2025,Tamil Nadu,South,nuclear,17493.39
+2025,Telangana,South,coal,56969.2
+2025,Telangana,South,hydro,5270.78
+2025,Tripura,North-East,gas,5099.65
+2025,Uttar Pradesh,North,coal,161337.3
+2025,Uttar Pradesh,North,gas,1247.56
+2025,Uttar Pradesh,North,hydro,1273.74
+2025,Uttar Pradesh,North,nuclear,3629.48
+2025,Uttarakhand,North,gas,837.76
+2025,Uttarakhand,North,hydro,15183.82
+2025,West Bengal,East,coal,93168.17
+2025,West Bengal,East,gas,0.0
+2025,West Bengal,East,hydro,2649.7
+2026,Andaman and Nicobar,East,gas,369.03
+2026,Andhra Pradesh,South,coal,73518.73
+2026,Andhra Pradesh,South,gas,311.49
+2026,Andhra Pradesh,South,hydro,6190.0599999999995
+2026,Arunachal Pradesh,North-East,hydro,4854.46
+2026,Assam,North-East,coal,4294.87
+2026,Assam,North-East,gas,2860.3900000000003
+2026,Assam,North-East,hydro,1424.54
+2026,Bihar,East,coal,59345.84
+2026,Chhattisgarh,West,coal,168087.54
+2026,Chhattisgarh,West,hydro,351.61
+2026,Delhi,North,gas,2885.3399999999997
+2026,Goa,West,gas,0.0
+2026,Gujarat,West,coal,60115.86
+2026,Gujarat,West,gas,5745.46
+2026,Gujarat,West,hydro,6372.91
+2026,Gujarat,West,nuclear,12774.29
+2026,Haryana,North,coal,25466.96
+2026,Haryana,North,gas,185.5
+2026,Himachal Pradesh,North,hydro,42827.62
+2026,Jammu and Kashmir,North,gas,0.0
+2026,Jammu and Kashmir,North,hydro,15663.32
+2026,Jharkhand,East,coal,40599.65
+2026,Jharkhand,East,hydro,145.61
+2026,Karnataka,South,coal,42860.64
+2026,Karnataka,South,gas,732.33
+2026,Karnataka,South,hydro,15601.21
+2026,Karnataka,South,nuclear,5746.86
+2026,Kerala,South,gas,0.0
+2026,Kerala,South,hydro,9187.59
+2026,Ladakh,North,hydro,465.24
+2026,Lakshadweep,South,gas,66.38
+2026,Madhya Pradesh,West,coal,140609.4
+2026,Madhya Pradesh,West,hydro,8088.74
+2026,Maharashtra,West,coal,131446.57
+2026,Maharashtra,West,gas,4667.53
+2026,Maharashtra,West,hydro,5483.02
+2026,Maharashtra,West,nuclear,7397.55
+2026,Manipur,North-East,gas,0.0
+2026,Manipur,North-East,hydro,576.01
+2026,Meghalaya,North-East,hydro,879.22
+2026,Mizoram,North-East,hydro,263.98
+2026,Nagaland,North-East,hydro,228.33
+2026,Odisha,East,coal,69371.55
+2026,Odisha,East,hydro,7253.62
+2026,Puducherry,South,gas,184.66
+2026,Punjab,North,coal,32527.129999999997
+2026,Punjab,North,hydro,4291.63
+2026,Rajasthan,North,coal,56610.22
+2026,Rajasthan,North,gas,907.3299999999999
+2026,Rajasthan,North,hydro,1070.61
+2026,Rajasthan,North,nuclear,10902.54
+2026,Sikkim,East,hydro,2602.18
+2026,Tamil Nadu,South,coal,65299.01
+2026,Tamil Nadu,South,gas,1244.73
+2026,Tamil Nadu,South,hydro,5589.67
+2026,Tamil Nadu,South,nuclear,15683.96
+2026,Telangana,South,coal,58723.07
+2026,Telangana,South,hydro,6874.54
+2026,Tripura,North-East,gas,5040.27
+2026,Uttar Pradesh,North,coal,164083.84
+2026,Uttar Pradesh,North,gas,784.21
+2026,Uttar Pradesh,North,hydro,1775.64
+2026,Uttar Pradesh,North,nuclear,2685.32
+2026,Uttarakhand,North,gas,477.12
+2026,Uttarakhand,North,hydro,16533.16
+2026,West Bengal,East,coal,87707.96
+2026,West Bengal,East,gas,0.0
+2026,West Bengal,East,hydro,2609.26

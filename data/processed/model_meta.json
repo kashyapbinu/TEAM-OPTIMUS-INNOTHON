@@ -1,0 +1,120 @@
+{
+  "weights": {
+    "A_driver": 0.6238606328335011,
+    "B_crosscountry": 0.11582084186737361,
+    "C_ets": 0.2603185252991253
+  },
+  "backtest_mape": {
+    "A_driver": 2.092195353874925,
+    "B_crosscountry": 11.269459765923214,
+    "C_ets": 5.014004731241874
+  },
+  "A_params": {
+    "const": 0.934317845767783,
+    "lg": 0.7078315974977922,
+    "u": 0.02253854245265732
+  },
+  "A_bse": {
+    "const": 0.1270588074689182,
+    "lg": 0.01694288895841834,
+    "u": 0.005085230381777486
+  },
+  "A_r2": 0.9913451249279768,
+  "B_params": {
+    "lg": 4.008845656215101,
+    "lg2": -0.17340570997639687,
+    "urban": 0.02253854245265732
+  },
+  "B_bse": {
+    "lg": 1.0226487938012119,
+    "lg2": 0.05886036801149266,
+    "urban": 0.005085230381777486
+  },
+  "B_r2": 0.9816348304497443,
+  "B_countries": 41,
+  "scenarios": {
+    "low": {
+      "key": "low",
+      "label": "Low growth",
+      "gdp_growth": [
+        [
+          2026,
+          2030,
+          0.055
+        ],
+        [
+          2031,
+          2040,
+          0.05
+        ],
+        [
+          2041,
+          2047,
+          0.04
+        ]
+      ],
+      "urban_2047": 40.0,
+      "pop_mult_2047": 0.98,
+      "h2_mt_2047": 6.8,
+      "ev_twh_2047": 155,
+      "dc_twh_2047": 195,
+      "notes": "Growth slows to ~4-5%; slow urbanisation; new loads follow the NITI Current Policy path 5 years late."
+    },
+    "base": {
+      "key": "base",
+      "label": "Base (reference)",
+      "gdp_growth": [
+        [
+          2026,
+          2030,
+          0.065
+        ],
+        [
+          2031,
+          2040,
+          0.06
+        ],
+        [
+          2041,
+          2047,
+          0.05
+        ]
+      ],
+      "urban_2047": 42.2,
+      "pop_mult_2047": 1.0,
+      "h2_mt_2047": 7.8,
+      "ev_twh_2047": 305,
+      "dc_twh_2047": 295,
+      "notes": "IMF/RBI-consistent ~6-6.5% medium-term growth; UN WPP medium population; UN WUP urbanisation; new loads on the NITI Aayog (2026) Current Policy path, interpolated to 2047."
+    },
+    "high": {
+      "key": "high",
+      "label": "High growth (Viksit Bharat)",
+      "gdp_growth": [
+        [
+          2026,
+          2030,
+          0.075
+        ],
+        [
+          2031,
+          2040,
+          0.075
+        ],
+        [
+          2041,
+          2047,
+          0.065
+        ]
+      ],
+      "urban_2047": 50.0,
+      "pop_mult_2047": 1.02,
+      "h2_mt_2047": 22.0,
+      "ev_twh_2047": 425,
+      "dc_twh_2047": 365,
+      "notes": "~7.5% growth consistent with developed-economy ambition by 2047; faster urbanisation; new loads reach NITI 2050 levels (Net Zero Scenario for H2/transport) by 2047; H2 export hub."
+    }
+  },
+  "loss_factor": 0.12,
+  "h2_kwh_per_kg": 55.0
+}

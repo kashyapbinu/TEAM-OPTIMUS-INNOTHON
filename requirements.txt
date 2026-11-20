@@ -1,0 +1,8 @@
+numpy==1.26.4
+pandas==2.2.2
+scipy==1.14.0
+statsmodels==0.15.0
+PuLP==2.9.0
+PyMuPDF==1.27.2.3
+pytest==9.0.3
+xlrd==2.0.1

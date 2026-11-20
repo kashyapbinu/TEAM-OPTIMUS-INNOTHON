@@ -1,0 +1,1556 @@
+state,year,source,gwh,estimated,dataset,region
+Andaman and Nicobar,2019,bio,0.0,False,Ember (pre-NPP archive),East
+Andaman and Nicobar,2019,coal,0.0,False,Ember (pre-NPP archive),East
+Andaman and Nicobar,2019,gas,0.0,False,Ember (pre-NPP archive),East
+Andaman and Nicobar,2019,hydro,7.55,False,Ember (pre-NPP archive),East
+Andaman and Nicobar,2019,nuclear,0.0,False,Ember (pre-NPP archive),East
+Andaman and Nicobar,2019,other_fossil,88.62,False,Ember (pre-NPP archive),East
+Andaman and Nicobar,2019,solar,14.18,False,Ember (pre-NPP archive),East
+Andaman and Nicobar,2019,wind,0.0,False,Ember (pre-NPP archive),East
+Andaman and Nicobar,2020,bio,0.0,False,"Ember (RE, not on NPP)",East
+Andaman and Nicobar,2020,gas,126.22,False,NPP,East
+Andaman and Nicobar,2020,hydro,14.41,False,Ember (small hydro),East
+Andaman and Nicobar,2020,solar,20.62,False,"Ember (RE, not on NPP)",East
+Andaman and Nicobar,2020,wind,0.0,False,"Ember (RE, not on NPP)",East
+Andaman and Nicobar,2021,bio,0.0,False,"Ember (RE, not on NPP)",East
+Andaman and Nicobar,2021,gas,95.42999999999999,False,NPP,East
+Andaman and Nicobar,2021,hydro,12.98,False,Ember (small hydro),East
+Andaman and Nicobar,2021,solar,22.45,False,"Ember (RE, not on NPP)",East
+Andaman and Nicobar,2021,wind,0.0,False,"Ember (RE, not on NPP)",East
+Andaman and Nicobar,2022,bio,0.0,False,"Ember (RE, not on NPP)",East
+Andaman and Nicobar,2022,gas,177.17000000000002,False,NPP,East
+Andaman and Nicobar,2022,hydro,14.29,False,Ember (small hydro),East
+Andaman and Nicobar,2022,solar,23.47,False,"Ember (RE, not on NPP)",East
+Andaman and Nicobar,2022,wind,0.0,False,"Ember (RE, not on NPP)",East
+Andaman and Nicobar,2023,bio,0.0,False,"Ember (RE, not on NPP)",East
+Andaman and Nicobar,2023,gas,332.49,False,NPP,East
+Andaman and Nicobar,2023,hydro,11.3,False,Ember (small hydro),East
+Andaman and Nicobar,2023,solar,24.47,False,"Ember (RE, not on NPP)",East
+Andaman and Nicobar,2023,wind,0.0,False,"Ember (RE, not on NPP)",East
+Andaman and Nicobar,2024,bio,0.0,False,"Ember (RE, not on NPP)",East
+Andaman and Nicobar,2024,gas,361.4,False,NPP,East
+Andaman and Nicobar,2024,hydro,15.5,False,Ember (small hydro),East
+Andaman and Nicobar,2024,solar,27.53,False,"Ember (RE, not on NPP)",East
+Andaman and Nicobar,2024,wind,0.0,False,"Ember (RE, not on NPP)",East
+Andaman and Nicobar,2025,bio,0.0,True,"Ember (RE, not on NPP)",East
+Andaman and Nicobar,2025,gas,368.48,False,NPP,East
+Andaman and Nicobar,2025,hydro,14.584912536443149,True,Ember (small hydro),East
+Andaman and Nicobar,2025,solar,18.558458823529413,True,"Ember (RE, not on NPP)",East
+Andaman and Nicobar,2025,wind,0.0,True,"Ember (RE, not on NPP)",East
+Andhra Pradesh,2019,bio,268.27,False,Ember (pre-NPP archive),South
+Andhra Pradesh,2019,coal,56674.98,False,Ember (pre-NPP archive),South
+Andhra Pradesh,2019,gas,2995.04,False,Ember (pre-NPP archive),South
+Andhra Pradesh,2019,hydro,3133.97,False,Ember (pre-NPP archive),South
+Andhra Pradesh,2019,nuclear,0.0,False,Ember (pre-NPP archive),South
+Andhra Pradesh,2019,other_fossil,0.0,False,Ember (pre-NPP archive),South
+Andhra Pradesh,2019,solar,5544.21,False,Ember (pre-NPP archive),South
+Andhra Pradesh,2019,wind,7911.17,False,Ember (pre-NPP archive),South
+Andhra Pradesh,2020,bio,238.84,False,"Ember (RE, not on NPP)",South
+Andhra Pradesh,2020,coal,44290.94,False,NPP,South
+Andhra Pradesh,2020,gas,3494.37,False,NPP,South
+Andhra Pradesh,2020,hydro,3271.23,False,NPP,South
+Andhra Pradesh,2020,hydro,316.84000000000015,False,Ember (small hydro),South
+Andhra Pradesh,2020,solar,6566.31,False,"Ember (RE, not on NPP)",South
+Andhra Pradesh,2020,wind,6381.84,False,"Ember (RE, not on NPP)",South
+Andhra Pradesh,2021,bio,291.63,False,"Ember (RE, not on NPP)",South
+Andhra Pradesh,2021,coal,53958.91,False,NPP,South
+Andhra Pradesh,2021,gas,2450.25,False,NPP,South
+Andhra Pradesh,2021,hydro,3238.81,False,NPP,South
+Andhra Pradesh,2021,hydro,391.7600000000002,False,Ember (small hydro),South
+Andhra Pradesh,2021,solar,7764.92,False,"Ember (RE, not on NPP)",South
+Andhra Pradesh,2021,wind,7243.53,False,"Ember (RE, not on NPP)",South
+Andhra Pradesh,2022,bio,438.56999999999994,False,"Ember (RE, not on NPP)",South
+Andhra Pradesh,2022,coal,59458.07,False,NPP,South
+Andhra Pradesh,2022,gas,969.9300000000001,False,NPP,South
+Andhra Pradesh,2022,hydro,3690.14,False,NPP,South
+Andhra Pradesh,2022,hydro,398.4100000000003,False,Ember (small hydro),South
+Andhra Pradesh,2022,solar,8016.28,False,"Ember (RE, not on NPP)",South
+Andhra Pradesh,2022,wind,7342.75,False,"Ember (RE, not on NPP)",South
+Andhra Pradesh,2023,bio,389.4,False,"Ember (RE, not on NPP)",South
+Andhra Pradesh,2023,coal,69108.69,False,NPP,South
+Andhra Pradesh,2023,gas,0.0,False,NPP,South
+Andhra Pradesh,2023,hydro,1731.78,False,NPP,South
+Andhra Pradesh,2023,hydro,221.76999999999998,False,Ember (small hydro),South
+Andhra Pradesh,2023,solar,8303.21,False,"Ember (RE, not on NPP)",South
+Andhra Pradesh,2023,wind,8400.81,False,"Ember (RE, not on NPP)",South
+Andhra Pradesh,2024,bio,391.31,False,"Ember (RE, not on NPP)",South
+Andhra Pradesh,2024,coal,71659.23,False,NPP,South
+Andhra Pradesh,2024,gas,36.449999999999996,False,NPP,South
+Andhra Pradesh,2024,hydro,2945.08,False,NPP,South
+Andhra Pradesh,2024,hydro,213.51999999999998,False,Ember (small hydro),South
+Andhra Pradesh,2024,solar,7978.5,False,"Ember (RE, not on NPP)",South
+Andhra Pradesh,2024,wind,7415.17,False,"Ember (RE, not on NPP)",South
+Andhra Pradesh,2025,bio,412.7127514999302,True,"Ember (RE, not on NPP)",South
+Andhra Pradesh,2025,coal,73623.31,False,NPP,South
+Andhra Pradesh,2025,gas,311.49,False,NPP,South
+Andhra Pradesh,2025,hydro,5354.15,False,NPP,South
+Andhra Pradesh,2025,hydro,418.71951942782016,True,Ember (small hydro),South
+Andhra Pradesh,2025,solar,8024.285314818363,True,"Ember (RE, not on NPP)",South
+Andhra Pradesh,2025,wind,8815.26103796216,True,"Ember (RE, not on NPP)",South
+Arunachal Pradesh,2019,bio,0.0,False,Ember (pre-NPP archive),North-East
+Arunachal Pradesh,2019,coal,0.0,False,Ember (pre-NPP archive),North-East
+Arunachal Pradesh,2019,gas,0.0,False,Ember (pre-NPP archive),North-East
+Arunachal Pradesh,2019,hydro,1648.44,False,Ember (pre-NPP archive),North-East
+Arunachal Pradesh,2019,nuclear,0.0,False,Ember (pre-NPP archive),North-East
+Arunachal Pradesh,2019,other_fossil,0.0,False,Ember (pre-NPP archive),North-East
+Arunachal Pradesh,2019,solar,1.41,False,Ember (pre-NPP archive),North-East
+Arunachal Pradesh,2019,wind,0.0,False,Ember (pre-NPP archive),North-East
+Arunachal Pradesh,2020,bio,0.0,False,"Ember (RE, not on NPP)",North-East
+Arunachal Pradesh,2020,hydro,3198.44,False,NPP,North-East
+Arunachal Pradesh,2020,hydro,0.5199999999999818,False,Ember (small hydro),North-East
+Arunachal Pradesh,2020,solar,1.64,False,"Ember (RE, not on NPP)",North-East
+Arunachal Pradesh,2020,wind,0.0,False,"Ember (RE, not on NPP)",North-East
+Arunachal Pradesh,2021,bio,0.0,False,"Ember (RE, not on NPP)",North-East
+Arunachal Pradesh,2021,hydro,4062.2,False,NPP,North-East
+Arunachal Pradesh,2021,hydro,0.40000000000009095,False,Ember (small hydro),North-East
+Arunachal Pradesh,2021,solar,1.71,False,"Ember (RE, not on NPP)",North-East
+Arunachal Pradesh,2021,wind,0.0,False,"Ember (RE, not on NPP)",North-East
+Arunachal Pradesh,2022,bio,0.03,False,"Ember (RE, not on NPP)",North-East
+Arunachal Pradesh,2022,hydro,4834.51,False,NPP,North-East
+Arunachal Pradesh,2022,hydro,2.469999999999345,False,Ember (small hydro),North-East
+Arunachal Pradesh,2022,solar,22.2,False,"Ember (RE, not on NPP)",North-East
+Arunachal Pradesh,2022,wind,0.0,False,"Ember (RE, not on NPP)",North-East
+Arunachal Pradesh,2023,bio,0.0,False,"Ember (RE, not on NPP)",North-East
+Arunachal Pradesh,2023,hydro,4289.15,False,NPP,North-East
+Arunachal Pradesh,2023,hydro,0.7200000000002547,False,Ember (small hydro),North-East
+Arunachal Pradesh,2023,solar,2.13,False,"Ember (RE, not on NPP)",North-East
+Arunachal Pradesh,2023,wind,0.0,False,"Ember (RE, not on NPP)",North-East
+Arunachal Pradesh,2024,bio,0.0,False,"Ember (RE, not on NPP)",North-East
+Arunachal Pradesh,2024,hydro,4295.39,False,NPP,North-East
+Arunachal Pradesh,2024,hydro,0.5799999999999272,False,Ember (small hydro),North-East
+Arunachal Pradesh,2024,solar,1.18,False,"Ember (RE, not on NPP)",North-East
+Arunachal Pradesh,2024,wind,0.0,False,"Ember (RE, not on NPP)",North-East
+Arunachal Pradesh,2025,bio,0.0,True,"Ember (RE, not on NPP)",North-East
+Arunachal Pradesh,2025,hydro,4330.65,False,NPP,North-East
+Arunachal Pradesh,2025,hydro,0.0,True,Ember (small hydro),North-East
+Arunachal Pradesh,2025,solar,2.66,True,"Ember (RE, not on NPP)",North-East
+Arunachal Pradesh,2025,wind,0.0,True,"Ember (RE, not on NPP)",North-East
+Assam,2019,bio,0.0,False,Ember (pre-NPP archive),North-East
+Assam,2019,coal,3653.01,False,Ember (pre-NPP archive),North-East
+Assam,2019,gas,2845.15,False,Ember (pre-NPP archive),North-East
+Assam,2019,hydro,1449.59,False,Ember (pre-NPP archive),North-East
+Assam,2019,nuclear,0.0,False,Ember (pre-NPP archive),North-East
+Assam,2019,other_fossil,0.0,False,Ember (pre-NPP archive),North-East
+Assam,2019,solar,6.38,False,Ember (pre-NPP archive),North-East
+Assam,2019,wind,0.0,False,Ember (pre-NPP archive),North-East
+Assam,2020,bio,0.0,False,"Ember (RE, not on NPP)",North-East
+Assam,2020,coal,3131.0,False,NPP,North-East
+Assam,2020,gas,2609.37,False,NPP,North-East
+Assam,2020,hydro,257.47,False,NPP,North-East
+Assam,2020,hydro,31.50999999999999,False,Ember (small hydro),North-East
+Assam,2020,solar,5.71,False,"Ember (RE, not on NPP)",North-East
+Assam,2020,wind,0.0,False,"Ember (RE, not on NPP)",North-East
+Assam,2021,bio,0.0,False,"Ember (RE, not on NPP)",North-East
+Assam,2021,coal,3976.42,False,NPP,North-East
+Assam,2021,gas,3270.27,False,NPP,North-East
+Assam,2021,hydro,700.68,False,NPP,North-East
+Assam,2021,hydro,42.690000000000055,False,Ember (small hydro),North-East
+Assam,2021,solar,62.04,False,"Ember (RE, not on NPP)",North-East
+Assam,2021,wind,0.0,False,"Ember (RE, not on NPP)",North-East
+Assam,2022,bio,0.0,False,"Ember (RE, not on NPP)",North-East
+Assam,2022,coal,4896.74,False,NPP,North-East
+Assam,2022,gas,3469.94,False,NPP,North-East
+Assam,2022,hydro,480.21,False,NPP,North-East
+Assam,2022,hydro,60.339999999999975,False,Ember (small hydro),North-East
+Assam,2022,solar,180.97,False,"Ember (RE, not on NPP)",North-East
+Assam,2022,wind,0.0,False,"Ember (RE, not on NPP)",North-East
+Assam,2023,bio,0.39,False,"Ember (RE, not on NPP)",North-East
+Assam,2023,coal,5139.81,False,NPP,North-East
+Assam,2023,gas,3387.7,False,NPP,North-East
+Assam,2023,hydro,564.5899999999999,False,NPP,North-East
+Assam,2023,hydro,67.15000000000009,False,Ember (small hydro),North-East
+Assam,2023,solar,302.65,False,"Ember (RE, not on NPP)",North-East
+Assam,2023,wind,0.0,False,"Ember (RE, not on NPP)",North-East
+Assam,2024,bio,0.62,False,"Ember (RE, not on NPP)",North-East
+Assam,2024,coal,4811.53,False,NPP,North-East
+Assam,2024,gas,3389.1800000000003,False,NPP,North-East
+Assam,2024,hydro,938.65,False,NPP,North-East
+Assam,2024,hydro,181.98000000000013,False,Ember (small hydro),North-East
+Assam,2024,solar,306.91,False,"Ember (RE, not on NPP)",North-East
+Assam,2024,wind,0.0,False,"Ember (RE, not on NPP)",North-East
+Assam,2025,bio,0.33066666666666666,True,"Ember (RE, not on NPP)",North-East
+Assam,2025,coal,4421.34,False,NPP,North-East
+Assam,2025,gas,3031.18,False,NPP,North-East
+Assam,2025,hydro,1397.02,False,NPP,North-East
+Assam,2025,hydro,163.3042352597506,True,Ember (small hydro),North-East
+Assam,2025,solar,315.72795545402624,True,"Ember (RE, not on NPP)",North-East
+Assam,2025,wind,0.0,True,"Ember (RE, not on NPP)",North-East
+Bihar,2019,bio,268.48,False,Ember (pre-NPP archive),East
+Bihar,2019,coal,34992.35,False,Ember (pre-NPP archive),East
+Bihar,2019,gas,0.0,False,Ember (pre-NPP archive),East
+Bihar,2019,hydro,17.55,False,Ember (pre-NPP archive),East
+Bihar,2019,nuclear,0.0,False,Ember (pre-NPP archive),East
+Bihar,2019,other_fossil,0.0,False,Ember (pre-NPP archive),East
+Bihar,2019,solar,173.59,False,Ember (pre-NPP archive),East
+Bihar,2019,wind,0.0,False,Ember (pre-NPP archive),East
+Bihar,2020,bio,109.74,False,"Ember (RE, not on NPP)",East
+Bihar,2020,coal,32460.22,False,NPP,East
+Bihar,2020,hydro,44.01,False,Ember (small hydro),East
+Bihar,2020,solar,166.71,False,"Ember (RE, not on NPP)",East
+Bihar,2020,wind,0.0,False,"Ember (RE, not on NPP)",East
+Bihar,2021,bio,31.07,False,"Ember (RE, not on NPP)",East
+Bihar,2021,coal,41197.35,False,NPP,East
+Bihar,2021,hydro,4.51,False,Ember (small hydro),East
+Bihar,2021,solar,153.43,False,"Ember (RE, not on NPP)",East
+Bihar,2021,wind,0.0,False,"Ember (RE, not on NPP)",East
+Bihar,2022,bio,78.97,False,"Ember (RE, not on NPP)",East
+Bihar,2022,coal,54060.14,False,NPP,East
+Bihar,2022,hydro,14.16,False,Ember (small hydro),East
+Bihar,2022,solar,171.22,False,"Ember (RE, not on NPP)",East
+Bihar,2022,wind,0.0,False,"Ember (RE, not on NPP)",East
+Bihar,2023,bio,143.78,False,"Ember (RE, not on NPP)",East
+Bihar,2023,coal,57364.11,False,NPP,East
+Bihar,2023,hydro,8.24,False,Ember (small hydro),East
+Bihar,2023,solar,183.25,False,"Ember (RE, not on NPP)",East
+Bihar,2023,wind,0.0,False,"Ember (RE, not on NPP)",East
+Bihar,2024,bio,101.95,False,"Ember (RE, not on NPP)",East
+Bihar,2024,coal,60576.29,False,NPP,East
+Bihar,2024,hydro,12.33,False,Ember (small hydro),East
+Bihar,2024,solar,293.17,False,"Ember (RE, not on NPP)",East
+Bihar,2024,wind,0.0,False,"Ember (RE, not on NPP)",East
+Bihar,2025,bio,99.09287254109404,True,"Ember (RE, not on NPP)",East
+Bihar,2025,coal,58642.68,False,NPP,East
+Bihar,2025,hydro,19.07,True,Ember (small hydro),East
+Bihar,2025,solar,330.9104701971915,True,"Ember (RE, not on NPP)",East
+Bihar,2025,wind,0.0,True,"Ember (RE, not on NPP)",East
+Chandigarh,2019,bio,0.0,False,Ember (pre-NPP archive),North
+Chandigarh,2019,coal,0.0,False,Ember (pre-NPP archive),North
+Chandigarh,2019,gas,0.0,False,Ember (pre-NPP archive),North
+Chandigarh,2019,hydro,0.0,False,Ember (pre-NPP archive),North
+Chandigarh,2019,nuclear,0.0,False,Ember (pre-NPP archive),North
+Chandigarh,2019,other_fossil,0.0,False,Ember (pre-NPP archive),North
+Chandigarh,2019,solar,11.99,False,Ember (pre-NPP archive),North
+Chandigarh,2019,wind,0.0,False,Ember (pre-NPP archive),North
+Chandigarh,2020,bio,0.0,False,"Ember (RE, not on NPP)",North
+Chandigarh,2020,hydro,0.0,False,Ember (small hydro),North
+Chandigarh,2020,solar,9.86,False,"Ember (RE, not on NPP)",North
+Chandigarh,2020,wind,0.0,False,"Ember (RE, not on NPP)",North
+Chandigarh,2021,bio,0.0,False,"Ember (RE, not on NPP)",North
+Chandigarh,2021,hydro,0.0,False,Ember (small hydro),North
+Chandigarh,2021,solar,14.81,False,"Ember (RE, not on NPP)",North
+Chandigarh,2021,wind,0.0,False,"Ember (RE, not on NPP)",North
+Chandigarh,2022,bio,0.0,False,"Ember (RE, not on NPP)",North
+Chandigarh,2022,hydro,0.0,False,Ember (small hydro),North
+Chandigarh,2022,solar,12.0,False,"Ember (RE, not on NPP)",North
+Chandigarh,2022,wind,0.0,False,"Ember (RE, not on NPP)",North
+Chandigarh,2023,bio,0.0,False,"Ember (RE, not on NPP)",North
+Chandigarh,2023,hydro,0.0,False,Ember (small hydro),North
+Chandigarh,2023,solar,13.57,False,"Ember (RE, not on NPP)",North
+Chandigarh,2023,wind,0.0,False,"Ember (RE, not on NPP)",North
+Chandigarh,2024,bio,0.0,False,"Ember (RE, not on NPP)",North
+Chandigarh,2024,hydro,0.0,False,Ember (small hydro),North
+Chandigarh,2024,solar,9.3,False,"Ember (RE, not on NPP)",North
+Chandigarh,2024,wind,0.0,False,"Ember (RE, not on NPP)",North
+Chandigarh,2025,bio,0.0,True,"Ember (RE, not on NPP)",North
+Chandigarh,2025,hydro,0.0,True,Ember (small hydro),North
+Chandigarh,2025,solar,6.9534722222222225,True,"Ember (RE, not on NPP)",North
+Chandigarh,2025,wind,0.0,True,"Ember (RE, not on NPP)",North
+Chhattisgarh,2019,bio,585.72,False,Ember (pre-NPP archive),West
+Chhattisgarh,2019,coal,113634.97,False,Ember (pre-NPP archive),West
+Chhattisgarh,2019,gas,0.0,False,Ember (pre-NPP archive),West
+Chhattisgarh,2019,hydro,310.85,False,Ember (pre-NPP archive),West
+Chhattisgarh,2019,nuclear,0.0,False,Ember (pre-NPP archive),West
+Chhattisgarh,2019,other_fossil,0.0,False,Ember (pre-NPP archive),West
+Chhattisgarh,2019,solar,325.52,False,Ember (pre-NPP archive),West
+Chhattisgarh,2019,wind,0.0,False,Ember (pre-NPP archive),West
+Chhattisgarh,2020,bio,934.16,False,"Ember (RE, not on NPP)",West
+Chhattisgarh,2020,coal,130680.88,False,NPP,West
+Chhattisgarh,2020,hydro,384.17,False,NPP,West
+Chhattisgarh,2020,hydro,144.16000000000003,False,Ember (small hydro),West
+Chhattisgarh,2020,solar,360.87,False,"Ember (RE, not on NPP)",West
+Chhattisgarh,2020,wind,0.0,False,"Ember (RE, not on NPP)",West
+Chhattisgarh,2021,bio,1326.13,False,"Ember (RE, not on NPP)",West
+Chhattisgarh,2021,coal,139148.95,False,NPP,West
+Chhattisgarh,2021,hydro,405.03,False,NPP,West
+Chhattisgarh,2021,hydro,191.18000000000006,False,Ember (small hydro),West
+Chhattisgarh,2021,solar,409.98,False,"Ember (RE, not on NPP)",West
+Chhattisgarh,2021,wind,0.0,False,"Ember (RE, not on NPP)",West
+Chhattisgarh,2022,bio,1189.42,False,"Ember (RE, not on NPP)",West
+Chhattisgarh,2022,coal,139254.88999999998,False,NPP,West
+Chhattisgarh,2022,hydro,264.3,False,NPP,West
+Chhattisgarh,2022,hydro,156.15999999999997,False,Ember (small hydro),West
+Chhattisgarh,2022,solar,540.98,False,"Ember (RE, not on NPP)",West
+Chhattisgarh,2022,wind,0.0,False,"Ember (RE, not on NPP)",West
+Chhattisgarh,2023,bio,1434.37,False,"Ember (RE, not on NPP)",West
+Chhattisgarh,2023,coal,160512.8,False,NPP,West
+Chhattisgarh,2023,hydro,305.03999999999996,False,NPP,West
+Chhattisgarh,2023,hydro,152.29000000000002,False,Ember (small hydro),West
+Chhattisgarh,2023,solar,846.29,False,"Ember (RE, not on NPP)",West
+Chhattisgarh,2023,wind,0.0,False,"Ember (RE, not on NPP)",West
+Chhattisgarh,2024,bio,1482.92,False,"Ember (RE, not on NPP)",West
+Chhattisgarh,2024,coal,164482.22,False,NPP,West
+Chhattisgarh,2024,hydro,350.55,False,NPP,West
+Chhattisgarh,2024,hydro,136.7,False,Ember (small hydro),West
+Chhattisgarh,2024,solar,1407.01,False,"Ember (RE, not on NPP)",West
+Chhattisgarh,2024,wind,0.0,False,"Ember (RE, not on NPP)",West
+Chhattisgarh,2025,bio,1560.7437095546395,True,"Ember (RE, not on NPP)",West
+Chhattisgarh,2025,coal,166452.81,False,NPP,West
+Chhattisgarh,2025,hydro,399.93,False,NPP,West
+Chhattisgarh,2025,hydro,239.12406961178039,True,Ember (small hydro),West
+Chhattisgarh,2025,solar,1678.2075506768606,True,"Ember (RE, not on NPP)",West
+Chhattisgarh,2025,wind,0.0,True,"Ember (RE, not on NPP)",West
+Dadra and Nagar Haveli and Daman and Diu,2019,bio,0.0,False,Ember (pre-NPP archive),West
+Dadra and Nagar Haveli and Daman and Diu,2019,coal,0.0,False,Ember (pre-NPP archive),West
+Dadra and Nagar Haveli and Daman and Diu,2019,gas,0.0,False,Ember (pre-NPP archive),West
+Dadra and Nagar Haveli and Daman and Diu,2019,hydro,0.0,False,Ember (pre-NPP archive),West
+Dadra and Nagar Haveli and Daman and Diu,2019,nuclear,0.0,False,Ember (pre-NPP archive),West
+Dadra and Nagar Haveli and Daman and Diu,2019,other_fossil,0.0,False,Ember (pre-NPP archive),West
+Dadra and Nagar Haveli and Daman and Diu,2019,solar,27.68,False,Ember (pre-NPP archive),West
+Dadra and Nagar Haveli and Daman and Diu,2019,wind,0.0,False,Ember (pre-NPP archive),West
+Dadra and Nagar Haveli and Daman and Diu,2020,bio,7.23,False,"Ember (RE, not on NPP)",West
+Dadra and Nagar Haveli and Daman and Diu,2020,hydro,0.0,False,Ember (small hydro),West
+Dadra and Nagar Haveli and Daman and Diu,2020,solar,31.37,False,"Ember (RE, not on NPP)",West
+Dadra and Nagar Haveli and Daman and Diu,2020,wind,0.0,False,"Ember (RE, not on NPP)",West
+Dadra and Nagar Haveli and Daman and Diu,2021,bio,12.21,False,"Ember (RE, not on NPP)",West
+Dadra and Nagar Haveli and Daman and Diu,2021,hydro,0.0,False,Ember (small hydro),West
+Dadra and Nagar Haveli and Daman and Diu,2021,solar,78.53,False,"Ember (RE, not on NPP)",West
+Dadra and Nagar Haveli and Daman and Diu,2021,wind,0.0,False,"Ember (RE, not on NPP)",West
+Dadra and Nagar Haveli and Daman and Diu,2022,bio,6.65,False,"Ember (RE, not on NPP)",West
+Dadra and Nagar Haveli and Daman and Diu,2022,hydro,0.0,False,Ember (small hydro),West
+Dadra and Nagar Haveli and Daman and Diu,2022,solar,47.32,False,"Ember (RE, not on NPP)",West
+Dadra and Nagar Haveli and Daman and Diu,2022,wind,0.0,False,"Ember (RE, not on NPP)",West
+Dadra and Nagar Haveli and Daman and Diu,2023,bio,9.71,False,"Ember (RE, not on NPP)",West
+Dadra and Nagar Haveli and Daman and Diu,2023,hydro,0.0,False,Ember (small hydro),West
+Dadra and Nagar Haveli and Daman and Diu,2023,solar,15.33,False,"Ember (RE, not on NPP)",West
+Dadra and Nagar Haveli and Daman and Diu,2023,wind,0.0,False,"Ember (RE, not on NPP)",West
+Dadra and Nagar Haveli and Daman and Diu,2024,bio,12.78,False,"Ember (RE, not on NPP)",West
+Dadra and Nagar Haveli and Daman and Diu,2024,hydro,0.0,False,Ember (small hydro),West
+Dadra and Nagar Haveli and Daman and Diu,2024,solar,15.98,False,"Ember (RE, not on NPP)",West
+Dadra and Nagar Haveli and Daman and Diu,2024,wind,0.0,False,"Ember (RE, not on NPP)",West
+Dadra and Nagar Haveli and Daman and Diu,2025,bio,13.05671848013817,True,"Ember (RE, not on NPP)",West
+Dadra and Nagar Haveli and Daman and Diu,2025,hydro,0.0,True,Ember (small hydro),West
+Dadra and Nagar Haveli and Daman and Diu,2025,solar,19.622258726899386,True,"Ember (RE, not on NPP)",West
+Dadra and Nagar Haveli and Daman and Diu,2025,wind,0.0,True,"Ember (RE, not on NPP)",West
+Delhi,2019,bio,291.11,False,Ember (pre-NPP archive),North
+Delhi,2019,coal,0.0,False,Ember (pre-NPP archive),North
+Delhi,2019,gas,5680.24,False,Ember (pre-NPP archive),North
+Delhi,2019,hydro,0.0,False,Ember (pre-NPP archive),North
+Delhi,2019,nuclear,0.0,False,Ember (pre-NPP archive),North
+Delhi,2019,other_fossil,0.0,False,Ember (pre-NPP archive),North
+Delhi,2019,solar,111.19,False,Ember (pre-NPP archive),North
+Delhi,2019,wind,0.0,False,Ember (pre-NPP archive),North
+Delhi,2020,bio,240.17,False,"Ember (RE, not on NPP)",North
+Delhi,2020,coal,0.0,False,NPP,North
+Delhi,2020,gas,5391.43,False,NPP,North
+Delhi,2020,hydro,0.0,False,Ember (small hydro),North
+Delhi,2020,solar,177.5,False,"Ember (RE, not on NPP)",North
+Delhi,2020,wind,0.0,False,"Ember (RE, not on NPP)",North
+Delhi,2021,bio,235.66,False,"Ember (RE, not on NPP)",North
+Delhi,2021,coal,0.0,False,NPP,North
+Delhi,2021,gas,5110.29,False,NPP,North
+Delhi,2021,hydro,0.0,False,Ember (small hydro),North
+Delhi,2021,solar,204.83,False,"Ember (RE, not on NPP)",North
+Delhi,2021,wind,0.0,False,"Ember (RE, not on NPP)",North
+Delhi,2022,bio,253.35,False,"Ember (RE, not on NPP)",North
+Delhi,2022,gas,4176.02,False,NPP,North
+Delhi,2022,hydro,0.0,False,Ember (small hydro),North
+Delhi,2022,solar,244.59,False,"Ember (RE, not on NPP)",North
+Delhi,2022,wind,0.0,False,"Ember (RE, not on NPP)",North
+Delhi,2023,bio,477.71,False,"Ember (RE, not on NPP)",North
+Delhi,2023,gas,3565.4900000000002,False,NPP,North
+Delhi,2023,hydro,0.0,False,Ember (small hydro),North
+Delhi,2023,solar,206.53,False,"Ember (RE, not on NPP)",North
+Delhi,2023,wind,0.0,False,"Ember (RE, not on NPP)",North
+Delhi,2024,bio,558.28,False,"Ember (RE, not on NPP)",North
+Delhi,2024,gas,4218.63,False,NPP,North
+Delhi,2024,hydro,0.0,False,Ember (small hydro),North
+Delhi,2024,solar,206.53,False,"Ember (RE, not on NPP)",North
+Delhi,2024,wind,0.0,False,"Ember (RE, not on NPP)",North
+Delhi,2025,bio,502.81285847119443,True,"Ember (RE, not on NPP)",North
+Delhi,2025,gas,2740.2400000000002,False,NPP,North
+Delhi,2025,hydro,0.0,True,Ember (small hydro),North
+Delhi,2025,solar,206.52,True,"Ember (RE, not on NPP)",North
+Delhi,2025,wind,0.0,True,"Ember (RE, not on NPP)",North
+Goa,2019,bio,0.0,False,Ember (pre-NPP archive),West
+Goa,2019,coal,0.0,False,Ember (pre-NPP archive),West
+Goa,2019,gas,0.0,False,Ember (pre-NPP archive),West
+Goa,2019,hydro,0.0,False,Ember (pre-NPP archive),West
+Goa,2019,nuclear,0.0,False,Ember (pre-NPP archive),West
+Goa,2019,other_fossil,0.0,False,Ember (pre-NPP archive),West
+Goa,2019,solar,0.4,False,Ember (pre-NPP archive),West
+Goa,2019,wind,0.0,False,Ember (pre-NPP archive),West
+Goa,2020,bio,0.0,False,"Ember (RE, not on NPP)",West
+Goa,2020,gas,0.0,False,NPP,West
+Goa,2020,hydro,0.0,False,Ember (small hydro),West
+Goa,2020,solar,1.48,False,"Ember (RE, not on NPP)",West
+Goa,2020,wind,0.0,False,"Ember (RE, not on NPP)",West
+Goa,2021,bio,0.01,False,"Ember (RE, not on NPP)",West
+Goa,2021,gas,0.0,False,NPP,West
+Goa,2021,hydro,0.0,False,Ember (small hydro),West
+Goa,2021,solar,2.58,False,"Ember (RE, not on NPP)",West
+Goa,2021,wind,0.0,False,"Ember (RE, not on NPP)",West
+Goa,2022,bio,4.52,False,"Ember (RE, not on NPP)",West
+Goa,2022,gas,0.0,False,NPP,West
+Goa,2022,hydro,0.0,False,Ember (small hydro),West
+Goa,2022,solar,15.97,False,"Ember (RE, not on NPP)",West
+Goa,2022,wind,0.0,False,"Ember (RE, not on NPP)",West
+Goa,2023,bio,7.19,False,"Ember (RE, not on NPP)",West
+Goa,2023,gas,0.0,False,NPP,West
+Goa,2023,hydro,0.0,False,Ember (small hydro),West
+Goa,2023,solar,50.25,False,"Ember (RE, not on NPP)",West
+Goa,2023,wind,0.0,False,"Ember (RE, not on NPP)",West
+Goa,2024,bio,8.14,False,"Ember (RE, not on NPP)",West
+Goa,2024,gas,0.0,False,NPP,West
+Goa,2024,hydro,0.0,False,Ember (small hydro),West
+Goa,2024,solar,57.11,False,"Ember (RE, not on NPP)",West
+Goa,2024,wind,0.0,False,"Ember (RE, not on NPP)",West
+Goa,2025,bio,8.16,True,"Ember (RE, not on NPP)",West
+Goa,2025,gas,0.0,False,NPP,West
+Goa,2025,hydro,0.0,True,Ember (small hydro),West
+Goa,2025,solar,57.12,True,"Ember (RE, not on NPP)",West
+Goa,2025,wind,0.0,True,"Ember (RE, not on NPP)",West
+Gujarat,2019,bio,122.3,False,Ember (pre-NPP archive),West
+Gujarat,2019,coal,86999.38,False,Ember (pre-NPP archive),West
+Gujarat,2019,gas,12678.61,False,Ember (pre-NPP archive),West
+Gujarat,2019,hydro,4640.31,False,Ember (pre-NPP archive),West
+Gujarat,2019,nuclear,2963.97,False,Ember (pre-NPP archive),West
+Gujarat,2019,other_fossil,0.0,False,Ember (pre-NPP archive),West
+Gujarat,2019,solar,3279.5,False,Ember (pre-NPP archive),West
+Gujarat,2019,wind,12950.67,False,Ember (pre-NPP archive),West
+Gujarat,2020,bio,111.3,False,"Ember (RE, not on NPP)",West
+Gujarat,2020,coal,76653.3,False,NPP,West
+Gujarat,2020,gas,19761.78,False,NPP,West
+Gujarat,2020,hydro,4518.68,False,NPP,West
+Gujarat,2020,hydro,211.19999999999982,False,Ember (small hydro),West
+Gujarat,2020,nuclear,3687.04,False,NPP,West
+Gujarat,2020,solar,4334.31,False,"Ember (RE, not on NPP)",West
+Gujarat,2020,wind,13219.62,False,"Ember (RE, not on NPP)",West
+Gujarat,2021,bio,20.13,False,"Ember (RE, not on NPP)",West
+Gujarat,2021,coal,58424.78,False,NPP,West
+Gujarat,2021,gas,9090.93,False,NPP,West
+Gujarat,2021,hydro,3060.52,False,NPP,West
+Gujarat,2021,hydro,184.0300000000002,False,Ember (small hydro),West
+Gujarat,2021,nuclear,3497.96,False,NPP,West
+Gujarat,2021,solar,6118.49,False,"Ember (RE, not on NPP)",West
+Gujarat,2021,wind,17167.59,False,"Ember (RE, not on NPP)",West
+Gujarat,2022,bio,11.21,False,"Ember (RE, not on NPP)",West
+Gujarat,2022,coal,54162.97,False,NPP,West
+Gujarat,2022,gas,2087.51,False,NPP,West
+Gujarat,2022,hydro,5665.009999999999,False,NPP,West
+Gujarat,2022,hydro,210.64000000000033,False,Ember (small hydro),West
+Gujarat,2022,nuclear,3663.17,False,NPP,West
+Gujarat,2022,solar,9292.99,False,"Ember (RE, not on NPP)",West
+Gujarat,2022,wind,18588.23,False,"Ember (RE, not on NPP)",West
+Gujarat,2023,bio,3.61,False,"Ember (RE, not on NPP)",West
+Gujarat,2023,coal,67353.0,False,NPP,West
+Gujarat,2023,gas,6796.22,False,NPP,West
+Gujarat,2023,hydro,4684.2,False,NPP,West
+Gujarat,2023,hydro,213.44999999999982,False,Ember (small hydro),West
+Gujarat,2023,nuclear,6525.29,False,NPP,West
+Gujarat,2023,solar,12624.38,False,"Ember (RE, not on NPP)",West
+Gujarat,2023,wind,24067.9,False,"Ember (RE, not on NPP)",West
+Gujarat,2024,bio,44.87,False,"Ember (RE, not on NPP)",West
+Gujarat,2024,coal,84615.28,False,NPP,West
+Gujarat,2024,gas,9829.1,False,NPP,West
+Gujarat,2024,hydro,5979.86,False,NPP,West
+Gujarat,2024,hydro,201.64000000000033,False,Ember (small hydro),West
+Gujarat,2024,nuclear,10923.39,False,NPP,West
+Gujarat,2024,solar,17374.38,False,"Ember (RE, not on NPP)",West
+Gujarat,2024,wind,24644.66,False,"Ember (RE, not on NPP)",West
+Gujarat,2025,bio,164.68,True,"Ember (RE, not on NPP)",West
+Gujarat,2025,coal,68308.34,False,NPP,West
+Gujarat,2025,gas,5872.860000000001,False,NPP,West
+Gujarat,2025,hydro,6522.43,False,NPP,West
+Gujarat,2025,hydro,233.92126153819572,True,Ember (small hydro),West
+Gujarat,2025,nuclear,12741.92,False,NPP,West
+Gujarat,2025,solar,23043.088083125753,True,"Ember (RE, not on NPP)",West
+Gujarat,2025,wind,34405.691882203115,True,"Ember (RE, not on NPP)",West
+Haryana,2019,bio,281.04,False,Ember (pre-NPP archive),North
+Haryana,2019,coal,18731.88,False,Ember (pre-NPP archive),North
+Haryana,2019,gas,648.21,False,Ember (pre-NPP archive),North
+Haryana,2019,hydro,316.88,False,Ember (pre-NPP archive),North
+Haryana,2019,nuclear,0.0,False,Ember (pre-NPP archive),North
+Haryana,2019,other_fossil,0.0,False,Ember (pre-NPP archive),North
+Haryana,2019,solar,115.03,False,Ember (pre-NPP archive),North
+Haryana,2019,wind,0.0,False,Ember (pre-NPP archive),North
+Haryana,2020,bio,299.71,False,"Ember (RE, not on NPP)",North
+Haryana,2020,coal,11775.12,False,NPP,North
+Haryana,2020,gas,848.55,False,NPP,North
+Haryana,2020,hydro,330.54,False,Ember (small hydro),North
+Haryana,2020,solar,93.51,False,"Ember (RE, not on NPP)",North
+Haryana,2020,wind,0.0,False,"Ember (RE, not on NPP)",North
+Haryana,2021,bio,279.14,False,"Ember (RE, not on NPP)",North
+Haryana,2021,coal,21944.8,False,NPP,North
+Haryana,2021,gas,355.25,False,NPP,North
+Haryana,2021,hydro,229.27,False,Ember (small hydro),North
+Haryana,2021,solar,490.01,False,"Ember (RE, not on NPP)",North
+Haryana,2021,wind,0.0,False,"Ember (RE, not on NPP)",North
+Haryana,2022,bio,594.6,False,"Ember (RE, not on NPP)",North
+Haryana,2022,coal,31475.97,False,NPP,North
+Haryana,2022,gas,3.93,False,NPP,North
+Haryana,2022,hydro,258.2,False,Ember (small hydro),North
+Haryana,2022,solar,628.73,False,"Ember (RE, not on NPP)",North
+Haryana,2022,wind,0.0,False,"Ember (RE, not on NPP)",North
+Haryana,2023,bio,472.25,False,"Ember (RE, not on NPP)",North
+Haryana,2023,coal,28892.72,False,NPP,North
+Haryana,2023,gas,137.28,False,NPP,North
+Haryana,2023,hydro,227.56,False,Ember (small hydro),North
+Haryana,2023,solar,808.17,False,"Ember (RE, not on NPP)",North
+Haryana,2023,wind,0.0,False,"Ember (RE, not on NPP)",North
+Haryana,2024,bio,462.57,False,"Ember (RE, not on NPP)",North
+Haryana,2024,coal,30138.12,False,NPP,North
+Haryana,2024,gas,215.37,False,NPP,North
+Haryana,2024,hydro,245.87,False,Ember (small hydro),North
+Haryana,2024,solar,1394.65,False,"Ember (RE, not on NPP)",North
+Haryana,2024,wind,0.0,False,"Ember (RE, not on NPP)",North
+Haryana,2025,bio,479.34625298329354,True,"Ember (RE, not on NPP)",North
+Haryana,2025,coal,26030.34,False,NPP,North
+Haryana,2025,gas,179.38,False,NPP,North
+Haryana,2025,hydro,289.34205150338084,True,Ember (small hydro),North
+Haryana,2025,solar,1448.6963455750022,True,"Ember (RE, not on NPP)",North
+Haryana,2025,wind,0.0,True,"Ember (RE, not on NPP)",North
+Himachal Pradesh,2019,bio,0.0,False,Ember (pre-NPP archive),North
+Himachal Pradesh,2019,coal,0.0,False,Ember (pre-NPP archive),North
+Himachal Pradesh,2019,gas,0.0,False,Ember (pre-NPP archive),North
+Himachal Pradesh,2019,hydro,42912.81,False,Ember (pre-NPP archive),North
+Himachal Pradesh,2019,nuclear,0.0,False,Ember (pre-NPP archive),North
+Himachal Pradesh,2019,other_fossil,0.0,False,Ember (pre-NPP archive),North
+Himachal Pradesh,2019,solar,4.84,False,Ember (pre-NPP archive),North
+Himachal Pradesh,2019,wind,0.0,False,Ember (pre-NPP archive),North
+Himachal Pradesh,2020,bio,0.0,False,"Ember (RE, not on NPP)",North
+Himachal Pradesh,2020,hydro,38415.32,False,NPP,North
+Himachal Pradesh,2020,hydro,2283.269999999997,False,Ember (small hydro),North
+Himachal Pradesh,2020,solar,34.59,False,"Ember (RE, not on NPP)",North
+Himachal Pradesh,2020,wind,0.0,False,"Ember (RE, not on NPP)",North
+Himachal Pradesh,2021,bio,0.0,False,"Ember (RE, not on NPP)",North
+Himachal Pradesh,2021,hydro,35752.98,False,NPP,North
+Himachal Pradesh,2021,hydro,1924.199999999997,False,Ember (small hydro),North
+Himachal Pradesh,2021,solar,42.54,False,"Ember (RE, not on NPP)",North
+Himachal Pradesh,2021,wind,0.0,False,"Ember (RE, not on NPP)",North
+Himachal Pradesh,2022,bio,0.0,False,"Ember (RE, not on NPP)",North
+Himachal Pradesh,2022,hydro,38815.05,False,NPP,North
+Himachal Pradesh,2022,hydro,2804.3899999999994,False,Ember (small hydro),North
+Himachal Pradesh,2022,solar,57.1,False,"Ember (RE, not on NPP)",North
+Himachal Pradesh,2022,wind,0.0,False,"Ember (RE, not on NPP)",North
+Himachal Pradesh,2023,bio,0.0,False,"Ember (RE, not on NPP)",North
+Himachal Pradesh,2023,hydro,36448.020000000004,False,NPP,North
+Himachal Pradesh,2023,hydro,2609.979999999996,False,Ember (small hydro),North
+Himachal Pradesh,2023,solar,57.11,False,"Ember (RE, not on NPP)",North
+Himachal Pradesh,2023,wind,0.0,False,"Ember (RE, not on NPP)",North
+Himachal Pradesh,2024,bio,0.0,False,"Ember (RE, not on NPP)",North
+Himachal Pradesh,2024,hydro,39738.4,False,NPP,North
+Himachal Pradesh,2024,hydro,3019.229999999996,False,Ember (small hydro),North
+Himachal Pradesh,2024,solar,84.14,False,"Ember (RE, not on NPP)",North
+Himachal Pradesh,2024,wind,0.0,False,"Ember (RE, not on NPP)",North
+Himachal Pradesh,2025,bio,0.0,True,"Ember (RE, not on NPP)",North
+Himachal Pradesh,2025,hydro,42339.9,False,NPP,North
+Himachal Pradesh,2025,hydro,2476.214985753679,True,Ember (small hydro),North
+Himachal Pradesh,2025,solar,182.96,True,"Ember (RE, not on NPP)",North
+Himachal Pradesh,2025,wind,0.0,True,"Ember (RE, not on NPP)",North
+Jammu and Kashmir,2019,bio,0.0,False,Ember (pre-NPP archive),North
+Jammu and Kashmir,2019,coal,0.0,False,Ember (pre-NPP archive),North
+Jammu and Kashmir,2019,gas,0.0,False,Ember (pre-NPP archive),North
+Jammu and Kashmir,2019,hydro,18508.58,False,Ember (pre-NPP archive),North
+Jammu and Kashmir,2019,nuclear,0.0,False,Ember (pre-NPP archive),North
+Jammu and Kashmir,2019,other_fossil,0.0,False,Ember (pre-NPP archive),North
+Jammu and Kashmir,2019,solar,0.0,False,Ember (pre-NPP archive),North
+Jammu and Kashmir,2019,wind,0.0,False,Ember (pre-NPP archive),North
+Jammu and Kashmir,2020,bio,0.0,False,"Ember (RE, not on NPP)",North
+Jammu and Kashmir,2020,gas,0.0,False,NPP,North
+Jammu and Kashmir,2020,hydro,17687.82,False,NPP,North
+Jammu and Kashmir,2020,hydro,818.0800000000017,False,Ember (small hydro),North
+Jammu and Kashmir,2020,solar,5.36,False,"Ember (RE, not on NPP)",North
+Jammu and Kashmir,2020,wind,0.0,False,"Ember (RE, not on NPP)",North
+Jammu and Kashmir,2021,bio,0.0,False,"Ember (RE, not on NPP)",North
+Jammu and Kashmir,2021,gas,0.0,False,NPP,North
+Jammu and Kashmir,2021,hydro,16911.88,False,NPP,North
+Jammu and Kashmir,2021,hydro,542.7899999999972,False,Ember (small hydro),North
+Jammu and Kashmir,2021,solar,5.76,False,"Ember (RE, not on NPP)",North
+Jammu and Kashmir,2021,wind,0.0,False,"Ember (RE, not on NPP)",North
+Jammu and Kashmir,2022,bio,0.0,False,"Ember (RE, not on NPP)",North
+Jammu and Kashmir,2022,gas,0.0,False,NPP,North
+Jammu and Kashmir,2022,hydro,16991.27,False,NPP,North
+Jammu and Kashmir,2022,hydro,402.77999999999884,False,Ember (small hydro),North
+Jammu and Kashmir,2022,solar,0.0,False,"Ember (RE, not on NPP)",North
+Jammu and Kashmir,2022,wind,0.0,False,"Ember (RE, not on NPP)",North
+Jammu and Kashmir,2023,bio,0.0,False,"Ember (RE, not on NPP)",North
+Jammu and Kashmir,2023,gas,0.0,False,NPP,North
+Jammu and Kashmir,2023,hydro,16270.88,False,NPP,North
+Jammu and Kashmir,2023,hydro,413.5000000000018,False,Ember (small hydro),North
+Jammu and Kashmir,2023,solar,0.0,False,"Ember (RE, not on NPP)",North
+Jammu and Kashmir,2023,wind,0.0,False,"Ember (RE, not on NPP)",North
+Jammu and Kashmir,2024,bio,0.0,False,"Ember (RE, not on NPP)",North
+Jammu and Kashmir,2024,gas,0.0,False,NPP,North
+Jammu and Kashmir,2024,hydro,15527.75,False,NPP,North
+Jammu and Kashmir,2024,hydro,412.90999999999985,False,Ember (small hydro),North
+Jammu and Kashmir,2024,solar,0.0,False,"Ember (RE, not on NPP)",North
+Jammu and Kashmir,2024,wind,0.0,False,"Ember (RE, not on NPP)",North
+Jammu and Kashmir,2025,bio,0.0,True,"Ember (RE, not on NPP)",North
+Jammu and Kashmir,2025,gas,0.0,False,NPP,North
+Jammu and Kashmir,2025,hydro,15553.37,False,NPP,North
+Jammu and Kashmir,2025,hydro,387.2081762744183,True,Ember (small hydro),North
+Jammu and Kashmir,2025,solar,0.0,True,"Ember (RE, not on NPP)",North
+Jammu and Kashmir,2025,wind,0.0,True,"Ember (RE, not on NPP)",North
+Jharkhand,2019,bio,0.0,False,Ember (pre-NPP archive),East
+Jharkhand,2019,coal,26205.59,False,Ember (pre-NPP archive),East
+Jharkhand,2019,gas,0.0,False,Ember (pre-NPP archive),East
+Jharkhand,2019,hydro,128.54,False,Ember (pre-NPP archive),East
+Jharkhand,2019,nuclear,0.0,False,Ember (pre-NPP archive),East
+Jharkhand,2019,other_fossil,0.0,False,Ember (pre-NPP archive),East
+Jharkhand,2019,solar,17.43,False,Ember (pre-NPP archive),East
+Jharkhand,2019,wind,0.0,False,Ember (pre-NPP archive),East
+Jharkhand,2020,bio,0.0,False,"Ember (RE, not on NPP)",East
+Jharkhand,2020,coal,26666.84,False,NPP,East
+Jharkhand,2020,hydro,225.43,False,NPP,East
+Jharkhand,2020,hydro,8.799999999999983,False,Ember (small hydro),East
+Jharkhand,2020,solar,17.62,False,"Ember (RE, not on NPP)",East
+Jharkhand,2020,wind,0.0,False,"Ember (RE, not on NPP)",East
+Jharkhand,2021,bio,0.0,False,"Ember (RE, not on NPP)",East
+Jharkhand,2021,coal,27998.99,False,NPP,East
+Jharkhand,2021,hydro,521.74,False,NPP,East
+Jharkhand,2021,hydro,6.529999999999973,False,Ember (small hydro),East
+Jharkhand,2021,solar,17.88,False,"Ember (RE, not on NPP)",East
+Jharkhand,2021,wind,0.0,False,"Ember (RE, not on NPP)",East
+Jharkhand,2022,bio,0.0,False,"Ember (RE, not on NPP)",East
+Jharkhand,2022,coal,30416.71,False,NPP,East
+Jharkhand,2022,hydro,325.87,False,NPP,East
+Jharkhand,2022,hydro,5.1200000000000045,False,Ember (small hydro),East
+Jharkhand,2022,solar,20.39,False,"Ember (RE, not on NPP)",East
+Jharkhand,2022,wind,0.0,False,"Ember (RE, not on NPP)",East
+Jharkhand,2023,bio,0.0,False,"Ember (RE, not on NPP)",East
+Jharkhand,2023,coal,33784.08,False,NPP,East
+Jharkhand,2023,hydro,203.60999999999999,False,NPP,East
+Jharkhand,2023,hydro,2.842170943040401e-14,False,Ember (small hydro),East
+Jharkhand,2023,solar,17.64,False,"Ember (RE, not on NPP)",East
+Jharkhand,2023,wind,0.0,False,"Ember (RE, not on NPP)",East
+Jharkhand,2024,bio,0.0,False,"Ember (RE, not on NPP)",East
+Jharkhand,2024,coal,38984.33,False,NPP,East
+Jharkhand,2024,hydro,245.32,False,NPP,East
+Jharkhand,2024,hydro,4.840000000000003,False,Ember (small hydro),East
+Jharkhand,2024,solar,17.64,False,"Ember (RE, not on NPP)",East
+Jharkhand,2024,wind,0.0,False,"Ember (RE, not on NPP)",East
+Jharkhand,2025,bio,0.0,True,"Ember (RE, not on NPP)",East
+Jharkhand,2025,coal,38603.78,False,NPP,East
+Jharkhand,2025,hydro,172.06,False,NPP,East
+Jharkhand,2025,hydro,22.977142857142866,True,Ember (small hydro),East
+Jharkhand,2025,solar,17.639999999999997,True,"Ember (RE, not on NPP)",East
+Jharkhand,2025,wind,0.0,True,"Ember (RE, not on NPP)",East
+Karnataka,2019,bio,2504.98,False,Ember (pre-NPP archive),South
+Karnataka,2019,coal,24373.82,False,Ember (pre-NPP archive),South
+Karnataka,2019,gas,0.0,False,Ember (pre-NPP archive),South
+Karnataka,2019,hydro,15261.32,False,Ember (pre-NPP archive),South
+Karnataka,2019,nuclear,7049.89,False,Ember (pre-NPP archive),South
+Karnataka,2019,other_fossil,0.0,False,Ember (pre-NPP archive),South
+Karnataka,2019,solar,9737.81,False,Ember (pre-NPP archive),South
+Karnataka,2019,wind,10199.37,False,Ember (pre-NPP archive),South
+Karnataka,2020,bio,2850.67,False,"Ember (RE, not on NPP)",South
+Karnataka,2020,coal,18297.62,False,NPP,South
+Karnataka,2020,gas,0.0,False,NPP,South
+Karnataka,2020,hydro,13692.58,False,NPP,South
+Karnataka,2020,hydro,2209.51,False,Ember (small hydro),South
+Karnataka,2020,nuclear,7097.87,False,NPP,South
+Karnataka,2020,solar,13599.81,False,"Ember (RE, not on NPP)",South
+Karnataka,2020,wind,9370.37,False,"Ember (RE, not on NPP)",South
+Karnataka,2021,bio,3235.24,False,"Ember (RE, not on NPP)",South
+Karnataka,2021,coal,30400.93,False,NPP,South
+Karnataka,2021,gas,0.0,False,NPP,South
+Karnataka,2021,hydro,12833.5,False,NPP,South
+Karnataka,2021,hydro,2406.99,False,Ember (small hydro),South
+Karnataka,2021,nuclear,7308.27,False,NPP,South
+Karnataka,2021,solar,12899.47,False,"Ember (RE, not on NPP)",South
+Karnataka,2021,wind,9763.68,False,"Ember (RE, not on NPP)",South
+Karnataka,2022,bio,3228.11,False,"Ember (RE, not on NPP)",South
+Karnataka,2022,coal,33823.06,False,NPP,South
+Karnataka,2022,gas,0.0,False,NPP,South
+Karnataka,2022,hydro,14060.54,False,NPP,South
+Karnataka,2022,hydro,2309.6699999999983,False,Ember (small hydro),South
+Karnataka,2022,nuclear,7460.61,False,NPP,South
+Karnataka,2022,solar,13721.24,False,"Ember (RE, not on NPP)",South
+Karnataka,2022,wind,9401.74,False,"Ember (RE, not on NPP)",South
+Karnataka,2023,bio,3041.25,False,"Ember (RE, not on NPP)",South
+Karnataka,2023,coal,43190.23,False,NPP,South
+Karnataka,2023,gas,0.0,False,NPP,South
+Karnataka,2023,hydro,10395.46,False,NPP,South
+Karnataka,2023,hydro,1476.0800000000017,False,Ember (small hydro),South
+Karnataka,2023,nuclear,7500.72,False,NPP,South
+Karnataka,2023,solar,15289.3,False,"Ember (RE, not on NPP)",South
+Karnataka,2023,wind,11171.67,False,"Ember (RE, not on NPP)",South
+Karnataka,2024,bio,2482.41,False,"Ember (RE, not on NPP)",South
+Karnataka,2024,coal,43784.73,False,NPP,South
+Karnataka,2024,gas,0.0,False,NPP,South
+Karnataka,2024,hydro,11704.0,False,NPP,South
+Karnataka,2024,hydro,1998.3099999999995,False,Ember (small hydro),South
+Karnataka,2024,nuclear,7644.24,False,NPP,South
+Karnataka,2024,solar,15397.95,False,"Ember (RE, not on NPP)",South
+Karnataka,2024,wind,12763.51,False,"Ember (RE, not on NPP)",South
+Karnataka,2025,bio,3552.900074138683,True,"Ember (RE, not on NPP)",South
+Karnataka,2025,coal,42489.31,False,NPP,South
+Karnataka,2025,gas,656.53,False,NPP,South
+Karnataka,2025,hydro,16123.49,False,NPP,South
+Karnataka,2025,hydro,3363.2965580136206,True,Ember (small hydro),South
+Karnataka,2025,nuclear,5965.07,False,NPP,South
+Karnataka,2025,solar,16451.360459957537,True,"Ember (RE, not on NPP)",South
+Karnataka,2025,wind,17640.887147254805,True,"Ember (RE, not on NPP)",South
+Kerala,2019,bio,11.04,False,Ember (pre-NPP archive),South
+Kerala,2019,coal,0.0,False,Ember (pre-NPP archive),South
+Kerala,2019,gas,0.81,False,Ember (pre-NPP archive),South
+Kerala,2019,hydro,6072.24,False,Ember (pre-NPP archive),South
+Kerala,2019,nuclear,0.0,False,Ember (pre-NPP archive),South
+Kerala,2019,other_fossil,14.88,False,Ember (pre-NPP archive),South
+Kerala,2019,solar,134.93,False,Ember (pre-NPP archive),South
+Kerala,2019,wind,116.45,False,Ember (pre-NPP archive),South
+Kerala,2020,bio,34.55,False,"Ember (RE, not on NPP)",South
+Kerala,2020,gas,2.99,False,NPP,South
+Kerala,2020,hydro,6054.49,False,NPP,South
+Kerala,2020,hydro,645.0799999999999,False,Ember (small hydro),South
+Kerala,2020,solar,239.39,False,"Ember (RE, not on NPP)",South
+Kerala,2020,wind,131.03,False,"Ember (RE, not on NPP)",South
+Kerala,2021,bio,47.8,False,"Ember (RE, not on NPP)",South
+Kerala,2021,gas,106.25,False,NPP,South
+Kerala,2021,hydro,9161.23,False,NPP,South
+Kerala,2021,hydro,838.210000000001,False,Ember (small hydro),South
+Kerala,2021,solar,425.32,False,"Ember (RE, not on NPP)",South
+Kerala,2021,wind,132.17,False,"Ember (RE, not on NPP)",South
+Kerala,2022,bio,57.81,False,"Ember (RE, not on NPP)",South
+Kerala,2022,gas,0.12,False,NPP,South
+Kerala,2022,hydro,8575.01,False,NPP,South
+Kerala,2022,hydro,920.0300000000007,False,Ember (small hydro),South
+Kerala,2022,solar,699.95,False,"Ember (RE, not on NPP)",South
+Kerala,2022,wind,181.56,False,"Ember (RE, not on NPP)",South
+Kerala,2023,bio,77.8,False,"Ember (RE, not on NPP)",South
+Kerala,2023,gas,0.0,False,NPP,South
+Kerala,2023,hydro,5295.42,False,NPP,South
+Kerala,2023,hydro,698.3400000000001,False,Ember (small hydro),South
+Kerala,2023,solar,1172.82,False,"Ember (RE, not on NPP)",South
+Kerala,2023,wind,218.36,False,"Ember (RE, not on NPP)",South
+Kerala,2024,bio,81.56,False,"Ember (RE, not on NPP)",South
+Kerala,2024,gas,1.5299999999999998,False,NPP,South
+Kerala,2024,hydro,6677.83,False,NPP,South
+Kerala,2024,hydro,814.8500000000004,False,Ember (small hydro),South
+Kerala,2024,solar,1561.61,False,"Ember (RE, not on NPP)",South
+Kerala,2024,wind,116.08,False,"Ember (RE, not on NPP)",South
+Kerala,2025,bio,84.84959697051664,True,"Ember (RE, not on NPP)",South
+Kerala,2025,gas,0.0,False,NPP,South
+Kerala,2025,hydro,8941.970000000001,False,NPP,South
+Kerala,2025,hydro,841.5289619799405,True,Ember (small hydro),South
+Kerala,2025,solar,2104.2556689116036,True,"Ember (RE, not on NPP)",South
+Kerala,2025,wind,132.35422709489583,True,"Ember (RE, not on NPP)",South
+Ladakh,2020,hydro,387.47,False,NPP,North
+Ladakh,2020,hydro,0.0,False,Ember (small hydro),North
+Ladakh,2021,bio,0.0,False,"Ember (RE, not on NPP)",North
+Ladakh,2021,hydro,400.87,False,NPP,North
+Ladakh,2021,hydro,0.0,False,Ember (small hydro),North
+Ladakh,2021,solar,0.0,False,"Ember (RE, not on NPP)",North
+Ladakh,2021,wind,0.0,False,"Ember (RE, not on NPP)",North
+Ladakh,2022,bio,0.0,False,"Ember (RE, not on NPP)",North
+Ladakh,2022,hydro,404.35,False,NPP,North
+Ladakh,2022,hydro,0.0,False,Ember (small hydro),North
+Ladakh,2022,solar,0.0,False,"Ember (RE, not on NPP)",North
+Ladakh,2022,wind,0.0,False,"Ember (RE, not on NPP)",North
+Ladakh,2023,bio,0.0,False,"Ember (RE, not on NPP)",North
+Ladakh,2023,hydro,390.33,False,NPP,North
+Ladakh,2023,hydro,0.0,False,Ember (small hydro),North
+Ladakh,2023,solar,0.0,False,"Ember (RE, not on NPP)",North
+Ladakh,2023,wind,0.0,False,"Ember (RE, not on NPP)",North
+Ladakh,2024,bio,0.0,False,"Ember (RE, not on NPP)",North
+Ladakh,2024,hydro,414.61,False,NPP,North
+Ladakh,2024,hydro,0.0,False,Ember (small hydro),North
+Ladakh,2024,solar,0.0,False,"Ember (RE, not on NPP)",North
+Ladakh,2024,wind,0.0,False,"Ember (RE, not on NPP)",North
+Ladakh,2025,bio,0.0,True,"Ember (RE, not on NPP)",North
+Ladakh,2025,hydro,452.55,False,NPP,North
+Ladakh,2025,hydro,0.0,True,Ember (small hydro),North
+Ladakh,2025,solar,0.0,True,"Ember (RE, not on NPP)",North
+Ladakh,2025,wind,0.0,True,"Ember (RE, not on NPP)",North
+Lakshadweep,2019,bio,0.0,False,Ember (pre-NPP archive),South
+Lakshadweep,2019,coal,0.0,False,Ember (pre-NPP archive),South
+Lakshadweep,2019,gas,0.0,False,Ember (pre-NPP archive),South
+Lakshadweep,2019,hydro,0.0,False,Ember (pre-NPP archive),South
+Lakshadweep,2019,nuclear,0.0,False,Ember (pre-NPP archive),South
+Lakshadweep,2019,other_fossil,0.0,False,Ember (pre-NPP archive),South
+Lakshadweep,2019,solar,0.65,False,Ember (pre-NPP archive),South
+Lakshadweep,2019,wind,0.0,False,Ember (pre-NPP archive),South
+Lakshadweep,2020,bio,0.0,False,"Ember (RE, not on NPP)",South
+Lakshadweep,2020,hydro,0.0,False,Ember (small hydro),South
+Lakshadweep,2020,solar,0.55,False,"Ember (RE, not on NPP)",South
+Lakshadweep,2020,wind,0.0,False,"Ember (RE, not on NPP)",South
+Lakshadweep,2021,bio,0.0,False,"Ember (RE, not on NPP)",South
+Lakshadweep,2021,hydro,0.0,False,Ember (small hydro),South
+Lakshadweep,2021,solar,0.35,False,"Ember (RE, not on NPP)",South
+Lakshadweep,2021,wind,0.0,False,"Ember (RE, not on NPP)",South
+Lakshadweep,2022,bio,0.0,False,"Ember (RE, not on NPP)",South
+Lakshadweep,2022,gas,0.0,False,NPP,South
+Lakshadweep,2022,hydro,0.0,False,Ember (small hydro),South
+Lakshadweep,2022,solar,0.11,False,"Ember (RE, not on NPP)",South
+Lakshadweep,2022,wind,0.0,False,"Ember (RE, not on NPP)",South
+Lakshadweep,2023,bio,0.0,False,"Ember (RE, not on NPP)",South
+Lakshadweep,2023,gas,62.82,False,NPP,South
+Lakshadweep,2023,hydro,0.0,False,Ember (small hydro),South
+Lakshadweep,2023,solar,0.09,False,"Ember (RE, not on NPP)",South
+Lakshadweep,2023,wind,0.0,False,"Ember (RE, not on NPP)",South
+Lakshadweep,2024,bio,0.0,False,"Ember (RE, not on NPP)",South
+Lakshadweep,2024,gas,66.7,False,NPP,South
+Lakshadweep,2024,hydro,0.0,False,Ember (small hydro),South
+Lakshadweep,2024,solar,0.09,False,"Ember (RE, not on NPP)",South
+Lakshadweep,2024,wind,0.0,False,"Ember (RE, not on NPP)",South
+Lakshadweep,2025,bio,0.0,True,"Ember (RE, not on NPP)",South
+Lakshadweep,2025,gas,66.39,False,NPP,South
+Lakshadweep,2025,hydro,0.0,True,Ember (small hydro),South
+Lakshadweep,2025,solar,0.12,True,"Ember (RE, not on NPP)",South
+Lakshadweep,2025,wind,0.0,True,"Ember (RE, not on NPP)",South
+Madhya Pradesh,2019,bio,139.75,False,Ember (pre-NPP archive),West
+Madhya Pradesh,2019,coal,114695.01,False,Ember (pre-NPP archive),West
+Madhya Pradesh,2019,gas,0.0,False,Ember (pre-NPP archive),West
+Madhya Pradesh,2019,hydro,6037.43,False,Ember (pre-NPP archive),West
+Madhya Pradesh,2019,nuclear,0.0,False,Ember (pre-NPP archive),West
+Madhya Pradesh,2019,other_fossil,0.0,False,Ember (pre-NPP archive),West
+Madhya Pradesh,2019,solar,3329.83,False,Ember (pre-NPP archive),West
+Madhya Pradesh,2019,wind,4418.22,False,Ember (pre-NPP archive),West
+Madhya Pradesh,2020,bio,129.95999999999998,False,"Ember (RE, not on NPP)",West
+Madhya Pradesh,2020,coal,119969.95999999999,False,NPP,West
+Madhya Pradesh,2020,hydro,6424.56,False,NPP,West
+Madhya Pradesh,2020,hydro,292.3199999999997,False,Ember (small hydro),West
+Madhya Pradesh,2020,solar,4140.58,False,"Ember (RE, not on NPP)",West
+Madhya Pradesh,2020,wind,3986.31,False,"Ember (RE, not on NPP)",West
+Madhya Pradesh,2021,bio,117.94999999999999,False,"Ember (RE, not on NPP)",West
+Madhya Pradesh,2021,coal,127911.34,False,NPP,West
+Madhya Pradesh,2021,hydro,4979.24,False,NPP,West
+Madhya Pradesh,2021,hydro,230.72000000000025,False,Ember (small hydro),West
+Madhya Pradesh,2021,solar,3976.43,False,"Ember (RE, not on NPP)",West
+Madhya Pradesh,2021,wind,4357.27,False,"Ember (RE, not on NPP)",West
+Madhya Pradesh,2022,bio,175.87,False,"Ember (RE, not on NPP)",West
+Madhya Pradesh,2022,coal,137129.53,False,NPP,West
+Madhya Pradesh,2022,hydro,6990.95,False,NPP,West
+Madhya Pradesh,2022,hydro,307.03999999999996,False,Ember (small hydro),West
+Madhya Pradesh,2022,solar,4013.24,False,"Ember (RE, not on NPP)",West
+Madhya Pradesh,2022,wind,4441.33,False,"Ember (RE, not on NPP)",West
+Madhya Pradesh,2023,bio,216.75,False,"Ember (RE, not on NPP)",West
+Madhya Pradesh,2023,coal,144146.16999999998,False,NPP,West
+Madhya Pradesh,2023,hydro,6734.86,False,NPP,West
+Madhya Pradesh,2023,hydro,455.28000000000065,False,Ember (small hydro),West
+Madhya Pradesh,2023,solar,3680.5,False,"Ember (RE, not on NPP)",West
+Madhya Pradesh,2023,wind,4779.46,False,"Ember (RE, not on NPP)",West
+Madhya Pradesh,2024,bio,250.59,False,"Ember (RE, not on NPP)",West
+Madhya Pradesh,2024,coal,146307.66999999998,False,NPP,West
+Madhya Pradesh,2024,hydro,7381.42,False,NPP,West
+Madhya Pradesh,2024,hydro,479.10000000000036,False,Ember (small hydro),West
+Madhya Pradesh,2024,solar,6032.96,False,"Ember (RE, not on NPP)",West
+Madhya Pradesh,2024,wind,4704.09,False,"Ember (RE, not on NPP)",West
+Madhya Pradesh,2025,bio,222.9486723659889,True,"Ember (RE, not on NPP)",West
+Madhya Pradesh,2025,coal,142359.21,False,NPP,West
+Madhya Pradesh,2025,hydro,8181.3,False,NPP,West
+Madhya Pradesh,2025,hydro,520.7301173739697,True,Ember (small hydro),West
+Madhya Pradesh,2025,solar,8171.32528563573,True,"Ember (RE, not on NPP)",West
+Madhya Pradesh,2025,wind,5129.149862286821,True,"Ember (RE, not on NPP)",West
+Maharashtra,2019,bio,3530.74,False,Ember (pre-NPP archive),West
+Maharashtra,2019,coal,106306.24,False,Ember (pre-NPP archive),West
+Maharashtra,2019,gas,8234.09,False,Ember (pre-NPP archive),West
+Maharashtra,2019,hydro,6375.01,False,Ember (pre-NPP archive),West
+Maharashtra,2019,nuclear,11156.54,False,Ember (pre-NPP archive),West
+Maharashtra,2019,other_fossil,0.0,False,Ember (pre-NPP archive),West
+Maharashtra,2019,solar,2350.88,False,Ember (pre-NPP archive),West
+Maharashtra,2019,wind,7866.21,False,Ember (pre-NPP archive),West
+Maharashtra,2020,bio,3542.44,False,"Ember (RE, not on NPP)",West
+Maharashtra,2020,coal,93933.65,False,NPP,West
+Maharashtra,2020,gas,6113.19,False,NPP,West
+Maharashtra,2020,hydro,5183.86,False,NPP,West
+Maharashtra,2020,hydro,783.3400000000001,False,Ember (small hydro),West
+Maharashtra,2020,nuclear,8972.34,False,NPP,West
+Maharashtra,2020,solar,2529.98,False,"Ember (RE, not on NPP)",West
+Maharashtra,2020,wind,6516.9,False,"Ember (RE, not on NPP)",West
+Maharashtra,2021,bio,4312.8099999999995,False,"Ember (RE, not on NPP)",West
+Maharashtra,2021,coal,117319.44,False,NPP,West
+Maharashtra,2021,gas,6458.33,False,NPP,West
+Maharashtra,2021,hydro,5979.62,False,NPP,West
+Maharashtra,2021,hydro,781.4700000000003,False,Ember (small hydro),West
+Maharashtra,2021,nuclear,8214.5,False,NPP,West
+Maharashtra,2021,solar,3542.88,False,"Ember (RE, not on NPP)",West
+Maharashtra,2021,wind,7019.7,False,"Ember (RE, not on NPP)",West
+Maharashtra,2022,bio,5233.34,False,"Ember (RE, not on NPP)",West
+Maharashtra,2022,coal,121641.29,False,NPP,West
+Maharashtra,2022,gas,3184.01,False,NPP,West
+Maharashtra,2022,hydro,6076.25,False,NPP,West
+Maharashtra,2022,hydro,797.3299999999999,False,Ember (small hydro),West
+Maharashtra,2022,nuclear,8543.65,False,NPP,West
+Maharashtra,2022,solar,3873.79,False,"Ember (RE, not on NPP)",West
+Maharashtra,2022,wind,7177.36,False,"Ember (RE, not on NPP)",West
+Maharashtra,2023,bio,3832.5099999999998,False,"Ember (RE, not on NPP)",West
+Maharashtra,2023,coal,131570.85,False,NPP,West
+Maharashtra,2023,gas,3239.66,False,NPP,West
+Maharashtra,2023,hydro,5698.9800000000005,False,NPP,West
+Maharashtra,2023,hydro,875.2199999999993,False,Ember (small hydro),West
+Maharashtra,2023,nuclear,8491.4,False,NPP,West
+Maharashtra,2023,solar,5528.31,False,"Ember (RE, not on NPP)",West
+Maharashtra,2023,wind,8077.5,False,"Ember (RE, not on NPP)",West
+Maharashtra,2024,bio,3709.31,False,"Ember (RE, not on NPP)",West
+Maharashtra,2024,coal,132133.31,False,NPP,West
+Maharashtra,2024,gas,5776.3,False,NPP,West
+Maharashtra,2024,hydro,5019.86,False,NPP,West
+Maharashtra,2024,hydro,828.3299999999999,False,Ember (small hydro),West
+Maharashtra,2024,nuclear,8693.84,False,NPP,West
+Maharashtra,2024,solar,6949.36,False,"Ember (RE, not on NPP)",West
+Maharashtra,2024,wind,7886.66,False,"Ember (RE, not on NPP)",West
+Maharashtra,2025,bio,3498.0899021834057,True,"Ember (RE, not on NPP)",West
+Maharashtra,2025,coal,130815.32,False,NPP,West
+Maharashtra,2025,gas,4520.01,False,NPP,West
+Maharashtra,2025,hydro,5538.349999999999,False,NPP,West
+Maharashtra,2025,hydro,1035.3194638371178,True,Ember (small hydro),West
+Maharashtra,2025,nuclear,7152.53,False,NPP,West
+Maharashtra,2025,solar,9552.132111432253,True,"Ember (RE, not on NPP)",West
+Maharashtra,2025,wind,8241.670181643816,True,"Ember (RE, not on NPP)",West
+Manipur,2019,bio,0.0,False,Ember (pre-NPP archive),North-East
+Manipur,2019,coal,0.0,False,Ember (pre-NPP archive),North-East
+Manipur,2019,gas,0.0,False,Ember (pre-NPP archive),North-East
+Manipur,2019,hydro,367.58,False,Ember (pre-NPP archive),North-East
+Manipur,2019,nuclear,0.0,False,Ember (pre-NPP archive),North-East
+Manipur,2019,other_fossil,0.0,False,Ember (pre-NPP archive),North-East
+Manipur,2019,solar,2.67,False,Ember (pre-NPP archive),North-East
+Manipur,2019,wind,0.0,False,Ember (pre-NPP archive),North-East
+Manipur,2020,bio,0.0,False,"Ember (RE, not on NPP)",North-East
+Manipur,2020,gas,0.0,False,NPP,North-East
+Manipur,2020,hydro,570.94,False,NPP,North-East
+Manipur,2020,hydro,0.5599999999999454,False,Ember (small hydro),North-East
+Manipur,2020,solar,6.81,False,"Ember (RE, not on NPP)",North-East
+Manipur,2020,wind,0.0,False,"Ember (RE, not on NPP)",North-East
+Manipur,2021,bio,0.0,False,"Ember (RE, not on NPP)",North-East
+Manipur,2021,gas,0.0,False,NPP,North-East
+Manipur,2021,hydro,490.78,False,NPP,North-East
+Manipur,2021,hydro,0.0,False,Ember (small hydro),North-East
+Manipur,2021,solar,6.79,False,"Ember (RE, not on NPP)",North-East
+Manipur,2021,wind,0.0,False,"Ember (RE, not on NPP)",North-East
+Manipur,2022,bio,0.0,False,"Ember (RE, not on NPP)",North-East
+Manipur,2022,gas,0.0,False,NPP,North-East
+Manipur,2022,hydro,520.32,False,NPP,North-East
+Manipur,2022,hydro,0.0,False,Ember (small hydro),North-East
+Manipur,2022,solar,8.09,False,"Ember (RE, not on NPP)",North-East
+Manipur,2022,wind,0.0,False,"Ember (RE, not on NPP)",North-East
+Manipur,2023,bio,1.85,False,"Ember (RE, not on NPP)",North-East
+Manipur,2023,gas,0.0,False,NPP,North-East
+Manipur,2023,hydro,280.27,False,NPP,North-East
+Manipur,2023,hydro,0.0,False,Ember (small hydro),North-East
+Manipur,2023,solar,7.66,False,"Ember (RE, not on NPP)",North-East
+Manipur,2023,wind,0.0,False,"Ember (RE, not on NPP)",North-East
+Manipur,2024,bio,0.0,False,"Ember (RE, not on NPP)",North-East
+Manipur,2024,gas,0.0,False,NPP,North-East
+Manipur,2024,hydro,630.3,False,NPP,North-East
+Manipur,2024,hydro,0.0,False,Ember (small hydro),North-East
+Manipur,2024,solar,8.4,False,"Ember (RE, not on NPP)",North-East
+Manipur,2024,wind,0.0,False,"Ember (RE, not on NPP)",North-East
+Manipur,2025,bio,0.0,True,"Ember (RE, not on NPP)",North-East
+Manipur,2025,gas,0.0,False,NPP,North-East
+Manipur,2025,hydro,631.33,False,NPP,North-East
+Manipur,2025,hydro,57.447553870710294,True,Ember (small hydro),North-East
+Manipur,2025,solar,8.701116951379763,True,"Ember (RE, not on NPP)",North-East
+Manipur,2025,wind,0.0,True,"Ember (RE, not on NPP)",North-East
+Meghalaya,2019,bio,0.0,False,Ember (pre-NPP archive),North-East
+Meghalaya,2019,coal,0.0,False,Ember (pre-NPP archive),North-East
+Meghalaya,2019,gas,0.0,False,Ember (pre-NPP archive),North-East
+Meghalaya,2019,hydro,1077.54,False,Ember (pre-NPP archive),North-East
+Meghalaya,2019,nuclear,0.0,False,Ember (pre-NPP archive),North-East
+Meghalaya,2019,other_fossil,0.0,False,Ember (pre-NPP archive),North-East
+Meghalaya,2019,solar,0.0,False,Ember (pre-NPP archive),North-East
+Meghalaya,2019,wind,0.0,False,Ember (pre-NPP archive),North-East
+Meghalaya,2020,bio,0.0,False,"Ember (RE, not on NPP)",North-East
+Meghalaya,2020,hydro,1127.94,False,NPP,North-East
+Meghalaya,2020,hydro,56.00999999999999,False,Ember (small hydro),North-East
+Meghalaya,2020,solar,0.0,False,"Ember (RE, not on NPP)",North-East
+Meghalaya,2020,wind,0.0,False,"Ember (RE, not on NPP)",North-East
+Meghalaya,2021,bio,0.0,False,"Ember (RE, not on NPP)",North-East
+Meghalaya,2021,hydro,877.0,False,NPP,North-East
+Meghalaya,2021,hydro,48.75,False,Ember (small hydro),North-East
+Meghalaya,2021,solar,0.47,False,"Ember (RE, not on NPP)",North-East
+Meghalaya,2021,wind,0.0,False,"Ember (RE, not on NPP)",North-East
+Meghalaya,2022,bio,0.0,False,"Ember (RE, not on NPP)",North-East
+Meghalaya,2022,hydro,985.45,False,NPP,North-East
+Meghalaya,2022,hydro,71.38999999999987,False,Ember (small hydro),North-East
+Meghalaya,2022,solar,0.0,False,"Ember (RE, not on NPP)",North-East
+Meghalaya,2022,wind,0.0,False,"Ember (RE, not on NPP)",North-East
+Meghalaya,2023,bio,0.0,False,"Ember (RE, not on NPP)",North-East
+Meghalaya,2023,hydro,806.62,False,NPP,North-East
+Meghalaya,2023,hydro,64.84000000000003,False,Ember (small hydro),North-East
+Meghalaya,2023,solar,0.0,False,"Ember (RE, not on NPP)",North-East
+Meghalaya,2023,wind,0.0,False,"Ember (RE, not on NPP)",North-East
+Meghalaya,2024,bio,0.0,False,"Ember (RE, not on NPP)",North-East
+Meghalaya,2024,hydro,904.36,False,NPP,North-East
+Meghalaya,2024,hydro,115.90999999999997,False,Ember (small hydro),North-East
+Meghalaya,2024,solar,0.0,False,"Ember (RE, not on NPP)",North-East
+Meghalaya,2024,wind,0.0,False,"Ember (RE, not on NPP)",North-East
+Meghalaya,2025,bio,0.0,True,"Ember (RE, not on NPP)",North-East
+Meghalaya,2025,hydro,912.58,False,NPP,North-East
+Meghalaya,2025,hydro,126.34794435014544,True,Ember (small hydro),North-East
+Meghalaya,2025,solar,0.0,True,"Ember (RE, not on NPP)",North-East
+Meghalaya,2025,wind,0.0,True,"Ember (RE, not on NPP)",North-East
+Mizoram,2019,bio,0.0,False,Ember (pre-NPP archive),North-East
+Mizoram,2019,coal,0.0,False,Ember (pre-NPP archive),North-East
+Mizoram,2019,gas,0.0,False,Ember (pre-NPP archive),North-East
+Mizoram,2019,hydro,216.35,False,Ember (pre-NPP archive),North-East
+Mizoram,2019,nuclear,0.0,False,Ember (pre-NPP archive),North-East
+Mizoram,2019,other_fossil,0.0,False,Ember (pre-NPP archive),North-East
+Mizoram,2019,solar,0.42,False,Ember (pre-NPP archive),North-East
+Mizoram,2019,wind,0.0,False,Ember (pre-NPP archive),North-East
+Mizoram,2020,bio,0.0,False,"Ember (RE, not on NPP)",North-East
+Mizoram,2020,hydro,149.65,False,NPP,North-East
+Mizoram,2020,hydro,40.28999999999999,False,Ember (small hydro),North-East
+Mizoram,2020,solar,0.45,False,"Ember (RE, not on NPP)",North-East
+Mizoram,2020,wind,0.0,False,"Ember (RE, not on NPP)",North-East
+Mizoram,2021,bio,0.0,False,"Ember (RE, not on NPP)",North-East
+Mizoram,2021,hydro,130.21,False,NPP,North-East
+Mizoram,2021,hydro,18.060000000000002,False,Ember (small hydro),North-East
+Mizoram,2021,solar,3.55,False,"Ember (RE, not on NPP)",North-East
+Mizoram,2021,wind,0.0,False,"Ember (RE, not on NPP)",North-East
+Mizoram,2022,bio,0.0,False,"Ember (RE, not on NPP)",North-East
+Mizoram,2022,hydro,208.47,False,NPP,North-East
+Mizoram,2022,hydro,44.099999999999994,False,Ember (small hydro),North-East
+Mizoram,2022,solar,2.68,False,"Ember (RE, not on NPP)",North-East
+Mizoram,2022,wind,0.0,False,"Ember (RE, not on NPP)",North-East
+Mizoram,2023,bio,0.0,False,"Ember (RE, not on NPP)",North-East
+Mizoram,2023,hydro,119.35,False,NPP,North-East
+Mizoram,2023,hydro,95.92000000000002,False,Ember (small hydro),North-East
+Mizoram,2023,solar,3.19,False,"Ember (RE, not on NPP)",North-East
+Mizoram,2023,wind,0.0,False,"Ember (RE, not on NPP)",North-East
+Mizoram,2024,bio,0.0,False,"Ember (RE, not on NPP)",North-East
+Mizoram,2024,hydro,255.60999999999999,False,NPP,North-East
+Mizoram,2024,hydro,67.81000000000003,False,Ember (small hydro),North-East
+Mizoram,2024,solar,17.53,False,"Ember (RE, not on NPP)",North-East
+Mizoram,2024,wind,0.0,False,"Ember (RE, not on NPP)",North-East
+Mizoram,2025,bio,0.0,True,"Ember (RE, not on NPP)",North-East
+Mizoram,2025,hydro,273.41,False,NPP,North-East
+Mizoram,2025,hydro,23.063546257644873,True,Ember (small hydro),North-East
+Mizoram,2025,solar,36.08,True,"Ember (RE, not on NPP)",North-East
+Mizoram,2025,wind,0.0,True,"Ember (RE, not on NPP)",North-East
+Nagaland,2019,bio,0.0,False,Ember (pre-NPP archive),North-East
+Nagaland,2019,coal,0.0,False,Ember (pre-NPP archive),North-East
+Nagaland,2019,gas,0.0,False,Ember (pre-NPP archive),North-East
+Nagaland,2019,hydro,244.74,False,Ember (pre-NPP archive),North-East
+Nagaland,2019,nuclear,0.0,False,Ember (pre-NPP archive),North-East
+Nagaland,2019,other_fossil,0.0,False,Ember (pre-NPP archive),North-East
+Nagaland,2019,solar,0.0,False,Ember (pre-NPP archive),North-East
+Nagaland,2019,wind,0.0,False,Ember (pre-NPP archive),North-East
+Nagaland,2020,bio,0.0,False,"Ember (RE, not on NPP)",North-East
+Nagaland,2020,hydro,196.27,False,NPP,North-East
+Nagaland,2020,hydro,69.77000000000001,False,Ember (small hydro),North-East
+Nagaland,2020,solar,0.0,False,"Ember (RE, not on NPP)",North-East
+Nagaland,2020,wind,1.0,False,"Ember (RE, not on NPP)",North-East
+Nagaland,2021,bio,0.0,False,"Ember (RE, not on NPP)",North-East
+Nagaland,2021,hydro,115.96,False,NPP,North-East
+Nagaland,2021,hydro,66.19000000000001,False,Ember (small hydro),North-East
+Nagaland,2021,solar,0.0,False,"Ember (RE, not on NPP)",North-East
+Nagaland,2021,wind,0.0,False,"Ember (RE, not on NPP)",North-East
+Nagaland,2022,bio,0.0,False,"Ember (RE, not on NPP)",North-East
+Nagaland,2022,hydro,175.45,False,NPP,North-East
+Nagaland,2022,hydro,112.21000000000004,False,Ember (small hydro),North-East
+Nagaland,2022,solar,0.0,False,"Ember (RE, not on NPP)",North-East
+Nagaland,2022,wind,0.0,False,"Ember (RE, not on NPP)",North-East
+Nagaland,2023,bio,0.0,False,"Ember (RE, not on NPP)",North-East
+Nagaland,2023,hydro,168.44,False,NPP,North-East
+Nagaland,2023,hydro,82.81,False,Ember (small hydro),North-East
+Nagaland,2023,solar,0.0,False,"Ember (RE, not on NPP)",North-East
+Nagaland,2023,wind,0.0,False,"Ember (RE, not on NPP)",North-East
+Nagaland,2024,bio,0.0,False,"Ember (RE, not on NPP)",North-East
+Nagaland,2024,hydro,213.06,False,NPP,North-East
+Nagaland,2024,hydro,101.21999999999997,False,Ember (small hydro),North-East
+Nagaland,2024,solar,0.0,False,"Ember (RE, not on NPP)",North-East
+Nagaland,2024,wind,0.0,False,"Ember (RE, not on NPP)",North-East
+Nagaland,2025,bio,0.0,True,"Ember (RE, not on NPP)",North-East
+Nagaland,2025,hydro,220.85,False,NPP,North-East
+Nagaland,2025,hydro,99.62818422931755,True,Ember (small hydro),North-East
+Nagaland,2025,solar,0.0,True,"Ember (RE, not on NPP)",North-East
+Nagaland,2025,wind,0.0,True,"Ember (RE, not on NPP)",North-East
+Odisha,2019,bio,65.6,False,Ember (pre-NPP archive),East
+Odisha,2019,coal,39513.76,False,Ember (pre-NPP archive),East
+Odisha,2019,gas,0.0,False,Ember (pre-NPP archive),East
+Odisha,2019,hydro,6894.48,False,Ember (pre-NPP archive),East
+Odisha,2019,nuclear,0.0,False,Ember (pre-NPP archive),East
+Odisha,2019,other_fossil,0.0,False,Ember (pre-NPP archive),East
+Odisha,2019,solar,332.76,False,Ember (pre-NPP archive),East
+Odisha,2019,wind,88.92,False,Ember (pre-NPP archive),East
+Odisha,2020,bio,47.42,False,"Ember (RE, not on NPP)",East
+Odisha,2020,coal,53656.87,False,NPP,East
+Odisha,2020,hydro,6991.639999999999,False,NPP,East
+Odisha,2020,hydro,367.4300000000003,False,Ember (small hydro),East
+Odisha,2020,solar,428.85,False,"Ember (RE, not on NPP)",East
+Odisha,2020,wind,0.0,False,"Ember (RE, not on NPP)",East
+Odisha,2021,bio,93.04,False,"Ember (RE, not on NPP)",East
+Odisha,2021,coal,58374.729999999996,False,NPP,East
+Odisha,2021,hydro,5507.85,False,NPP,East
+Odisha,2021,hydro,371.2399999999998,False,Ember (small hydro),East
+Odisha,2021,solar,575.45,False,"Ember (RE, not on NPP)",East
+Odisha,2021,wind,0.0,False,"Ember (RE, not on NPP)",East
+Odisha,2022,bio,67.79,False,"Ember (RE, not on NPP)",East
+Odisha,2022,coal,63362.63,False,NPP,East
+Odisha,2022,hydro,5428.55,False,NPP,East
+Odisha,2022,hydro,408.65999999999985,False,Ember (small hydro),East
+Odisha,2022,solar,687.66,False,"Ember (RE, not on NPP)",East
+Odisha,2022,wind,0.0,False,"Ember (RE, not on NPP)",East
+Odisha,2023,bio,92.02,False,"Ember (RE, not on NPP)",East
+Odisha,2023,coal,65912.05,False,NPP,East
+Odisha,2023,hydro,5895.59,False,NPP,East
+Odisha,2023,hydro,413.52999999999975,False,Ember (small hydro),East
+Odisha,2023,solar,745.81,False,"Ember (RE, not on NPP)",East
+Odisha,2023,wind,0.0,False,"Ember (RE, not on NPP)",East
+Odisha,2024,bio,72.29,False,"Ember (RE, not on NPP)",East
+Odisha,2024,coal,68453.95,False,NPP,East
+Odisha,2024,hydro,6387.91,False,NPP,East
+Odisha,2024,hydro,450.0699999999997,False,Ember (small hydro),East
+Odisha,2024,solar,779.85,False,"Ember (RE, not on NPP)",East
+Odisha,2024,wind,0.0,False,"Ember (RE, not on NPP)",East
+Odisha,2025,bio,68.02573278399058,True,"Ember (RE, not on NPP)",East
+Odisha,2025,coal,68433.98,False,NPP,East
+Odisha,2025,hydro,6815.45,False,NPP,East
+Odisha,2025,hydro,463.856581851981,True,Ember (small hydro),East
+Odisha,2025,solar,850.251955449307,True,"Ember (RE, not on NPP)",East
+Odisha,2025,wind,0.0,True,"Ember (RE, not on NPP)",East
+Puducherry,2019,bio,0.0,False,Ember (pre-NPP archive),South
+Puducherry,2019,coal,0.0,False,Ember (pre-NPP archive),South
+Puducherry,2019,gas,238.11,False,Ember (pre-NPP archive),South
+Puducherry,2019,hydro,0.0,False,Ember (pre-NPP archive),South
+Puducherry,2019,nuclear,0.0,False,Ember (pre-NPP archive),South
+Puducherry,2019,other_fossil,0.0,False,Ember (pre-NPP archive),South
+Puducherry,2019,solar,3.73,False,Ember (pre-NPP archive),South
+Puducherry,2019,wind,0.0,False,Ember (pre-NPP archive),South
+Puducherry,2020,bio,0.0,False,"Ember (RE, not on NPP)",South
+Puducherry,2020,gas,247.7,False,NPP,South
+Puducherry,2020,hydro,0.0,False,Ember (small hydro),South
+Puducherry,2020,solar,4.44,False,"Ember (RE, not on NPP)",South
+Puducherry,2020,wind,0.0,False,"Ember (RE, not on NPP)",South
+Puducherry,2021,bio,0.0,False,"Ember (RE, not on NPP)",South
+Puducherry,2021,gas,241.53,False,NPP,South
+Puducherry,2021,hydro,0.0,False,Ember (small hydro),South
+Puducherry,2021,solar,12.24,False,"Ember (RE, not on NPP)",South
+Puducherry,2021,wind,0.0,False,"Ember (RE, not on NPP)",South
+Puducherry,2022,bio,0.0,False,"Ember (RE, not on NPP)",South
+Puducherry,2022,gas,236.98,False,NPP,South
+Puducherry,2022,hydro,0.0,False,Ember (small hydro),South
+Puducherry,2022,solar,12.24,False,"Ember (RE, not on NPP)",South
+Puducherry,2022,wind,0.0,False,"Ember (RE, not on NPP)",South
+Puducherry,2023,bio,0.0,False,"Ember (RE, not on NPP)",South
+Puducherry,2023,gas,233.85,False,NPP,South
+Puducherry,2023,hydro,0.0,False,Ember (small hydro),South
+Puducherry,2023,solar,12.24,False,"Ember (RE, not on NPP)",South
+Puducherry,2023,wind,0.0,False,"Ember (RE, not on NPP)",South
+Puducherry,2024,bio,0.0,False,"Ember (RE, not on NPP)",South
+Puducherry,2024,gas,204.5,False,NPP,South
+Puducherry,2024,hydro,0.0,False,Ember (small hydro),South
+Puducherry,2024,solar,12.24,False,"Ember (RE, not on NPP)",South
+Puducherry,2024,wind,0.0,False,"Ember (RE, not on NPP)",South
+Puducherry,2025,bio,0.0,True,"Ember (RE, not on NPP)",South
+Puducherry,2025,gas,178.63,False,NPP,South
+Puducherry,2025,hydro,0.0,True,Ember (small hydro),South
+Puducherry,2025,solar,12.24,True,"Ember (RE, not on NPP)",South
+Puducherry,2025,wind,0.0,True,"Ember (RE, not on NPP)",South
+Punjab,2019,bio,624.69,False,Ember (pre-NPP archive),North
+Punjab,2019,coal,23660.55,False,Ember (pre-NPP archive),North
+Punjab,2019,gas,0.0,False,Ember (pre-NPP archive),North
+Punjab,2019,hydro,5826.6,False,Ember (pre-NPP archive),North
+Punjab,2019,nuclear,0.0,False,Ember (pre-NPP archive),North
+Punjab,2019,other_fossil,0.0,False,Ember (pre-NPP archive),North
+Punjab,2019,solar,1391.31,False,Ember (pre-NPP archive),North
+Punjab,2019,wind,16.9,False,Ember (pre-NPP archive),North
+Punjab,2020,bio,775.79,False,"Ember (RE, not on NPP)",North
+Punjab,2020,coal,15112.08,False,NPP,North
+Punjab,2020,hydro,5066.71,False,NPP,North
+Punjab,2020,hydro,759.2299999999996,False,Ember (small hydro),North
+Punjab,2020,solar,1363.07,False,"Ember (RE, not on NPP)",North
+Punjab,2020,wind,0.0,False,"Ember (RE, not on NPP)",North
+Punjab,2021,bio,795.58,False,"Ember (RE, not on NPP)",North
+Punjab,2021,coal,23026.13,False,NPP,North
+Punjab,2021,hydro,3757.7,False,NPP,North
+Punjab,2021,hydro,998.7799999999997,False,Ember (small hydro),North
+Punjab,2021,solar,1445.58,False,"Ember (RE, not on NPP)",North
+Punjab,2021,wind,0.0,False,"Ember (RE, not on NPP)",North
+Punjab,2022,bio,705.04,False,"Ember (RE, not on NPP)",North
+Punjab,2022,coal,30153.100000000002,False,NPP,North
+Punjab,2022,hydro,4146.15,False,NPP,North
+Punjab,2022,hydro,626.8500000000004,False,Ember (small hydro),North
+Punjab,2022,solar,2253.19,False,"Ember (RE, not on NPP)",North
+Punjab,2022,wind,0.0,False,"Ember (RE, not on NPP)",North
+Punjab,2023,bio,805.78,False,"Ember (RE, not on NPP)",North
+Punjab,2023,coal,32624.96,False,NPP,North
+Punjab,2023,hydro,4831.34,False,NPP,North
+Punjab,2023,hydro,678.0699999999997,False,Ember (small hydro),North
+Punjab,2023,solar,3262.25,False,"Ember (RE, not on NPP)",North
+Punjab,2023,wind,0.0,False,"Ember (RE, not on NPP)",North
+Punjab,2024,bio,985.92,False,"Ember (RE, not on NPP)",North
+Punjab,2024,coal,33853.840000000004,False,NPP,North
+Punjab,2024,hydro,4250.85,False,NPP,North
+Punjab,2024,hydro,722.0199999999995,False,Ember (small hydro),North
+Punjab,2024,solar,1301.59,False,"Ember (RE, not on NPP)",North
+Punjab,2024,wind,0.0,False,"Ember (RE, not on NPP)",North
+Punjab,2025,bio,965.1507479293996,True,"Ember (RE, not on NPP)",North
+Punjab,2025,coal,32491.85,False,NPP,North
+Punjab,2025,hydro,4118.41,False,NPP,North
+Punjab,2025,hydro,499.5995384666494,True,Ember (small hydro),North
+Punjab,2025,solar,1386.7848655707103,True,"Ember (RE, not on NPP)",North
+Punjab,2025,wind,0.0,True,"Ember (RE, not on NPP)",North
+Rajasthan,2019,bio,385.0,False,Ember (pre-NPP archive),North
+Rajasthan,2019,coal,46766.42,False,Ember (pre-NPP archive),North
+Rajasthan,2019,gas,1163.61,False,Ember (pre-NPP archive),North
+Rajasthan,2019,hydro,757.24,False,Ember (pre-NPP archive),North
+Rajasthan,2019,nuclear,8517.6,False,Ember (pre-NPP archive),North
+Rajasthan,2019,other_fossil,0.0,False,Ember (pre-NPP archive),North
+Rajasthan,2019,solar,6827.6,False,Ember (pre-NPP archive),North
+Rajasthan,2019,wind,6004.24,False,Ember (pre-NPP archive),North
+Rajasthan,2020,bio,417.9,False,"Ember (RE, not on NPP)",North
+Rajasthan,2020,coal,43438.64,False,NPP,North
+Rajasthan,2020,gas,1049.13,False,NPP,North
+Rajasthan,2020,hydro,496.23,False,NPP,North
+Rajasthan,2020,hydro,13.379999999999995,False,Ember (small hydro),North
+Rajasthan,2020,nuclear,7700.77,False,NPP,North
+Rajasthan,2020,solar,10162.18,False,"Ember (RE, not on NPP)",North
+Rajasthan,2020,wind,5848.42,False,"Ember (RE, not on NPP)",North
+Rajasthan,2021,bio,383.44,False,"Ember (RE, not on NPP)",North
+Rajasthan,2021,coal,47661.63,False,NPP,North
+Rajasthan,2021,gas,1402.1399999999999,False,NPP,North
+Rajasthan,2021,hydro,402.40999999999997,False,NPP,North
+Rajasthan,2021,hydro,8.200000000000045,False,Ember (small hydro),North
+Rajasthan,2021,nuclear,7653.04,False,NPP,North
+Rajasthan,2021,solar,13635.36,False,"Ember (RE, not on NPP)",North
+Rajasthan,2021,wind,6541.34,False,"Ember (RE, not on NPP)",North
+Rajasthan,2022,bio,392.57,False,"Ember (RE, not on NPP)",North
+Rajasthan,2022,coal,56548.3,False,NPP,North
+Rajasthan,2022,gas,1368.51,False,NPP,North
+Rajasthan,2022,hydro,902.86,False,NPP,North
+Rajasthan,2022,hydro,8.0,False,Ember (small hydro),North
+Rajasthan,2022,nuclear,7488.23,False,NPP,North
+Rajasthan,2022,solar,31360.45,False,"Ember (RE, not on NPP)",North
+Rajasthan,2022,wind,6048.83,False,"Ember (RE, not on NPP)",North
+Rajasthan,2023,bio,380.43,False,"Ember (RE, not on NPP)",North
+Rajasthan,2023,coal,58482.94,False,NPP,North
+Rajasthan,2023,gas,1348.4,False,NPP,North
+Rajasthan,2023,hydro,934.6800000000001,False,NPP,North
+Rajasthan,2023,hydro,6.489999999999895,False,Ember (small hydro),North
+Rajasthan,2023,nuclear,6561.05,False,NPP,North
+Rajasthan,2023,solar,37629.11,False,"Ember (RE, not on NPP)",North
+Rajasthan,2023,wind,7977.76,False,"Ember (RE, not on NPP)",North
+Rajasthan,2024,bio,399.3,False,"Ember (RE, not on NPP)",North
+Rajasthan,2024,coal,64464.09,False,NPP,North
+Rajasthan,2024,gas,886.46,False,NPP,North
+Rajasthan,2024,hydro,930.23,False,NPP,North
+Rajasthan,2024,hydro,6.509999999999991,False,Ember (small hydro),North
+Rajasthan,2024,nuclear,7613.13,False,NPP,North
+Rajasthan,2024,solar,46039.53,False,"Ember (RE, not on NPP)",North
+Rajasthan,2024,wind,7032.2,False,"Ember (RE, not on NPP)",North
+Rajasthan,2025,bio,659.0805216794731,True,"Ember (RE, not on NPP)",North
+Rajasthan,2025,coal,58564.86,False,NPP,North
+Rajasthan,2025,gas,886.96,False,NPP,North
+Rajasthan,2025,hydro,1107.79,False,NPP,North
+Rajasthan,2025,hydro,22.347916921731667,True,Ember (small hydro),North
+Rajasthan,2025,nuclear,9499.83,False,NPP,North
+Rajasthan,2025,solar,57046.71834803386,True,"Ember (RE, not on NPP)",North
+Rajasthan,2025,wind,7751.201837167825,True,"Ember (RE, not on NPP)",North
+Sikkim,2019,bio,0.0,False,Ember (pre-NPP archive),East
+Sikkim,2019,coal,0.0,False,Ember (pre-NPP archive),East
+Sikkim,2019,gas,0.0,False,Ember (pre-NPP archive),East
+Sikkim,2019,hydro,11099.39,False,Ember (pre-NPP archive),East
+Sikkim,2019,nuclear,0.0,False,Ember (pre-NPP archive),East
+Sikkim,2019,other_fossil,0.0,False,Ember (pre-NPP archive),East
+Sikkim,2019,solar,0.0,False,Ember (pre-NPP archive),East
+Sikkim,2019,wind,0.0,False,Ember (pre-NPP archive),East
+Sikkim,2020,bio,0.0,False,"Ember (RE, not on NPP)",East
+Sikkim,2020,hydro,10905.03,False,NPP,East
+Sikkim,2020,hydro,59.45999999999913,False,Ember (small hydro),East
+Sikkim,2020,solar,0.0,False,"Ember (RE, not on NPP)",East
+Sikkim,2020,wind,0.0,False,"Ember (RE, not on NPP)",East
+Sikkim,2021,bio,0.0,False,"Ember (RE, not on NPP)",East
+Sikkim,2021,hydro,11340.8,False,NPP,East
+Sikkim,2021,hydro,21.1200000000008,False,Ember (small hydro),East
+Sikkim,2021,solar,0.0,False,"Ember (RE, not on NPP)",East
+Sikkim,2021,wind,0.0,False,"Ember (RE, not on NPP)",East
+Sikkim,2022,bio,0.0,False,"Ember (RE, not on NPP)",East
+Sikkim,2022,hydro,11878.91,False,NPP,East
+Sikkim,2022,hydro,12.360000000000582,False,Ember (small hydro),East
+Sikkim,2022,solar,10.35,False,"Ember (RE, not on NPP)",East
+Sikkim,2022,wind,0.0,False,"Ember (RE, not on NPP)",East
+Sikkim,2023,bio,0.0,False,"Ember (RE, not on NPP)",East
+Sikkim,2023,hydro,9330.29,False,NPP,East
+Sikkim,2023,hydro,12.359999999998763,False,Ember (small hydro),East
+Sikkim,2023,solar,0.0,False,"Ember (RE, not on NPP)",East
+Sikkim,2023,wind,0.0,False,"Ember (RE, not on NPP)",East
+Sikkim,2024,bio,0.0,False,"Ember (RE, not on NPP)",East
+Sikkim,2024,hydro,1975.96,False,NPP,East
+Sikkim,2024,hydro,12.349999999999909,False,Ember (small hydro),East
+Sikkim,2024,solar,0.0,False,"Ember (RE, not on NPP)",East
+Sikkim,2024,wind,0.0,False,"Ember (RE, not on NPP)",East
+Sikkim,2025,bio,0.0,True,"Ember (RE, not on NPP)",East
+Sikkim,2025,hydro,2562.72,False,NPP,East
+Sikkim,2025,hydro,23.937861148999218,True,Ember (small hydro),East
+Sikkim,2025,solar,0.0,True,"Ember (RE, not on NPP)",East
+Sikkim,2025,wind,0.0,True,"Ember (RE, not on NPP)",East
+Tamil Nadu,2019,bio,520.6,False,Ember (pre-NPP archive),South
+Tamil Nadu,2019,coal,63308.69,False,Ember (pre-NPP archive),South
+Tamil Nadu,2019,gas,2860.8,False,Ember (pre-NPP archive),South
+Tamil Nadu,2019,hydro,4759.84,False,Ember (pre-NPP archive),South
+Tamil Nadu,2019,nuclear,12002.3,False,Ember (pre-NPP archive),South
+Tamil Nadu,2019,other_fossil,0.0,False,Ember (pre-NPP archive),South
+Tamil Nadu,2019,solar,4460.8,False,Ember (pre-NPP archive),South
+Tamil Nadu,2019,wind,13503.01,False,Ember (pre-NPP archive),South
+Tamil Nadu,2020,bio,524.69,False,"Ember (RE, not on NPP)",South
+Tamil Nadu,2020,coal,51566.19,False,NPP,South
+Tamil Nadu,2020,gas,2701.2400000000002,False,NPP,South
+Tamil Nadu,2020,hydro,5344.07,False,NPP,South
+Tamil Nadu,2020,hydro,252.59000000000015,False,Ember (small hydro),South
+Tamil Nadu,2020,nuclear,13522.38,False,NPP,South
+Tamil Nadu,2020,solar,5952.85,False,"Ember (RE, not on NPP)",South
+Tamil Nadu,2020,wind,14742.19,False,"Ember (RE, not on NPP)",South
+Tamil Nadu,2021,bio,754.83,False,"Ember (RE, not on NPP)",South
+Tamil Nadu,2021,coal,58982.7,False,NPP,South
+Tamil Nadu,2021,gas,1630.68,False,NPP,South
+Tamil Nadu,2021,hydro,4995.67,False,NPP,South
+Tamil Nadu,2021,hydro,299.10000000000036,False,Ember (small hydro),South
+Tamil Nadu,2021,nuclear,13990.14,False,NPP,South
+Tamil Nadu,2021,solar,6867.65,False,"Ember (RE, not on NPP)",South
+Tamil Nadu,2021,wind,15605.37,False,"Ember (RE, not on NPP)",South
+Tamil Nadu,2022,bio,948.61,False,"Ember (RE, not on NPP)",South
+Tamil Nadu,2022,coal,63478.95,False,NPP,South
+Tamil Nadu,2022,gas,1825.51,False,NPP,South
+Tamil Nadu,2022,hydro,5931.35,False,NPP,South
+Tamil Nadu,2022,hydro,286.84999999999945,False,Ember (small hydro),South
+Tamil Nadu,2022,nuclear,15836.29,False,NPP,South
+Tamil Nadu,2022,solar,8613.3,False,"Ember (RE, not on NPP)",South
+Tamil Nadu,2022,wind,16581.91,False,"Ember (RE, not on NPP)",South
+Tamil Nadu,2023,bio,877.01,False,"Ember (RE, not on NPP)",South
+Tamil Nadu,2023,coal,69913.2,False,NPP,South
+Tamil Nadu,2023,gas,1902.15,False,NPP,South
+Tamil Nadu,2023,hydro,4079.9300000000003,False,NPP,South
+Tamil Nadu,2023,hydro,207.64999999999964,False,Ember (small hydro),South
+Tamil Nadu,2023,nuclear,16136.86,False,NPP,South
+Tamil Nadu,2023,solar,11258.74,False,"Ember (RE, not on NPP)",South
+Tamil Nadu,2023,wind,17114.35,False,"Ember (RE, not on NPP)",South
+Tamil Nadu,2024,bio,565.63,False,"Ember (RE, not on NPP)",South
+Tamil Nadu,2024,coal,75321.83,False,NPP,South
+Tamil Nadu,2024,gas,1796.42,False,NPP,South
+Tamil Nadu,2024,hydro,4369.65,False,NPP,South
+Tamil Nadu,2024,hydro,258.0100000000002,False,Ember (small hydro),South
+Tamil Nadu,2024,nuclear,16208.61,False,NPP,South
+Tamil Nadu,2024,solar,14476.32,False,"Ember (RE, not on NPP)",South
+Tamil Nadu,2024,wind,16685.71,False,"Ember (RE, not on NPP)",South
+Tamil Nadu,2025,bio,321.1610888601376,True,"Ember (RE, not on NPP)",South
+Tamil Nadu,2025,coal,64732.34,False,NPP,South
+Tamil Nadu,2025,gas,1264.29,False,NPP,South
+Tamil Nadu,2025,hydro,5901.67,False,NPP,South
+Tamil Nadu,2025,hydro,576.4260973112205,True,Ember (small hydro),South
+Tamil Nadu,2025,nuclear,15823.56,False,NPP,South
+Tamil Nadu,2025,solar,18463.821202612522,True,"Ember (RE, not on NPP)",South
+Tamil Nadu,2025,wind,24145.819336963956,True,"Ember (RE, not on NPP)",South
+Telangana,2019,bio,289.68,False,Ember (pre-NPP archive),South
+Telangana,2019,coal,48640.58,False,Ember (pre-NPP archive),South
+Telangana,2019,gas,0.0,False,Ember (pre-NPP archive),South
+Telangana,2019,hydro,4237.98,False,Ember (pre-NPP archive),South
+Telangana,2019,nuclear,0.0,False,Ember (pre-NPP archive),South
+Telangana,2019,other_fossil,0.0,False,Ember (pre-NPP archive),South
+Telangana,2019,solar,6293.34,False,Ember (pre-NPP archive),South
+Telangana,2019,wind,239.13,False,Ember (pre-NPP archive),South
+Telangana,2020,bio,309.33,False,"Ember (RE, not on NPP)",South
+Telangana,2020,coal,43316.53,False,NPP,South
+Telangana,2020,hydro,3485.69,False,NPP,South
+Telangana,2020,hydro,55.86999999999989,False,Ember (small hydro),South
+Telangana,2020,solar,6336.98,False,"Ember (RE, not on NPP)",South
+Telangana,2020,wind,229.74,False,"Ember (RE, not on NPP)",South
+Telangana,2021,bio,396.49,False,"Ember (RE, not on NPP)",South
+Telangana,2021,coal,50873.56,False,NPP,South
+Telangana,2021,hydro,5810.04,False,NPP,South
+Telangana,2021,hydro,89.94999999999982,False,Ember (small hydro),South
+Telangana,2021,solar,6444.7,False,"Ember (RE, not on NPP)",South
+Telangana,2021,wind,263.61,False,"Ember (RE, not on NPP)",South
+Telangana,2022,bio,343.59000000000003,False,"Ember (RE, not on NPP)",South
+Telangana,2022,coal,50449.27,False,NPP,South
+Telangana,2022,hydro,6020.66,False,NPP,South
+Telangana,2022,hydro,103.52999999999975,False,Ember (small hydro),South
+Telangana,2022,solar,6659.96,False,"Ember (RE, not on NPP)",South
+Telangana,2022,wind,281.46,False,"Ember (RE, not on NPP)",South
+Telangana,2023,bio,264.87,False,"Ember (RE, not on NPP)",South
+Telangana,2023,coal,54980.83,False,NPP,South
+Telangana,2023,hydro,1491.74,False,NPP,South
+Telangana,2023,hydro,58.99000000000001,False,Ember (small hydro),South
+Telangana,2023,solar,6931.61,False,"Ember (RE, not on NPP)",South
+Telangana,2023,wind,298.6,False,"Ember (RE, not on NPP)",South
+Telangana,2024,bio,339.01,False,"Ember (RE, not on NPP)",South
+Telangana,2024,coal,57256.75,False,NPP,South
+Telangana,2024,hydro,4968.03,False,NPP,South
+Telangana,2024,hydro,71.65000000000055,False,Ember (small hydro),South
+Telangana,2024,solar,6838.32,False,"Ember (RE, not on NPP)",South
+Telangana,2024,wind,296.07,False,"Ember (RE, not on NPP)",South
+Telangana,2025,bio,349.18488296795954,True,"Ember (RE, not on NPP)",South
+Telangana,2025,coal,56989.72,False,NPP,South
+Telangana,2025,hydro,6800.8099999999995,False,NPP,South
+Telangana,2025,hydro,87.98008120340273,True,Ember (small hydro),South
+Telangana,2025,solar,6858.490050279919,True,"Ember (RE, not on NPP)",South
+Telangana,2025,wind,302.45348319055506,True,"Ember (RE, not on NPP)",South
+Tripura,2019,bio,0.0,False,Ember (pre-NPP archive),North-East
+Tripura,2019,coal,0.0,False,Ember (pre-NPP archive),North-East
+Tripura,2019,gas,6670.9,False,Ember (pre-NPP archive),North-East
+Tripura,2019,hydro,29.73,False,Ember (pre-NPP archive),North-East
+Tripura,2019,nuclear,0.0,False,Ember (pre-NPP archive),North-East
+Tripura,2019,other_fossil,0.0,False,Ember (pre-NPP archive),North-East
+Tripura,2019,solar,4.36,False,Ember (pre-NPP archive),North-East
+Tripura,2019,wind,0.0,False,Ember (pre-NPP archive),North-East
+Tripura,2020,bio,0.0,False,"Ember (RE, not on NPP)",North-East
+Tripura,2020,gas,6443.56,False,NPP,North-East
+Tripura,2020,hydro,12.57,False,Ember (small hydro),North-East
+Tripura,2020,solar,5.54,False,"Ember (RE, not on NPP)",North-East
+Tripura,2020,wind,0.0,False,"Ember (RE, not on NPP)",North-East
+Tripura,2021,bio,0.0,False,"Ember (RE, not on NPP)",North-East
+Tripura,2021,gas,6387.37,False,NPP,North-East
+Tripura,2021,hydro,5.99,False,Ember (small hydro),North-East
+Tripura,2021,solar,6.02,False,"Ember (RE, not on NPP)",North-East
+Tripura,2021,wind,0.0,False,"Ember (RE, not on NPP)",North-East
+Tripura,2022,bio,0.0,False,"Ember (RE, not on NPP)",North-East
+Tripura,2022,gas,6930.18,False,NPP,North-East
+Tripura,2022,hydro,0.0,False,Ember (small hydro),North-East
+Tripura,2022,solar,6.66,False,"Ember (RE, not on NPP)",North-East
+Tripura,2022,wind,0.0,False,"Ember (RE, not on NPP)",North-East
+Tripura,2023,bio,0.0,False,"Ember (RE, not on NPP)",North-East
+Tripura,2023,gas,6818.51,False,NPP,North-East
+Tripura,2023,hydro,0.0,False,Ember (small hydro),North-East
+Tripura,2023,solar,5.21,False,"Ember (RE, not on NPP)",North-East
+Tripura,2023,wind,0.0,False,"Ember (RE, not on NPP)",North-East
+Tripura,2024,bio,0.0,False,"Ember (RE, not on NPP)",North-East
+Tripura,2024,gas,5220.54,False,NPP,North-East
+Tripura,2024,hydro,0.0,False,Ember (small hydro),North-East
+Tripura,2024,solar,5.89,False,"Ember (RE, not on NPP)",North-East
+Tripura,2024,wind,0.0,False,"Ember (RE, not on NPP)",North-East
+Tripura,2025,bio,0.0,True,"Ember (RE, not on NPP)",North-East
+Tripura,2025,gas,5088.28,False,NPP,North-East
+Tripura,2025,hydro,0.0,True,Ember (small hydro),North-East
+Tripura,2025,solar,9.224376163873371,True,"Ember (RE, not on NPP)",North-East
+Tripura,2025,wind,0.0,True,"Ember (RE, not on NPP)",North-East
+Uttar Pradesh,2019,bio,3894.94,False,Ember (pre-NPP archive),North
+Uttar Pradesh,2019,coal,117359.58,False,Ember (pre-NPP archive),North
+Uttar Pradesh,2019,gas,2101.88,False,Ember (pre-NPP archive),North
+Uttar Pradesh,2019,hydro,1088.86,False,Ember (pre-NPP archive),North
+Uttar Pradesh,2019,nuclear,3472.58,False,Ember (pre-NPP archive),North
+Uttar Pradesh,2019,other_fossil,0.0,False,Ember (pre-NPP archive),North
+Uttar Pradesh,2019,solar,1363.26,False,Ember (pre-NPP archive),North
+Uttar Pradesh,2019,wind,0.0,False,Ember (pre-NPP archive),North
+Uttar Pradesh,2020,bio,3776.54,False,"Ember (RE, not on NPP)",North
+Uttar Pradesh,2020,coal,114190.67,False,NPP,North
+Uttar Pradesh,2020,gas,2880.15,False,NPP,North
+Uttar Pradesh,2020,hydro,1652.73,False,NPP,North
+Uttar Pradesh,2020,hydro,122.19000000000005,False,Ember (small hydro),North
+Uttar Pradesh,2020,nuclear,3632.71,False,NPP,North
+Uttar Pradesh,2020,solar,1671.63,False,"Ember (RE, not on NPP)",North
+Uttar Pradesh,2020,wind,0.0,False,"Ember (RE, not on NPP)",North
+Uttar Pradesh,2021,bio,3359.14,False,"Ember (RE, not on NPP)",North
+Uttar Pradesh,2021,coal,128979.95,False,NPP,North
+Uttar Pradesh,2021,gas,1280.16,False,NPP,North
+Uttar Pradesh,2021,hydro,1349.71,False,NPP,North
+Uttar Pradesh,2021,hydro,170.92000000000007,False,Ember (small hydro),North
+Uttar Pradesh,2021,nuclear,3254.02,False,NPP,North
+Uttar Pradesh,2021,solar,2688.95,False,"Ember (RE, not on NPP)",North
+Uttar Pradesh,2021,wind,0.0,False,"Ember (RE, not on NPP)",North
+Uttar Pradesh,2022,bio,3211.93,False,"Ember (RE, not on NPP)",North
+Uttar Pradesh,2022,coal,148091.2,False,NPP,North
+Uttar Pradesh,2022,gas,903.33,False,NPP,North
+Uttar Pradesh,2022,hydro,1048.58,False,NPP,North
+Uttar Pradesh,2022,hydro,220.74,False,Ember (small hydro),North
+Uttar Pradesh,2022,nuclear,3202.73,False,NPP,North
+Uttar Pradesh,2022,solar,3514.71,False,"Ember (RE, not on NPP)",North
+Uttar Pradesh,2022,wind,0.0,False,"Ember (RE, not on NPP)",North
+Uttar Pradesh,2023,bio,3288.24,False,"Ember (RE, not on NPP)",North
+Uttar Pradesh,2023,coal,151917.31,False,NPP,North
+Uttar Pradesh,2023,gas,1620.02,False,NPP,North
+Uttar Pradesh,2023,hydro,944.06,False,NPP,North
+Uttar Pradesh,2023,hydro,188.1300000000001,False,Ember (small hydro),North
+Uttar Pradesh,2023,nuclear,2989.11,False,NPP,North
+Uttar Pradesh,2023,solar,3943.39,False,"Ember (RE, not on NPP)",North
+Uttar Pradesh,2023,wind,0.0,False,"Ember (RE, not on NPP)",North
+Uttar Pradesh,2024,bio,2662.54,False,"Ember (RE, not on NPP)",North
+Uttar Pradesh,2024,coal,158770.84,False,NPP,North
+Uttar Pradesh,2024,gas,1263.6100000000001,False,NPP,North
+Uttar Pradesh,2024,hydro,1114.76,False,NPP,North
+Uttar Pradesh,2024,hydro,167.82999999999993,False,Ember (small hydro),North
+Uttar Pradesh,2024,nuclear,3620.85,False,NPP,North
+Uttar Pradesh,2024,solar,4604.39,False,"Ember (RE, not on NPP)",North
+Uttar Pradesh,2024,wind,0.0,False,"Ember (RE, not on NPP)",North
+Uttar Pradesh,2025,bio,2539.1757737732187,True,"Ember (RE, not on NPP)",North
+Uttar Pradesh,2025,coal,162028.74,False,NPP,North
+Uttar Pradesh,2025,gas,796.98,False,NPP,North
+Uttar Pradesh,2025,hydro,1790.24,False,NPP,North
+Uttar Pradesh,2025,hydro,107.53154870090384,True,Ember (small hydro),North
+Uttar Pradesh,2025,nuclear,2632.55,False,NPP,North
+Uttar Pradesh,2025,solar,5278.947881300273,True,"Ember (RE, not on NPP)",North
+Uttar Pradesh,2025,wind,0.0,True,"Ember (RE, not on NPP)",North
+Uttarakhand,2019,bio,112.83,False,Ember (pre-NPP archive),North
+Uttarakhand,2019,coal,0.0,False,Ember (pre-NPP archive),North
+Uttarakhand,2019,gas,1862.94,False,Ember (pre-NPP archive),North
+Uttarakhand,2019,hydro,15188.52,False,Ember (pre-NPP archive),North
+Uttarakhand,2019,nuclear,0.0,False,Ember (pre-NPP archive),North
+Uttarakhand,2019,other_fossil,0.0,False,Ember (pre-NPP archive),North
+Uttarakhand,2019,solar,338.48,False,Ember (pre-NPP archive),North
+Uttarakhand,2019,wind,0.0,False,Ember (pre-NPP archive),North
+Uttarakhand,2020,bio,95.9,False,"Ember (RE, not on NPP)",North
+Uttarakhand,2020,gas,629.62,False,NPP,North
+Uttarakhand,2020,hydro,14109.619999999999,False,NPP,North
+Uttarakhand,2020,hydro,865.210000000001,False,Ember (small hydro),North
+Uttarakhand,2020,solar,347.57,False,"Ember (RE, not on NPP)",North
+Uttarakhand,2020,wind,0.0,False,"Ember (RE, not on NPP)",North
+Uttarakhand,2021,bio,238.44,False,"Ember (RE, not on NPP)",North
+Uttarakhand,2021,gas,1601.95,False,NPP,North
+Uttarakhand,2021,hydro,13757.41,False,NPP,North
+Uttarakhand,2021,hydro,328.0599999999995,False,Ember (small hydro),North
+Uttarakhand,2021,solar,288.03,False,"Ember (RE, not on NPP)",North
+Uttarakhand,2021,wind,0.0,False,"Ember (RE, not on NPP)",North
+Uttarakhand,2022,bio,248.07,False,"Ember (RE, not on NPP)",North
+Uttarakhand,2022,gas,0.0,False,NPP,North
+Uttarakhand,2022,hydro,15647.42,False,NPP,North
+Uttarakhand,2022,hydro,350.72999999999956,False,Ember (small hydro),North
+Uttarakhand,2022,solar,328.78,False,"Ember (RE, not on NPP)",North
+Uttarakhand,2022,wind,0.0,False,"Ember (RE, not on NPP)",North
+Uttarakhand,2023,bio,248.52,False,"Ember (RE, not on NPP)",North
+Uttarakhand,2023,gas,354.24,False,NPP,North
+Uttarakhand,2023,hydro,14143.1,False,NPP,North
+Uttarakhand,2023,hydro,353.39999999999964,False,Ember (small hydro),North
+Uttarakhand,2023,solar,331.8,False,"Ember (RE, not on NPP)",North
+Uttarakhand,2023,wind,0.0,False,"Ember (RE, not on NPP)",North
+Uttarakhand,2024,bio,248.52,False,"Ember (RE, not on NPP)",North
+Uttarakhand,2024,gas,1092.13,False,NPP,North
+Uttarakhand,2024,hydro,14957.45,False,NPP,North
+Uttarakhand,2024,hydro,263.1399999999994,False,Ember (small hydro),North
+Uttarakhand,2024,solar,331.8,False,"Ember (RE, not on NPP)",North
+Uttarakhand,2024,wind,0.0,False,"Ember (RE, not on NPP)",North
+Uttarakhand,2025,bio,248.52,True,"Ember (RE, not on NPP)",North
+Uttarakhand,2025,gas,478.28999999999996,False,NPP,North
+Uttarakhand,2025,hydro,16161.78,False,NPP,North
+Uttarakhand,2025,hydro,276.2479463867403,True,Ember (small hydro),North
+Uttarakhand,2025,solar,331.79999999999995,True,"Ember (RE, not on NPP)",North
+Uttarakhand,2025,wind,0.0,True,"Ember (RE, not on NPP)",North
+West Bengal,2019,bio,1232.97,False,Ember (pre-NPP archive),East
+West Bengal,2019,coal,73318.42,False,Ember (pre-NPP archive),East
+West Bengal,2019,gas,0.0,False,Ember (pre-NPP archive),East
+West Bengal,2019,hydro,3106.23,False,Ember (pre-NPP archive),East
+West Bengal,2019,nuclear,0.0,False,Ember (pre-NPP archive),East
+West Bengal,2019,other_fossil,0.0,False,Ember (pre-NPP archive),East
+West Bengal,2019,solar,61.49,False,Ember (pre-NPP archive),East
+West Bengal,2019,wind,0.0,False,Ember (pre-NPP archive),East
+West Bengal,2020,bio,1260.57,False,"Ember (RE, not on NPP)",East
+West Bengal,2020,coal,68393.52,False,NPP,East
+West Bengal,2020,gas,0.0,False,NPP,East
+West Bengal,2020,hydro,3037.72,False,NPP,East
+West Bengal,2020,hydro,108.36000000000013,False,Ember (small hydro),East
+West Bengal,2020,solar,65.37,False,"Ember (RE, not on NPP)",East
+West Bengal,2020,wind,0.0,False,"Ember (RE, not on NPP)",East
+West Bengal,2021,bio,1561.84,False,"Ember (RE, not on NPP)",East
+West Bengal,2021,coal,82664.09,False,NPP,East
+West Bengal,2021,gas,0.0,False,NPP,East
+West Bengal,2021,hydro,3223.66,False,NPP,East
+West Bengal,2021,hydro,146.24000000000024,False,Ember (small hydro),East
+West Bengal,2021,solar,96.69,False,"Ember (RE, not on NPP)",East
+West Bengal,2021,wind,0.0,False,"Ember (RE, not on NPP)",East
+West Bengal,2022,bio,1662.6,False,"Ember (RE, not on NPP)",East
+West Bengal,2022,coal,86338.64,False,NPP,East
+West Bengal,2022,gas,0.0,False,NPP,East
+West Bengal,2022,hydro,3350.16,False,NPP,East
+West Bengal,2022,hydro,182.55999999999995,False,Ember (small hydro),East
+West Bengal,2022,solar,119.68,False,"Ember (RE, not on NPP)",East
+West Bengal,2022,wind,0.0,False,"Ember (RE, not on NPP)",East
+West Bengal,2023,bio,1538.08,False,"Ember (RE, not on NPP)",East
+West Bengal,2023,coal,90215.68000000001,False,NPP,East
+West Bengal,2023,gas,0.0,False,NPP,East
+West Bengal,2023,hydro,2915.2,False,NPP,East
+West Bengal,2023,hydro,201.47000000000025,False,Ember (small hydro),East
+West Bengal,2023,solar,152.33,False,"Ember (RE, not on NPP)",East
+West Bengal,2023,wind,0.0,False,"Ember (RE, not on NPP)",East
+West Bengal,2024,bio,1476.03,False,"Ember (RE, not on NPP)",East
+West Bengal,2024,coal,92597.58,False,NPP,East
+West Bengal,2024,gas,0.0,False,NPP,East
+West Bengal,2024,hydro,2631.03,False,NPP,East
+West Bengal,2024,hydro,186.52999999999975,False,Ember (small hydro),East
+West Bengal,2024,solar,263.22,False,"Ember (RE, not on NPP)",East
+West Bengal,2024,wind,0.0,False,"Ember (RE, not on NPP)",East
+West Bengal,2025,bio,1464.3077933375457,True,"Ember (RE, not on NPP)",East
+West Bengal,2025,coal,89479.36,False,NPP,East
+West Bengal,2025,gas,0.0,False,NPP,East
+West Bengal,2025,hydro,2705.03,False,NPP,East
+West Bengal,2025,hydro,215.18809858833902,True,Ember (small hydro),East
+West Bengal,2025,solar,423.39036904913576,True,"Ember (RE, not on NPP)",East
+West Bengal,2025,wind,0.0,True,"Ember (RE, not on NPP)",East

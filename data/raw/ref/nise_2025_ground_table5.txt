@@ -1,0 +1,70 @@
+
+After identifying all feasible regions suitable for ground mounted solar installations, the calculation of SPV
+capacity takes into account the shadow-free area available for deployment. This assessment considers
+technological parameters such as module wattage (545 W ), module efficiency (20%), and module area
+
+                                                                                                                                 p
+
+(2.6 m). Additionally, the analysis incorporates a shadow assessment conducted on December 21st to
+optimize the utilization of available space for solar panel installation. Based on analysis the statewise ground
+mounted solar potential of India is shown in Table 5.
+
+        Table 5: Statewise ground mounted solar potential*
+
+Sr. No  States               Total Wasteland  Feasible Wasteland                             Potential
+                                    (km2)              (km2)                                   (GWp)
+1 Andaman & Nicobar Islands        165.90               3.94                                    0.59
+2 Andhra Pradesh                                                                              299.31
+3 Arunachal Pradesh               21814.27           2181.43                                    0.47
+4 Assam                           7810.66               4.53                                   19.17
+5 Bihar                           3556.68                                                      32.99
+6 Chandigarh                      2995.76             176.18                                    0.02
+7 Chhattisgarh                                        299.58                                  126.48
+8 DNHDD                              2.37                                                       0.50
+9 Delhi                           11765.16              0.24                                    0.55
+10 Goa                                               1032.67                                    6.75
+11 Gujarat                          38.36                                                     243.22
+12 Haryana                          55.15               3.84                                    6.47
+13 Himachal Pradesh                483.78               5.51                                   21.50
+14 Jammu and Kashmir              20324.34             48.38                                    8.59
+15 Jharkhand                       643.31            2032.43                                   51.83
+16 Karnataka                      18510.10             64.33                                  223.28
+17 Kerala                         15525.87            235.79                                   12.40
+18 Ladakh                         4472.70             101.12                                    8.56
+19 Madhya Pradesh                 15604.19            447.27                                  318.97
+20 Maharashtra                     816.17            1560.42                                  486.68
+21 Manipur                        72860.36             81.62                                    2.29
+22 Meghalaya                      28040.69            100.73                                   14.67
+23 Mizoram                        37870.67           2730.10                                    0.61
+24 Nagaland                       3091.48            3787.07                                    0.19
+                                  3079.51              20.04
+                                  1259.34             131.21
+                                   835.24               5.15
+                                                        1.74
+
+* Note: Solar PV potential for Lakshadweep is not covered due to limited data availability.
+
+                                                                                             31
+    Solar PV Potential of India
+
+    25 Odisha                            16442.52     1108.22   139.47
+    26 Puducherry                           19.38       1.38      0.20
+    27 Punjab                              960.68      96.07      9.21
+    28 Rajasthan
+    29 Sikkim                            77207.01     7692.79   828.78
+    30 Tamil Nadu                         2597.73       2.40      0.25
+    31 Telangana                         13577.11
+    32 Tripura                           10235.84     1357.71   204.77
+    33 Uttar Pradesh                      1447.62     1023.58   140.45
+    34 Uttarakhand                        9153.25
+    35 West Bengal                        7139.07      77.72      9.11
+                                          2056.10      915.33    97.84
+                       Total            4,12,458.37    45.28      4.44
+                                                       195.59    22.74
+                                                     27,571.39  3343.37
+
+The feasibility analysis yielded a total ground-mounted solar PV potential (DC capacity) of 3343.37 GWp
+across India, derived from a feasible wasteland area of 27,571.39 km2, which represents approximately
+6.69% of the total identified wasteland (4,12,458.37 km2). This is in line with the imposed constraint that
+no more than 10% of wasteland of the state to be utilized for solar deployment.
+
