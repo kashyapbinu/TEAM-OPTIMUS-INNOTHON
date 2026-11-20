@@ -48,7 +48,7 @@ export default function Method({ d, p }: Ctx) {
           ))}
         </div>
         <Legend items={wkeys.map((k) => ({ label: `${wname[k]} · ${fmt.pct(m.weights[k])}`, color: wcol[k] }))} />
-        <p style={{ fontSize: 13, color: 'var(--ink-2)', marginTop: 6 }}>Provided data: <b>{fmt.pct(m.weights.P_provided)}</b> of the trend, plus the 2025 anchor ({fmt.num(m.anchor_2025_twh)} TWh) and every regional split. Model P has only seven years of data (2019–25), so it cannot be backtested over 2015–25 like A, B and C; its weight is set by design, not by error.</p>
+        <p style={{ fontSize: 13, color: 'var(--ink-2)', marginTop: 6 }}>Provided data: <b>{fmt.pct(m.weights.P_provided)}</b> of the trend, plus the 2025 anchor ({fmt.num(m.anchor_2025_twh)} TWh) and the state base-year generation and population/income drivers behind the regional split. Model P has only seven years of data (2019–25), so it cannot be backtested over 2015–25 like A, B and C; its weight is set by design, not by error.</p>
       </Card>
 
       <div className="grid g2">

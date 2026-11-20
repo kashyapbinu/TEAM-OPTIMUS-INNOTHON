@@ -93,7 +93,7 @@ export default function Overview({ d, p, scenario, strategy }: Ctx) {
         foot={`Forecast basis: grid generation (NPP + Ember RE), ${fmt.num(d.model.anchor_2025_twh)} TWh in 2025. Ensemble: ${fmt.pct(d.model.weights.P_provided)} provided-data trend model P, ${fmt.pct(1 - d.model.weights.P_provided)} literature models (driver regression, cross-country curve, damped-trend ETS). Captive generation (${fmt.num(d.model.captive.twh_2025)} TWh in 2025) is outside the grid basis: at its 2019–25 trend it would add about ${fmt.num(d.model.captive.twh_2047_trend)} TWh in 2047.`}>
         <Legend items={[
           { label: 'Grid actual (NPP)', color: p.ink, line: true },
-          { label: 'Incl. captive (OWID)', color: p.axis, line: true },
+          { label: 'Incl. captive (OWID)', color: p.muted, line: true },
           { label: 'Low (dashed)', color: p.muted, line: true },
           { label: 'Base', color: p.accent, line: true },
           { label: 'High (dashed)', color: p.ink2, line: true },
@@ -107,7 +107,7 @@ export default function Overview({ d, p, scenario, strategy }: Ctx) {
             <ReferenceLine x={2025} stroke={p.axis} label={{ value: 'Forecast →', position: 'insideTopLeft', fill: p.muted, fontSize: 11 }} />
             <Area dataKey="p1090" stroke="none" fill={p.band} fillOpacity={0.12} isAnimationActive={false} />
             <Area dataKey="p2575" stroke="none" fill={p.band} fillOpacity={0.16} isAnimationActive={false} />
-            <Line dataKey="owid" stroke={p.axis} strokeWidth={1.25} dot={false} isAnimationActive={false} />
+            <Line dataKey="owid" stroke={p.muted} strokeOpacity={0.8} strokeWidth={1.25} dot={false} isAnimationActive={false} />
             <Line dataKey="actual" stroke={p.ink} strokeWidth={2.5} dot={false} connectNulls={false} isAnimationActive={false} />
             <Line dataKey="low" stroke={p.muted} strokeDasharray="5 4" strokeWidth={scenario === 'low' ? 2.5 : 1.5} dot={false} isAnimationActive={false}
               label={endLabel(series.length - 1, 'Low', p.muted)} />
@@ -120,7 +120,7 @@ export default function Overview({ d, p, scenario, strategy }: Ctx) {
               const r = payload[0].payload as Record<string, number | number[]>
               const rowsTT = [] as { label: string; value: string; color?: string }[]
               if (r.actual != null) rowsTT.push({ label: 'Grid actual (NPP)', value: fmt.twh(r.actual as number), color: p.ink })
-              if (r.owid != null) rowsTT.push({ label: 'Incl. captive (OWID)', value: fmt.twh(r.owid as number), color: p.axis })
+              if (r.owid != null) rowsTT.push({ label: 'Incl. captive (OWID)', value: fmt.twh(r.owid as number), color: p.muted })
               for (const k of ['high', 'base', 'low'] as ScenarioKey[]) if (r[k] != null && label !== 2025) rowsTT.push({ label: SC_LABEL[k], value: fmt.twh(r[k] as number), color: k === 'base' ? p.accent : k === 'low' ? p.muted : p.ink2 })
               if (r.p1090 && label !== 2025) rowsTT.push({ label: 'P10–P90', value: `${fmt.num((r.p1090 as number[])[0])}–${fmt.num((r.p1090 as number[])[1])}` })
               return <TT title={label} rows={rowsTT} />
@@ -182,7 +182,7 @@ export default function Overview({ d, p, scenario, strategy }: Ctx) {
         {' '}{(natForecast(d, 'base').at(-1)!.total / f25.total).toFixed(1)}× today. Rising incomes explain most of the growth, followed by
         population growth and urbanisation. Green hydrogen, e-mobility and data centres (sized on NITI Aayog 2026 projections) add about a sixth on top. The recommended Balanced strategy meets it
         with solar and wind as the backbone, hydro and nuclear as clean firm power, and coal output that peaks by 2035, holds to 2040, then declines.
-        Grid carbon intensity falls by about two-thirds. Absolute power-sector CO₂ peaks around 2040 and in 2047 is still above
+        Grid carbon intensity falls by about two-thirds. Absolute power-sector CO₂ peaks around 2035–40 and in 2047 is still above
         today's level, because generation more than triples: full decarbonisation lies beyond 2047, on the net-zero 2070 path.
       </div>
     </div>

@@ -24,6 +24,14 @@ export default function Regional({ d, p, scenario }: Ctx) {
     for (const r of REGIONS) row[r] = rf.find((x) => x.year === y && x.region === r)!.twh
     return row
   })
+  // end labels: push apart regions whose 2047 values nearly coincide (e.g. North and South)
+  const last = lines[lines.length - 1]
+  const ymax = Math.max(...REGIONS.map((r) => last[r]))
+  const labelDy = (r: Region) => {
+    const near = REGIONS.find((k) => k !== r && Math.abs(last[k] - last[r]) < 0.04 * ymax)
+    if (!near) return 4
+    return last[r] >= last[near] ? -3 : 11
+  }
 
   const st = d.forecast.states.filter((r) => r.scenario === scenario)
   // production basis: states with almost no in-state plants look like zeros but are correct (they import)
@@ -116,7 +124,7 @@ export default function Regional({ d, p, scenario }: Ctx) {
             {REGIONS.map((r) => (
               <Line key={r} dataKey={r} stroke={p.region[r]} strokeWidth={2} dot={false} isAnimationActive={false}
                 label={(props: { x: number; y: number; index: number }) => props.index === lines.length - 1
-                  ? <text x={props.x + 6} y={props.y} dy={4} fontSize={12} fill={p.ink2}>{r}</text> : <g />} />
+                  ? <text x={props.x + 6} y={props.y} dy={labelDy(r)} fontSize={12} fill={p.ink2}>{r}</text> : <g />} />
             ))}
             <Tooltip cursor={{ stroke: p.axis }} content={({ active, payload, label }) => {
               if (!active || !payload?.length) return null

@@ -88,7 +88,7 @@ export default function Strategy({ d, p, scenario, strategy, setStrategy }: Ctx)
           foot={<>Emission factors from Ember India: coal 0.82, gas 0.49 tCO₂/MWh. <b>Why coal still rises to ~2035 in Balanced:</b> in 2025–35 the requirement
             grows by about 1,750 TWh while clean sources can add about 1,400 TWh, limited by how fast resource sites can be developed and by grid-balancing limits; the coal fleet is
             young (median age under 15 years) with units under construction commissioning to ~2032, and India's target is net zero by 2070, not 2050.
-            Coal is capped from 2035, held flat to 2040 and cut after, so power-sector emissions peak by 2035–40.{' '}
+            Coal output peaks by 2035, holds to 2040 and is cut after (staying below its cap), so power-sector emissions peak by 2035–40.{' '}
             <b>Absolute emissions:</b> in the selected strategy, 2047 emissions are {fmt.num(em.at(-1)![strategy])} Mt against {fmt.num(em[0][strategy])} Mt in 2025
             ({em.at(-1)![strategy] >= em[0][strategy] ? '+' : '−'}{fmt.pct(Math.abs(em.at(-1)![strategy] / em[0][strategy] - 1))}), while generation more than triples. Intensity falls much faster than the total.</>}>
           <Legend items={STRATS.map((k) => ({ label: d.strategies[k].label, color: stratColor[k], line: true }))} />

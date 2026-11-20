@@ -24,8 +24,9 @@ The kickoff rule is that core energy prediction uses the two provided datasets. 
   rates", which the kickoff explicitly allows.
 - **Weighting (panel guidance, 2026-11-20: "main prediction from the provided data; other sources may be used with reduced
   weight").** The national trend is 50% Model P, fitted only on provided data, and 50% literature models A/B/C. The 2025
-  anchor is the provided-data grid total (1,829 TWh). The regional split uses only NPP generation and challenge-dataset
-  population/GSDP (plus Census 2011 urban shares). The previous OWID-anchored, A/B/C-only version is kept as git tag `baseline-abc`.
+  anchor is the provided-data grid total (1,829 TWh). The regional split starts from NPP state generation (+ Ember RE not on
+  NPP) and grows with challenge-dataset
+  population/GSDP (plus Census 2011 urban shares and model A elasticities). The previous OWID-anchored, A/B/C-only version is kept as git tag `baseline-abc`.
 - **Resource potentials** are published as MW/GWp. They are converted to a **generation ceiling** (TWh/yr = potential ×
   CUF × 8,760) in `ingest.resource_potential` and enter only the supply optimiser, never the demand forecast.
 
@@ -68,7 +69,7 @@ Per-capita generation `E = TWh / population`.
 
 - **Why γ is fixed.** In India's time series urbanisation and income trend together. A free γ came out at 0.053/pp and
   inflated the High scenario implausibly. The panel with country and year fixed effects identifies γ = 0.0225/pp.
-- **Backtest.** Train on data ≤2014, forecast 2015–2025 with realised drivers. Weights are inverse MAPE.
+- **Backtest.** Train on data ≤2014, forecast 2015–2025 with realised drivers. A/B/C weights (within their 50% share) are inverse MAPE.
 - **Scenario response of C and P.** Neither has drivers, so in scenarios each is scaled by (A+B)/(A+B)base.
 - **Structural loads** absent from history, added explicitly and grossed up for 12% losses where end-use:
   green hydrogen (Mt × 55 kWh/kg), incremental e-mobility, incremental data centres. They follow a logistic adoption ramp centred on 2036.
