@@ -14,7 +14,7 @@ export interface WhatIfInputs {
 }
 
 export interface WhatIfResult {
-  years: number[]; total: number[]; trend: number[]; A: number[]; B: number[]; C: number[]
+  years: number[]; total: number[]; trend: number[]; A: number[]; B: number[]; C: number[]; P: number[]
   h2: number[]; ev: number[]; dc: number[]; pop: number[]; gdppc: number[]; urban: number[]
 }
 
@@ -45,11 +45,13 @@ export function runWhatIf(c: Calculator, x: WhatIfInputs): WhatIfResult {
   const f0 = f(lg[0], urban[0])
   const B = Y.map((_, i) => (c.epc0 * Math.exp(f(lg[i], urban[i]) - f0) * pop[i]) / 1e9)
   const C = Y.map((_, i) => (c.C_path[i] * (A[i] + B[i])) / c.AB_base[i])
+  // P: provided-data per-capita trend, scaled by the driver models' relative response (same rule as C)
+  const P = Y.map((_, i) => (c.P_path[i] * (A[i] + B[i])) / c.AB_base[i])
   const w = c.weights
-  const trend = Y.map((_, i) => w.A_driver * A[i] + w.B_crosscountry * B[i] + w.C_ets * C[i])
+  const trend = Y.map((_, i) => w.A_driver * A[i] + w.B_crosscountry * B[i] + w.C_ets * C[i] + w.P_provided * P[i])
   const h2 = ramp(Y, (x.h2Mt * c.h2_kwh_per_kg))
   const ev = ramp(Y, x.evTwh / (1 - c.loss))
   const dc = ramp(Y, x.dcTwh / (1 - c.loss))
   const total = Y.map((_, i) => trend[i] + h2[i] + ev[i] + dc[i])
-  return { years: Y, total, trend, A, B, C, h2, ev, dc, pop, gdppc, urban }
+  return { years: Y, total, trend, A, B, C, P, h2, ev, dc, pop, gdppc, urban }
 }

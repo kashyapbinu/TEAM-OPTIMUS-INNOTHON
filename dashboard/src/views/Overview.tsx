@@ -17,7 +17,7 @@ export default function Overview({ d, p, scenario, strategy }: Ctx) {
   // ---------- history + forecast series
   const rows: Record<string, number | number[] | null>[] = []
   for (const h of d.history.national) {
-    rows.push({ year: h.year, actual: h.total })
+    rows.push({ year: h.year, actual: h.grid ?? null, owid: h.total })
   }
   const byYear = new Map(rows.map((r) => [r.year as number, r]))
   for (const k of ['low', 'base', 'high'] as ScenarioKey[]) {
@@ -88,11 +88,12 @@ export default function Overview({ d, p, scenario, strategy }: Ctx) {
       </div>
 
       <Card title="India's electricity generation: history and requirement to 2047"
-        desc="Actual generation 1990–2025; ensemble forecast 2025–2047 for three demand scenarios; shaded bands show the Monte Carlo P10–P90 and P25–P75 range around Base."
-        table={{ columns: ['Year', 'Actual', 'Low', 'Base', 'High', 'P10', 'P90'], rows: series.filter((r) => (r.year as number) % 5 === 0 || r.year === 2047).map((r) => [r.year as number, (r.actual as number) ?? '', (r.low as number) ?? '', (r.base as number) ?? '', (r.high as number) ?? '', (r.p1090 as number[])?.[0] ?? '', (r.p1090 as number[])?.[1] ?? '']) }}
-        foot="Sources: Ember / Energy Institute via OWID (1990–2025). Forecast: ensemble of driver regression, cross-country development curve and damped-trend ETS.">
+        desc="Grid generation 2019–2025 from the provided National Power Portal data (plus Ember solar/wind/bio, which NPP does not publish); ensemble forecast 2025–2047 for three demand scenarios; shaded bands show the Monte Carlo P10–P90 and P25–P75 range around Base. Thin grey line: total incl. captive plants (OWID, supporting literature)."
+        table={{ columns: ['Year', 'Grid actual', 'Incl. captive (OWID)', 'Low', 'Base', 'High', 'P10', 'P90'], rows: series.filter((r) => (r.year as number) % 5 === 0 || r.year === 2047 || r.year === 2019).map((r) => [r.year as number, (r.actual as number) ?? '', (r.owid as number) ?? '', (r.low as number) ?? '', (r.base as number) ?? '', (r.high as number) ?? '', (r.p1090 as number[])?.[0] ?? '', (r.p1090 as number[])?.[1] ?? '']) }}
+        foot={`Forecast basis: grid generation (NPP + Ember RE), ${fmt.num(d.model.anchor_2025_twh)} TWh in 2025. Ensemble: ${fmt.pct(d.model.weights.P_provided)} provided-data trend model P, ${fmt.pct(1 - d.model.weights.P_provided)} literature models (driver regression, cross-country curve, damped-trend ETS). Captive generation (${fmt.num(d.model.captive.twh_2025)} TWh in 2025) is outside the grid basis: at its 2019–25 trend it would add about ${fmt.num(d.model.captive.twh_2047_trend)} TWh in 2047.`}>
         <Legend items={[
-          { label: 'Actual', color: p.ink, line: true },
+          { label: 'Grid actual (NPP)', color: p.ink, line: true },
+          { label: 'Incl. captive (OWID)', color: p.axis, line: true },
           { label: 'Low (dashed)', color: p.muted, line: true },
           { label: 'Base', color: p.accent, line: true },
           { label: 'High (dashed)', color: p.ink2, line: true },
@@ -106,7 +107,8 @@ export default function Overview({ d, p, scenario, strategy }: Ctx) {
             <ReferenceLine x={2025} stroke={p.axis} label={{ value: 'Forecast →', position: 'insideTopLeft', fill: p.muted, fontSize: 11 }} />
             <Area dataKey="p1090" stroke="none" fill={p.band} fillOpacity={0.12} isAnimationActive={false} />
             <Area dataKey="p2575" stroke="none" fill={p.band} fillOpacity={0.16} isAnimationActive={false} />
-            <Line dataKey="actual" stroke={p.ink} strokeWidth={2} dot={false} isAnimationActive={false} />
+            <Line dataKey="owid" stroke={p.axis} strokeWidth={1.25} dot={false} isAnimationActive={false} />
+            <Line dataKey="actual" stroke={p.ink} strokeWidth={2.5} dot={false} connectNulls={false} isAnimationActive={false} />
             <Line dataKey="low" stroke={p.muted} strokeDasharray="5 4" strokeWidth={scenario === 'low' ? 2.5 : 1.5} dot={false} isAnimationActive={false}
               label={endLabel(series.length - 1, 'Low', p.muted)} />
             <Line dataKey="base" stroke={p.accent} strokeWidth={scenario === 'base' ? 2.5 : 1.5} dot={false} isAnimationActive={false}
@@ -117,7 +119,8 @@ export default function Overview({ d, p, scenario, strategy }: Ctx) {
               if (!active || !payload?.length) return null
               const r = payload[0].payload as Record<string, number | number[]>
               const rowsTT = [] as { label: string; value: string; color?: string }[]
-              if (r.actual != null) rowsTT.push({ label: 'Actual', value: fmt.twh(r.actual as number), color: p.ink })
+              if (r.actual != null) rowsTT.push({ label: 'Grid actual (NPP)', value: fmt.twh(r.actual as number), color: p.ink })
+              if (r.owid != null) rowsTT.push({ label: 'Incl. captive (OWID)', value: fmt.twh(r.owid as number), color: p.axis })
               for (const k of ['high', 'base', 'low'] as ScenarioKey[]) if (r[k] != null && label !== 2025) rowsTT.push({ label: SC_LABEL[k], value: fmt.twh(r[k] as number), color: k === 'base' ? p.accent : k === 'low' ? p.muted : p.ink2 })
               if (r.p1090 && label !== 2025) rowsTT.push({ label: 'P10–P90', value: `${fmt.num((r.p1090 as number[])[0])}–${fmt.num((r.p1090 as number[])[1])}` })
               return <TT title={label} rows={rowsTT} />
@@ -130,7 +133,7 @@ export default function Overview({ d, p, scenario, strategy }: Ctx) {
         <Card title={`What drives the 2047 requirement · ${SC_LABEL[scenario]}`}
           desc="2025 → 2047 change attributed to population, income and urbanisation (driver-model elasticities), plus new structural loads absent from history."
           table={{ columns: ['Component', 'TWh'], rows: steps.map((s) => [s.name, Math.round(s.v)]) }}
-          foot={`Elasticities: generation per capita rises ${A.lg.toFixed(2)}% per 1% income and ${(A.u * 100).toFixed(2)}% per percentage-point urbanisation. The ensemble adjustment reflects the cross-country saturation curve and ETS models.`}>
+          foot={`Elasticities: generation per capita rises ${A.lg.toFixed(2)}% per 1% income and ${(A.u * 100).toFixed(2)}% per percentage-point urbanisation. The ensemble adjustment is the gap between these elasticities and the full ensemble (provided-data trend P, cross-country saturation curve, ETS).`}>
           <ResponsiveContainer width="100%" height={300}>
             <BarChart data={wf} margin={{ top: 18, right: 8, left: 4, bottom: 0 }} barCategoryGap="24%">
               <CartesianGrid stroke={p.grid} vertical={false} />
@@ -175,7 +178,7 @@ export default function Overview({ d, p, scenario, strategy }: Ctx) {
       </div>
 
       <div className="callout">
-        <b>Bottom line.</b> Under Base assumptions India must generate about <b>{fmt.num(natForecast(d, 'base').at(-1)!.total)} TWh</b> in 2047,
+        <b>Bottom line.</b> Under Base assumptions the grid must generate about <b>{fmt.num(natForecast(d, 'base').at(-1)!.total)} TWh</b> in 2047,
         {' '}{(natForecast(d, 'base').at(-1)!.total / f25.total).toFixed(1)}× today. Rising incomes explain most of the growth, followed by
         population growth and urbanisation. Green hydrogen, e-mobility and data centres (sized on NITI Aayog 2026 projections) add about a sixth on top. The recommended Balanced strategy meets it
         with solar and wind as the backbone, hydro and nuclear as clean firm power, and coal output that peaks by 2035, holds to 2040, then declines.

@@ -83,8 +83,8 @@ STRATEGIES = {
         label="Balanced transition (recommended)",
         carbon={2030: 500, 2035: 1000, 2040: 1500, 2047: 2500},  # Rs/tCO2
         # limits sized so the recommended plan needs no tier-2 storage in Base
-        vre_max={2030: .30, 2035: .40, 2040: .52, 2047: .61},
-        solar_max={2030: .24, 2035: .30, 2040: .38, 2047: .45},
+        vre_max={2030: .30, 2035: .41, 2040: .52, 2047: .62},
+        solar_max={2030: .24, 2035: .30, 2040: .38, 2047: .47},
         # 2047 = 100 GW nuclear target (Nuclear Energy Mission, Budget 2025-26) x ~80% load factor = ~700 TWh
         nuclear_max={2030: 90, 2035: 170, 2040: 380, 2047: 700},
         coal_survival={2030: .95, 2035: .85, 2040: .70, 2047: .50},

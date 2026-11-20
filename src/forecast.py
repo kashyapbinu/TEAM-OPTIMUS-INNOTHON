@@ -45,7 +45,7 @@ P_WEIGHT = 0.5  # weight of the provided-data model P; A/B/C share the remaining
 P_WINDOW = (2019, 2025)  # NPP archive starts Jul 2019 (2019 itself = Ember, which equals NPP where both publish)
 # National basis: "owid" = total generation incl. captive (OWID 2,082 TWh in 2025, literature);
 # "grid" = NPP + Ember-RE grid generation (state sum, ~1,830 TWh in 2025): OWID history rescaled to that level.
-NATIONAL_BASIS = os.environ.get("NATIONAL_BASIS", "owid")
+NATIONAL_BASIS = os.environ.get("NATIONAL_BASIS", "grid")
 assert NATIONAL_BASIS in ("owid", "grid"), NATIONAL_BASIS
 
 PEERS = ["China", "South Korea", "Japan", "Germany", "United Kingdom", "France", "Italy", "Spain",
@@ -140,6 +140,19 @@ def national_2025_by_source() -> pd.Series:
         return sg.groupby("source")["gwh"].sum() / 1e3
     nat = pd.read_csv(PROC / "national_generation.csv")
     return nat[nat.year == BASE_YEAR].replace({"other_fossil": "gas"}).groupby("source")["twh"].sum()
+
+
+def captive_gap() -> dict:
+    """Generation outside the grid basis (captive / off-grid) = OWID national total minus NPP+Ember state sum.
+    Not part of the requirement on the grid basis; reported as a literature-based add-on."""
+    o = pd.read_csv(PROC / "national_generation.csv").groupby("year")["twh"].sum()
+    g = pd.read_csv(PROC / "state_generation.csv").groupby("year")["gwh"].sum() / 1e3
+    gap = (o - g).dropna()
+    slope = float(np.polyfit(gap.index, np.log(gap.values), 1)[0])
+    share = float(gap[BASE_YEAR] / o[BASE_YEAR])
+    return dict(twh_2025=float(gap[BASE_YEAR]), slope=slope, share_2025=share,
+                twh_2047_trend=float(gap[BASE_YEAR] * np.exp(slope * (HORIZON - BASE_YEAR))),
+                years=gap.index.tolist(), twh=gap.round(1).tolist())
 
 
 @dataclass
@@ -334,7 +347,7 @@ def run_national(df, peers):
                 B_params={k: mB.params[k] for k in ["lg", "lg2", "urban"]},
                 B_bse={k: mB.bse[k] for k in ["lg", "lg2", "urban"]}, B_r2=mB.rsquared, B_countries=len(PEERS),
                 P=asdict(fP), P_weight=P_WEIGHT, national_basis=NATIONAL_BASIS,
-                anchor_2025_twh=float(df.loc[BASE_YEAR, "twh"]))
+                anchor_2025_twh=float(df.loc[BASE_YEAR, "twh"]), captive=captive_gap())
     return nf, bt, meta, (mA, mB, C, w, fP)
 
 

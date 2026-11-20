@@ -41,7 +41,7 @@ def calculator_block(meta: dict) -> dict:
         lg_anchor=float(ind[last]), lg_anchor_year=last,
         gdppc_wb_anchor=float(df.loc[last, "gdp_pc_usd2015"]),
         A=meta["A_params"], B=meta["B_params"], weights=meta["weights"],
-        C_path=base["C_ets"].tolist(),
+        C_path=base["C_ets"].tolist(), P_path=base["P_provided"].tolist(),
         AB_base=(base["A_driver"] + base["B_crosscountry"]).tolist(),
         loss=F.LOSS, h2_kwh_per_kg=F.H2_KWH_PER_KG,
     )
@@ -54,8 +54,11 @@ def main():
 
     nat_hist = pd.read_csv(PROC / "national_generation.csv")
     nat_hist = nat_hist[nat_hist.year >= 1990].pivot(index="year", columns="source", values="twh").fillna(0)
-    nat_hist["total"] = nat_hist.sum(axis=1)
+    nat_hist["total"] = nat_hist.sum(axis=1)  # OWID incl. captive (supporting literature)
     nat_hist = nat_hist.reset_index()
+    # grid basis actual (provided data: NPP + Ember RE), the series the forecast is anchored on
+    grid = pd.read_csv(PROC / "state_generation.csv").groupby("year")["gwh"].sum() / 1e3
+    nat_hist["grid"] = nat_hist["year"].map(grid)
 
     drivers = pd.read_csv(PROC / "national_drivers.csv")
     drivers = drivers[(drivers.year >= 1990) & (drivers.year <= 2025)]
@@ -108,7 +111,8 @@ def main():
         strategies=strategies, runs=runs,
         model=dict(weights=meta["weights"], backtest_mape=meta["backtest_mape"], A=meta["A_params"],
                    A_bse=meta["A_bse"], A_r2=meta["A_r2"], B=meta["B_params"], B_bse=meta["B_bse"],
-                   B_r2=meta["B_r2"], B_countries=meta["B_countries"]),
+                   B_r2=meta["B_r2"], B_countries=meta["B_countries"], P=meta["P"], P_weight=meta["P_weight"],
+                   national_basis=meta["national_basis"], anchor_2025_twh=meta["anchor_2025_twh"], captive=meta["captive"]),
         optimizer=dict(lcoe=ometa["lcoe"], ef=ometa["ef"], wheeling=ometa["wheeling"], firming=ometa["firming"],
                        vre_free=ometa["vre_free"], self_target=ometa["self_target"], self_floor=ometa["self_floor"],
                        export_max=ometa["export_max"], nuclear_site_share=ometa["nuclear_site_share"],

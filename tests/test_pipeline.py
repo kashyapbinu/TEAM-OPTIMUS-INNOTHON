@@ -118,3 +118,24 @@ def test_npp_matches_ember_where_both_publish():
     rec = pd.read_csv(PROC / "npp_vs_ember.csv")
     t = rec.groupby("source")[["npp_gwh", "ember_gwh"]].sum()
     assert ((t.ember_gwh / t.npp_gwh - 1).abs()[["coal", "nuclear", "gas"]] < 0.005).all()
+
+
+def test_provided_data_model_leads_the_ensemble(nat):
+    """Panel guidance: main prediction from provided data. Model P (NPP + challenge dataset) carries >= 50% weight,
+    and the 2025 anchor equals the provided-data grid total (NPP + Ember RE state sum)."""
+    meta = json.load(open(PROC / "model_meta.json"))
+    w = meta["weights"]
+    assert abs(sum(w.values()) - 1) < 1e-9
+    assert w["P_provided"] >= 0.5 - 1e-9
+    assert w["P_provided"] >= max(v for k, v in w.items() if k != "P_provided")
+    assert meta["national_basis"] == "grid"
+    sg = pd.read_csv(PROC / "state_generation.csv")
+    grid25 = sg.loc[sg.year == 2025, "gwh"].sum() / 1e3
+    assert abs(meta["anchor_2025_twh"] - grid25) < 1e-6
+    base25 = nat[(nat.scenario == "base") & (nat.year == 2025)]["total"].iloc[0]
+    assert abs(base25 - grid25) < 1e-6
+    # NPP is the majority of the anchor year
+    npp = sg.loc[(sg.year == 2025) & (sg.dataset == "NPP"), "gwh"].sum() / 1e3
+    assert npp / grid25 > 0.8
+    # Model P is fitted on the provided-data window only
+    assert meta["P"]["years"][0] >= 2019 and 0.02 < meta["P"]["slope"] < 0.08

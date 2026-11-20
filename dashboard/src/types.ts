@@ -5,7 +5,7 @@ export type Region = 'North' | 'West' | 'South' | 'East' | 'North-East'
 
 export interface NatForecastRow {
   scenario: ScenarioKey; year: number
-  A_driver: number; B_crosscountry: number; C_ets: number; trend: number
+  A_driver: number; B_crosscountry: number; C_ets: number; P_provided: number; trend: number
   green_hydrogen: number; e_mobility: number; data_centres: number; total: number
   population: number; gdp_pc_usd2015: number; urban_pct: number; kwh_per_capita: number
 }
@@ -27,8 +27,8 @@ export interface Calculator {
   lg_anchor: number; lg_anchor_year: number; gdppc_wb_anchor: number
   A: { const: number; lg: number; u: number }
   B: { lg: number; lg2: number; urban: number }
-  weights: { A_driver: number; B_crosscountry: number; C_ets: number }
-  C_path: number[]; AB_base: number[]; loss: number; h2_kwh_per_kg: number
+  weights: { A_driver: number; B_crosscountry: number; C_ets: number; P_provided: number }
+  C_path: number[]; P_path: number[]; AB_base: number[]; loss: number; h2_kwh_per_kg: number
 }
 
 export interface Bundle {
@@ -42,6 +42,9 @@ export interface Bundle {
     weights: Record<string, number>; backtest_mape: Record<string, number>
     A: Record<string, number>; A_bse: Record<string, number>; A_r2: number
     B: Record<string, number>; B_bse: Record<string, number>; B_r2: number; B_countries: number
+    P: { slope: number; se: number; years: number[]; epc: number[] }; P_weight: number
+    national_basis: 'grid' | 'owid'; anchor_2025_twh: number
+    captive: { twh_2025: number; slope: number; share_2025: number; twh_2047_trend: number; years: number[]; twh: number[] }
   }
   optimizer: Record<string, unknown> & {
     lcoe: Record<Source, Record<Region, [number, number]>>; ef: Record<string, number>
@@ -51,7 +54,7 @@ export interface Bundle {
     build: Record<string, Record<string, number>>; committed: Record<string, Record<string, number>>
   }
   history: {
-    national: ({ year: number; total: number } & Record<string, number>)[]
+    national: ({ year: number; total: number; grid: number | null } & Record<string, number | null>)[]
     drivers: { year: number; population: number; urban_pct: number; gdp_usd2015: number; gdp_pc_usd2015: number }[]
     regional: { year: number; region: Region; source: string; twh: number }[]
     states: { year: number; state: string; region: Region; twh: number }[]
